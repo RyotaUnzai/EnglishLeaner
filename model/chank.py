@@ -12,6 +12,14 @@ class chankClass:
     _wbName: str
     _wb: Workbook
     symbols = [".", ","]
+    exclusionWords = [
+        "a", "an", "this", "that", "these", "those", "it", "is", "am", "are", "be",
+        "being", "been", "was", "were", "he", "his", "him", "she", "her", "hers",
+        "they", "them", "their", "theirs", "its", "mine", "my", "me", "you", "your", "yours",
+        "yours", "we", "our", "us", "ours", "the", "there", "What", "Which", "Who", "Whose",
+        "Whom", "When", "Where", "Why", "How", "do", "did", "does", "will",
+        "should", "would", "at", "in", "of", "for", "on", "to", "with", "by"
+    ]
     _ratio = 30
 
     def load(self):
@@ -61,11 +69,18 @@ class chankClass:
     def getLists(self):
         return ([[cell.value for cell in row] for row in self.sheet])
 
-    def setSpoiler(self, textA, textB, textC):
-        return f"""
+    def setSpoiler(self, textA: str, textB: str, textC: str = ""):
+        if textC != "":
+            return f"""
+:::spoiler {textC}
 {textA}
+:::
+{textB}
+
+"""
+        return f"""
 :::spoiler {textB}
-{textC}
+{textA}
 :::"""
 
     def addParentheses(self, words):
@@ -73,9 +88,8 @@ class chankClass:
 
         if self.ratio != 100:
             wordNum = (int(len(words) * (self.ratio / 100)))
-            num = int(random.uniform(0, wordNum))
         else:
-            num = len(words)
+            wordNum = len(words)
 
         count = 0
         for word in words:
@@ -106,20 +120,25 @@ class chankClass:
             if self.ratio == 100:
                 en += text
                 continue
-            if count == int(num/2):
-                en += text.replace("( )", inputWord)
-                count += 1
-                continue
-            elif num != 0:
-                if not bool(random.getrandbits(1)):
-                    en += text.replace("( )", inputWord)
+            if bool(random.getrandbits(1)) == True and wordNum != count:
+                if word.lower() in self.exclusionWords:
+                    en += text
                     continue
-                en += text
+                en += text.replace(inputWord, "( )")
                 count += 1
                 continue
-            else:
-                en += text
+            if bool(random.getrandbits(1)):
+                if wordNum == count:
+                    en += text
+                    continue
+
+                if word.lower() in self.exclusionWords:
+                    en += text
+                    continue
+                en += text.replace(inputWord, "( )")
                 count += 1
+                continue
+            en += text
         return en[:-1]
 
     def allParentheses(self, words):
@@ -150,16 +169,22 @@ class chankClass:
     def createCode(self, mode: int = 0):
         self.code = ""
         for e, j in self.getLists():
+            if e == None or j == None:
+                continue
             if mode == 0:
                 self.code += self.setSpoiler(e, j)
                 continue
+            elif mode == 1:
+                self.code += self.setSpoiler(j, e)
+                continue
+
             words = e.split()
-            if mode == 1:
+            if self.ratio == 100:
                 en = self.allParentheses(words)
-            if mode == 2:
+            else:
                 en = self.addParentheses(words)
 
-            self.code += self.setSpoiler(en, j, e)
+            self.code += self.setSpoiler(e, j, en)
 
         self.save()
 
@@ -172,7 +197,7 @@ class chankClass:
 
 
 chank = chankClass()
-chank.wbName = "test"
+chank.wbName = "UK king co-writes children's book on climate change"
 chank.load()
-
-chank.createCode(mode=1)
+chank.ratio = 1400
+chank.createCode(mode=2)
