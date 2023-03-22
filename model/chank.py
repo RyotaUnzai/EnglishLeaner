@@ -10,6 +10,7 @@ class chankClass:
     xlDir = Path(currentDir.parent, "xl")
     resultDir = Path(currentDir.parent, "result")
     _wbName: str
+    _name: str = ""
     _wb: Workbook
     symbols = [".", ","]
     exclusionWords = [
@@ -63,6 +64,11 @@ class chankClass:
     @wbName.setter
     def wbName(self, value: str):
         self._wbName = value
+        self._name = value
+
+    @property
+    def name(self) -> str:
+        return self._name
 
     @property
     def sheet(self) -> str:
@@ -95,7 +101,9 @@ class chankClass:
 
         count = 0
         for word in words:
+            isUnder30 = False
             isUnder50 = False
+            isUnder80 = False
             inputWord = word
 
             if word[-1] in self.symbols:
@@ -122,12 +130,21 @@ class chankClass:
 
             if self.ratio == 100:
                 en += text
+
                 continue
 
             if len(words) <= 4 and self.ratio >= 80:
                 isUnder80 = True
             if len(words) <= 4 and self.ratio >= 50:
                 isUnder50 = True
+            if len(words) <= 3 and self.ratio >= 30:
+                isUnder30 = True
+            if isUnder30:
+                if not isUnder50 and word.lower() in self.exclusionWords:
+                    en += text
+                    continue
+                en += text.replace(inputWord, "( )")
+                continue
             if isUnder50:
                 if not isUnder80 and word.lower() in self.exclusionWords:
                     en += text
@@ -208,18 +225,41 @@ class chankClass:
 
             self.code += self.setSpoiler(e, j, en)
 
-        self.save()
+    def createSubject(self):
+        self.load()
+        self.ratio = 0
+        self.createCode(mode=1)
+        self.save(name=f"0.{self.wbName}")
+        self.load()
+        self.ratio = 30
+        self.createCode(mode=3)
+        self.save(name=f"1.{self.wbName}")
+        self.load()
+        self.ratio = 50
+        self.createCode(mode=3)
+        self.save(name=f"2.{self.wbName}")
+        self.load()
+        self.ratio = 80
+        self.createCode(mode=3)
+        self.save(name=f"3.{self.wbName}")
+        self.ratio = 100
+        self.createCode(mode=3)
+        self.save(name=f"4.{self.wbName}")
+        self.load()
+        self.createCode(mode=2)
+        self.save(name=f"5.{self.wbName}")
 
-    def save(self):
+    def save(self, name=""):
+        if name == "":
+            name = self.wbName
+        self.code = f"# {name.replace('.xlsx', '')}\n{self.code}"
         with open(
-            Path(self.resultDir, self.wbName).as_posix().replace(
+            Path(self.resultDir, name).as_posix().replace(
                 ".xlsx", ".txt"), mode='w', encoding="shift_jis"
         ) as f:
             f.write(self.code)
 
 
 chank = chankClass()
-chank.wbName = "test"
-chank.load()
-chank.ratio = 80
-chank.createCode(mode=3)
+chank.wbName = "PythonPreface"
+chank.createSubject()
