@@ -15,10 +15,12 @@ class chankClass:
     exclusionWords = [
         "a", "an", "this", "that", "these", "those", "it", "is", "am", "are", "be",
         "being", "been", "was", "were", "he", "his", "him", "she", "her", "hers",
-        "they", "them", "their", "theirs", "its", "mine", "my", "me", "you", "your", "yours",
+        "they", "them", "their", "theirs", "its", "I", "mine", "my", "me", "you", "your", "yours",
         "yours", "we", "our", "us", "ours", "the", "there", "What", "Which", "Who", "Whose",
         "Whom", "When", "Where", "Why", "How", "do", "did", "does", "will",
-        "should", "would", "at", "in", "of", "for", "on", "to", "with", "by"
+        "should", "would", "at", "in", "of", "for", "on", "to", "with", "by",
+        "but", "I’ve", "I'm", "She's", "He's", "You're", "You've",
+        "They're", "They've", "It's", "I'd", "You'd"
     ]
     _ratio = 30
 
@@ -93,6 +95,7 @@ class chankClass:
 
         count = 0
         for word in words:
+            isUnder50 = False
             inputWord = word
 
             if word[-1] in self.symbols:
@@ -120,6 +123,25 @@ class chankClass:
             if self.ratio == 100:
                 en += text
                 continue
+
+            if len(words) <= 4 and self.ratio >= 80:
+                isUnder80 = True
+            if len(words) <= 4 and self.ratio >= 50:
+                isUnder50 = True
+            if isUnder50:
+                if not isUnder80 and word.lower() in self.exclusionWords:
+                    en += text
+                    continue
+                en += text.replace(inputWord, "( )")
+                continue
+
+            if isUnder50:
+                if word.lower() in self.exclusionWords:
+                    en += text
+                    continue
+                en += text.replace(inputWord, "( )")
+                continue
+
             if bool(random.getrandbits(1)) == True and wordNum != count:
                 if word.lower() in self.exclusionWords:
                     en += text
@@ -197,7 +219,7 @@ class chankClass:
 
 
 chank = chankClass()
-chank.wbName = "UK king co-writes children's book on climate change"
+chank.wbName = "test"
 chank.load()
-chank.ratio = 1400
-chank.createCode(mode=2)
+chank.ratio = 80
+chank.createCode(mode=3)
