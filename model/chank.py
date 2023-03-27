@@ -253,6 +253,9 @@ class chankClass:
         if name == "":
             name = self.wbName
         self.code = f"# {name.replace('.xlsx', '')}\n{self.code}"
+        name_split = name.split(".")
+        name = f"{name_split[1]}_{name_split[0]}.xlsx"
+
         with open(
             Path(self.resultDir, name).as_posix().replace(
                 ".xlsx", ".txt"), mode='w', encoding="shift_jis"
@@ -261,5 +264,5 @@ class chankClass:
 
 
 chank = chankClass()
-chank.wbName = "PythonPreface"
+chank.wbName = "Hip-hop can help mental illness"
 chank.createSubject()
