@@ -264,5 +264,5 @@ class chankClass:
 
 
 chank = chankClass()
-chank.wbName = "Hip-hop can help mental illness"
+chank.wbName = "Pie-eating contest ends because pies too big"
 chank.createSubject()
