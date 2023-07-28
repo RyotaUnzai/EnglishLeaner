@@ -1,0 +1,146 @@
+{
+    {
+        "question": "The concert will _____ at the city hall.",
+        "selections": ["occur", "take place", "happen", "transpire"],
+        "answer": 1,
+        "explanation": "'Take place'はイベントや行事が起こる、または行われることを意味します。したがって、'The concert will take place at the city hall.'は、コンサートが市庁舎で行われるという意味になります。",
+        "en": "The concert will take place at the city hall.",
+        "jp": "コンサートは市庁舎で行われます。"
+    },
+    {
+        "question": "The annual meeting will _____ in the conference room.",
+        "selections": ["be held", "take place", "occur", "transpire"],
+        "answer": 1,
+        "explanation": "'Take place'はイベントや行事が起こる、または行われることを意味します。したがって、'The annual meeting will take place in the conference room.'は、年次会議が会議室で行われるという意味になります。",
+        "en": "The annual meeting will take place in the conference room.",
+        "jp": "年次会議は会議室で行われます。"
+    },
+    {
+        "question": "She _____ the success of the project.",
+        "selections": ["play a part in", "contributed to", "participated", "involved in"],
+        "answer": 0,
+        "explanation": "'Play a part in'は何かに貢献する、または関与することを意味します。したがって、'She play a part in the success of the project.'は、彼女がプロジェクトの成功に貢献したという意味になります。",
+        "en": "She play a part in the success of the project.",
+        "jp": "彼女はプロジェクトの成功に貢献しました。"
+    },
+    {
+        "question": "He _____ the development of the new product.",
+        "selections": ["involved in", "contributed to", "play a part in", "participated"],
+        "answer": 2,
+        "explanation": "'Play a part in'は何かに貢献する、または関与することを意味します。したがって、'He play a part in the development of the new product.'は、彼が新製品の開発に貢献したという意味になります。",
+        "en": "He play a part in the development of the new product.",
+        "jp": "彼は新製品の開発に貢献しました。"
+    },
+    {
+        "question": "I went to the airport to _____ my friend _____ to his flight.",
+        "selections": ["send", "see off", "dispatch", "direct"],
+        "answer": 1,
+        "explanation": "'See off'は誰かを見送ることを意味します。したがって、'I went to the airport to see off my friend to his flight.'は、私が友人を飛行機に見送るために空港に行ったという意味になります。",
+        "en": "I went to the airport to see off my friend to his flight.",
+        "jp": "私は友人を飛行機に見送るために空港に行きました。"
+    },
+    {
+        "question": "She went to the station to _____ her family _____ to their train.",
+        "selections": ["send", "dispatch", "direct", "see off"],
+        "answer": 3,
+        "explanation": "'See off'は誰かを見送ることを意味します。したがって、'She went to the station to see off her family to their train.'は、彼女が家族を電車に見送るために駅に行ったという意味になります。",
+        "en": "She went to the station to see off her family to their train.",
+        "jp": "彼女は家族を電車に見送るために駅に行きました。"
+    },
+    {
+        "question": "I need to _____ a car for the weekend trip.",
+        "selections": ["rent", "borrow", "use", "take"],
+        "answer": 0,
+        "explanation": "'Rent'は何かを一時的に使用するために借りることを意味します。したがって、'I need to rent a car for the weekend trip.'は、週末の旅行のために車を借りる必要があるという意味になります。",
+        "en": "I need to rent a car for the weekend trip.",
+        "jp": "週末の旅行のために車を借りる必要があります。"
+    },
+    {
+        "question": "I _____ meeting you next week.",
+        "selections": ["expect", "hope", "look forward to", "wait"],
+        "answer": 2,
+        "explanation": "'Look forward to'は何かを楽しみに待つことを意味します。したがって、'I look forward to meeting you next week.'は、来週あなたに会うのを楽しみにしているという意味になります。",
+        "en": "I look forward to meeting you next week.",
+        "jp": "来週あなたに会うのを楽しみにしています。"
+    },
+    {
+        "question": "Doctors are trying to _____ the disease.",
+        "selections": ["heal", "treat", "cure", "remedy"],
+        "answer": 2,
+        "explanation": "'Cure'は病気を治すことを意味します。したがって、'Doctors are trying to cure the disease.'は、医者が病気を治そうとしているという意味になります。",
+        "en": "Doctors are trying to cure the disease.",
+        "jp": "医者は病気を治そうとしています。"
+    },
+    {
+        "question": "They decided to _____ an apartment in the city.",
+        "selections": ["lease", "rent", "occupy", "live in"],
+        "answer": 1,
+        "explanation": "'Rent'は何かを一時的に使用するために借りることを意味します。したがって、'They decided to rent an apartment in the city.'は、彼らが都市のアパートを借りることに決めたという意味になります。",
+        "en": "They decided to rent an apartment in the city.",
+        "jp": "彼らは都市のアパートを借りることに決めました。"
+    },
+    {
+        "question": "We _____ your positive response.",
+        "selections": ["anticipate", "expect", "look forward to", "await"],
+        "answer": 2,
+        "explanation": "'Look forward to'は何かを楽しみに待つことを意味します。したがって、'We look forward to your positive response.'は、私たちがあなたの肯定的な反応を楽しみにしているという意味になります。",
+        "en": "We look forward to your positive response.",
+        "jp": "私たちはあなたの肯定的な反応を楽しみにしています。"
+    },
+    {
+        "question": "The medicine will _____ your illness.",
+        "selections": ["heal", "treat", "cure", "remedy"],
+        "answer": 2,
+        "explanation": "'Cure'は病気を治すことを意味します。したがって、'The medicine will cure your illness.'は、薬があなたの病気を治すという意味になります。",
+        "en": "The medicine will cure your illness.",
+        "jp": "薬はあなたの病気を治します。"
+    },
+    {
+        "question": "He managed to _____ from his illness.",
+        "selections": ["recover", "improve", "heal", "revive"],
+        "answer": 0,
+        "explanation": "'Recover'は病気や負傷から回復することを意味します。したがって、'He managed to recover from his illness.'は、彼が病気から回復することができたという意味になります。",
+        "en": "He managed to recover from his illness.",
+        "jp": "彼は病気から回復することができました。"
+    },
+    {
+        "question": "The economy is starting to _____ from the recession.",
+        "selections": ["improve", "recover", "revive", "rise"],
+        "answer": 1,
+        "explanation": "'Recover'は状況が改善する、または正常に戻ることを意味します。したがって、'The economy is starting to recover from the recession.'は、経済がリセッションから回復し始めているという意味になります。",
+        "en": "The economy is starting to recover from the recession.",
+        "jp": "経済はリセッションから回復し始めています。"
+    },
+    {
+        "question": "She managed to _____ a solution to the problem.",
+        "selections": ["find", "discover", "come up with", "create"],
+        "answer": 2,
+        "explanation": "'Come up with'は新しいアイデアや計画を思いつくことを意味します。したがって、'She managed to come up with a solution to the problem.'は、彼女が問題の解決策を思いつくことができたという意味になります。",
+        "en": "She managed to come up with a solution to the problem.",
+        "jp": "彼女は問題の解決策を思いつくことができました。"
+    },
+    {
+        "question": "We need to _____ a new strategy for our marketing campaign.",
+        "selections": ["create", "come up with", "build", "formulate"],
+        "answer": 1,
+        "explanation": "'Come up with'は新しいアイデアや計画を思いつくことを意味します。したがって、'We need to come up with a new strategy for our marketing campaign.'は、私たちがマーケティングキャンペーンのための新しい戦略を思いつく必要があるという意味になります。",
+        "en": "We need to come up with a new strategy for our marketing campaign.",
+        "jp": "私たちはマーケティングキャンペーンのための新しい戦略を思いつく必要があります。"
+    },
+    {
+        "question": "He _____ any involvement in the crime.",
+        "selections": ["refused", "rejected", "denied", "disclaimed"],
+        "answer": 2,
+        "explanation": "'Deny'は何かが真実でないと主張することを意味します。したがって、'He denied any involvement in the crime.'は、彼が犯罪に関与していないと主張したという意味になります。",
+        "en": "He denied any involvement in the crime.",
+        "jp": "彼は犯罪に関与していないと主張しました。"
+    },
+    {
+        "question": "She _____ the allegations made against her.",
+        "selections": ["refuted", "rejected", "disclaimed", "denied"],
+        "answer": 3,
+        "explanation": "'Deny'は何かが真実でないと主張することを意味します。したがって、'She denied the allegations made against her.'は、彼女が彼女に対してなされた主張を否定したという意味になります。",
+        "en": "She denied the allegations made against her.",
+        "jp": "彼女は彼女に対してなされた主張を否定しました。"
+    }
+}
