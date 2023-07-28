@@ -1,40 +1,34 @@
-import sys
+
+from pathlib import Path
 from PySide2 import QtWidgets
+from PySide2.QtUiTools import loadUiType
 
 
-class Example(QtWidgets.QMainWindow):
-    def __init__(self, parent=None, *args, **kwargs):
-        super(Example, self).__init__(parent, *args, **kwargs)
+UI_PATH = Path(__file__).with_name("questions_view.ui")
+
+_GENERATED_CLASS, _ = loadUiType(UI_PATH.as_posix())
+
+
+class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
+    lineEditAnswer: QtWidgets.QLineEdit
+    textEditQuestion: QtWidgets.QTextEdit
+    menubar: QtWidgets.QMenuBar
+    menuFile: QtWidgets.QMenu
+    actionOpen: QtWidgets.QAction
+    statusbar: QtWidgets.QStatusBar
+
+    def __init__(self, *args, **kwargs):
+        super(Questions_Window, self).__init__(*args, **kwargs)
+        self.setupUi(self)
         self.__initUI()
 
     def __initUI(self):
-        self.setGeometry(500, 300, 400, 270)
-        self.setWindowTitle("Menubar & ToolBar & Statusbar")
+        self.setWindowTitle("English Questions")
 
-        openMenu = QtWidgets.QMenu("Open")
-        openMenu.addAction("help")
+    # @property
+    # def lineEditAnswer(self) -> QtWidgets.QLineEdit:
+    #     return self.centralWidget().lineEditAnswer
 
-        exitAction = QtWidgets.QAction("Exit", self)
-        exitAction.setShortcut("Ctrl+G")
-        exitAction.triggered.connect(self.close)
-
-        menuBar = self.menuBar()
-        fileMenu = menuBar.addMenu("File")
-        fileMenu.addMenu(openMenu)
-        fileMenu.addAction(exitAction)
-
-        self.toolbar = self.addToolBar("Exit")
-        self.toolbar.addAction(exitAction)
-
-        self.statusBar().showMessage("Ready")
-
-
-def main():
-    app = QtWidgets.QApplication.instance()
-    ex = Example()
-    ex.show()
-    sys.exit()
-    app.exec_()
-
-
-main()
+    # @property
+    # def textEditQuestion(self) -> QtWidgets.QTextEdit:
+    #     return self.centralWidget().textEditQuestion

@@ -1,185 +1,480 @@
+0. 兄は、自分が私の本をなくしたことを否定した。
+"brother", "My", "lost", "book.", "he", "my", "denied", "that"
 
-( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 有名な本が増えています
-An increasing number of famous books
-:::
-( ) ( ) ( ).
-:::spoiler 編集されること
-are being edited.
-:::
-( ) ( ) ( ) ( )
-:::spoiler 出版社は、懸念しています
-Book publishers are worried
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler 本の中にある性差別的または人種差別的な言葉について
-about sexist and racist words in books.
-:::
-( ) ( ) ( )
-:::spoiler 彼らは心配しています。
-They are worried
-:::
-( ) ( ) ( ) ( ) ( )
-:::spoiler 古い本の言葉がを心配しています。
-that language in older books
-:::
-( ) ( ) ( ) ( ),
-:::spoiler 現代の人々を不快にする可能性があること
-might upset people today,
-:::
-( ) ( ).
-:::spoiler 特に子供たちを
-especially children.
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 2人の作家が今週、編集された作品
-Two authors that have had their work edited this week
-:::
-( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler ロアルド・ダールとイアン・フレミング
-are Roald Dahl and Ian Fleming.
-:::
-( ) ( ) ( ) ( ) ( )
-:::spoiler ダールは本で有名です。
-Dahl is famous for books
-:::
-( ) "( ) ( ) ( ) ( ) ( ).
-:::spoiler 「チョコレート工場の秘密」のような
-like “Charlie and the Chocolate Factory”.
-:::
-( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler フレミングはジェームズ・ボンドの本を書きました
-Fleming wrote the James Bond books.
-:::
-( ) ( ) ( ) "( ) ( )" ( ) ( ) ( ).
-:::spoiler 出版社は「センシティブリーダーズ」を雇って本をチェックしています。
-Publishers are employing “sensitivity readers” to check books.
-:::
-( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler センシティブリーダーズは言葉を探します
-A sensitivity reader looks for language
-:::
-( ) ( ) ( )
-:::spoiler 少数派を描写する
-that describes minorities
-:::
-( ) ( ) "( ) ( ) ( )" ( ).
-:::spoiler 「無神経または攻撃的な方法で」
-in an “insensitive or offensive” way.
-:::
-( ) ( ) ( ) ( ) ( )
-:::spoiler 多くの言葉
-A lot of the language
-:::
-( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler それらは別の時代に属しています。
-they check belongs to another time.
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler それらは50年以上前に書かれたものです
-It was written 50 or more years ago.
-:::
-( ) ( ),
-:::spoiler 当時
-Back then,
-:::
-( ) ( ) ( ) ( )
-:::spoiler その言葉は考えられていました。
-the language was thought
-:::
-( ) ( ) ( ).
-:::spoiler 問題ないと
-to be okay.
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 最近編集されたジェームズ・ボンドの本
-The recent edits of the James Bond books
-:::
-( ) ( ) ( ) ( ) ( )
-:::spoiler 無神経な言葉のだから
-are because of insensitive language
-:::
-( ) ( ) ( ) ( ) ( ).
-:::spoiler 黒人のキャラクターや女性に対して
-about black characters and women.
-:::
-( ) ( ) ( ) ( )
-:::spoiler センシティブリーダーズは判断した
-The sensitivity readers decided
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ),
-:::spoiler ジェームズ・ボンドが使用した言葉が
-that the language used by James Bond,
-:::
-( ) ( ) ( ) ( ),
-:::spoiler また、007としても知られる
-also known as 007,
-:::
-( ) ( ) ( ) ( ).
-:::spoiler それが人種差別的で性差別的だと判断しました。
-was racist and sexist.
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 007の本は今後、出版されることになります。
-The 007 books will now be published
-:::
-( ) ( ) ( ).
-:::spoiler 警告を添えて
-with a warning.
-:::
-( ) ( )
-:::spoiler これは、説明しています。
-This explains
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ),
-:::spoiler 1950年代と1960年代に書かれた本です
-that the books were written in the 1950s and 60s,
-:::
-( ) ( ) ( ) "( ) ( ) ( )"
-:::spoiler だからそれらは「用語や態度」を含んでいることを
-so they contained “terms and attitudes”
-:::
-( ) ( ) ( ) ( ) ( ).
-:::spoiler 現代の読者を不快にする可能性がある
-that might upset readers today.
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 多くの人々がイギリスでは怒っています
-Many people in the UK are angry
-:::
-( ) ( ) ( ) ( ) ( ) ( ).
-:::spoiler ロアルド・ダールの本が検閲されたことについて
-that Roald Dahl’s books were censored.
-:::
-( ) ( ) ( ) ( ),
-:::spoiler イギリスの首相
-The UK’s prime minister,
-:::
-( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
-:::spoiler 将来の女王、そして作家のサルマン・ラシュディは述べています。
-the future UK queen and the author Salman Rushdie all said
-:::
-( ) ( ) ( ) ( ).
-:::spoiler 編集が間違った
-the edits were wrong.
-:::
-( ) ( ) ( ) ( )
-:::spoiler 編集の例です
-An example edit is
-:::
-( ) ( ) "( )" ( ) ( ) ( ) ( ).
-:::spoiler 「太っている」という言葉が「巨大な」という言葉に置き換えられた
-the word “fat” being replaced by “enormous”.
-:::
-( ) ( ) "( )" ( ) ( )
-:::spoiler 「太っている」という言葉今
-The word “fat” is now
-:::
-( ) ( ) ( )
-:::spoiler 否定的な言葉
-a negative term
-:::
-( ) ( ) ( ) ( ) ( ).
-:::spoiler 人の体型に対する
-for a person’s body shape.
-:::
+1. 私は、燃料として石油をよく使う。
+"fuel.", "as", "often", "use", "We", "oil"
+
+2. 彼女は青と緑のどちらが欲しいか分からない。
+"wants", "or", "green", "blue", "one", "the", "she", "She's", "the", "sure", "whether", "one.", "not"
+
+3. 彼は数学の教授だ。
+"works", "math", "professor.", "He", "as", "a"
+
+4. 彼女は私の英語の教授だ。
+"is", "English", "She", "professor.", "my"
+
+5. 家が私がいちばん慣れ親しんでいる場所だ。
+"most", "is", "familiar", "my", "Home", "place."
+
+6. 見慣れた顔に会えて嬉しいです。
+"a", "It's", "familiar", "see", "nice", "to", "face."
+
+7. サルたちが木々の間で揺れている。
+"swinging", "trees.", "are", "Monkeys", "through", "the"
+
+8. 彼が歩いた時、腕が素早く振られていた。
+"His", "quickly", "as", "he", "arms", "walked.", "swung"
+
+9. 彼女は彼の顔を殴った。
+"him", "in", "She", "face.", "the", "struck"
+
+10. 国の南部が嵐に襲われた。
+"struck", "the", "by", "The", "a", "was", "southern", "of", "country", "part", "storm."
+
+11. 彼は起きていられるようにコーヒーを飲む。
+"He", "to", "drinks", "awake.", "coffee", "stay"
+
+12. 私は勉強している間、起きているのが大変だ。
+"difficult", "when", "It's", "to", "stay", "I'm", "studying.", "awake"
+
+13. 彼女はウエストのサイズを測っている。
+"her", "is", "She", "size", "of", "waist.", "the", "measuring"
+
+14. 私は私のネコの重さを測った。
+"I", "cat.", "the", "measured", "of", "my", "weight"
+
+15. 彼は成功するために最善を尽くしている。
+"his", "best", "succeed.", "to", "He's", "doing"
+
+16. 私は、自分が新しい仕事で成功するとは思わない。
+"don't", "new", "my", "job.", "I", "succeed", "will", "in", "I", "think"
+
+17. 私は道に沿って山を登っていった。
+"mountain.", "path", "I", "the", "up", "followed", "the"
+
+18. 私はその小道沿いに湖まで歩いた。
+"walked", "the", "along", "I", "path", "to", "lake.", "the"
+
+19. 彼女は少しでも痩せたかどうかを見るために体重を量った。
+"lost", "she", "if", "see", "had", "She", "weighed", "weight.", "herself", "to", "any"
+
+20. このダンベルの重さは10キロだ。
+"weighs", "ten", "This", "weight", "kilograms."
+
+21. 痛みますか。
+"it", "painful?", "Is"
+
+22. 背中が本当に痛みます。
+"painful.", "My", "back", "is", "really"
+
+23. 私は自分が成功しないと思う。
+"will", "I", "succeed.", "doubt", "I", "that"
+
+24. 彼が電話をくれるかどうかは疑わしい。
+"that", "me.", "call", "to", "doubt", "going", "he's", "I"
+
+25. 私は、自分がしてきた悪事全てを弁解するつもりはない。
+"all", "I've", "the", "excuse", "not", "bad", "done.", "going", "things", "I'm", "to"
+
+26. その川は泳いで渡るには幅が広すぎる。
+"river", "swim", "too", "broad", "is", "across.", "to", "The"
+
+27. 医師は彼女に結果を見せた。
+"results.", "the", "her", "showed", "The", "doctor"
+
+28. 彼らはお互いの業績を比較した。
+"results.", "compared", "They", "their"
+
+29. 2割引してもらえませんか。
+"a", "Can", "discount?", "I", "get", "20%"
+
+30. このウェブサイトは、あなたのコンピューターに害を与えるかもしれない。
+"harm", "computer.", "website", "This", "may", "your"
+
+31. 彼女は何か重要なことを発表している。
+"something", "is", "announcing", "important.", "She"
+
+32. 彼らは受賞者を発表するところだ。
+"announce", "about", "to", "are", "the", "They", "winner."
+
+33. それは多額のお金だ。
+"money.", "That's", "of", "a", "amount", "large"
+
+34. 彼は少しの量の仕事しか終わっていない。
+"only", "small", "He's", "work.", "amount", "of", "a", "finished"
+
+35. この警察官は勤務中だ。
+"duty.", "The", "is", "policeman", "on"
+
+36. 私たちの任務は、この都市の人々を守ることだ。
+"city.", "this", "Our", "duty", "in", "to", "people", "is", "protect"
+
+37. その標識は人が立ち入るのを防ぐためのものだ。
+"to", "entering.", "The", "people", "sign", "is", "from", "prevent"
+
+38. 警察は、道路事故を防ぐための新しい方法を見つけようとしている。
+"trying", "road", "accidents.", "The", "way", "preventing", "new", "police", "find", "of", "are", "to", "a"
+
+39. 彼は自分の自転車に新しい車輪を取り付けた。
+"put", "on", "bicycle.", "a", "new", "his", "He", "wheel"
+
+40. この古い車には、特別な車輪が必要だ。
+"wheels.", "special", "car", "This", "old", "needs"
+
+41. その銃が警察が捜していた証拠品だった。
+"the", "the", "proof", "was", "for.", "gun", "were", "looking", "police", "The"
+
+42. 彼女は風邪から回復しているところだ。
+"recovering", "cold.", "from", "She", "is", "a"
+
+43. 彼は重要な決断をしようとしている。
+"to", "make", "decision.", "going", "an", "important", "is", "He"
+
+44. 今年の利益は去年よりずっと高い。
+"this", "are", "higher", "last", "year", "much", "Profits", "year.", "than"
+
+45. 子どもが想像力を使うようあなたが助けられる簡単な方法はたくさんある。
+"can", "help", "you", "to", "use", "ways", "of", "lots", "their", "There", "your", "imagination.", "easy", "are", "child"
+
+46. 工場がひどい大気汚染を引き起こす。
+"create", "much", "Factories", "pollution.", "air"
+
+47. 自由の女神は100年以上前に作られた。
+"Statue", "was", "more", "Liberty", "100", "than", "created", "of", "years", "ago.", "The"
+
+48. その教師は生徒たちに一生懸命勉強するよう強要した。
+"students", "study", "The", "to", "his", "forced", "teacher", "hard."
+
+49. 決して人にお酒を飲むよう強要するべきではない。
+"to", "You", "never", "drink.", "force", "someone", "should"
+
+50. 彼女は今年、全ての学期で良い成績を修めた。
+"good", "term", "got", "year.", "She", "this", "every", "grades"
+
+51. 働く母親の数は、長期間にわたって上昇するだろう。
+"over", "The", "will", "go", "number", "up", "mothers", "term.", "of", "working", "long", "the"
+
+52. 私たちは最前列の席を手に入れた。
+"got", "We", "front", "seats.", "row"
+
+53. 私は、後ろの列に座っていたのでその俳優たちがよく見えなかった。
+"couldn't", "I", "back", "the", "in", "the", "see", "sitting", "I", "row.", "well", "because", "was", "actors"
+
+54. 私たちの先生は、その読書感想文を週の終わりまでに終わらせるよう要求した。
+"of", "the", "Our", "finish", "by", "that", "demanded", "report", "teacher", "week.", "the", "end", "the", "we", "book"
+
+55. 彼女はいつも自分の旦那さんの文句を言う。
+"She", "her", "about", "husband.", "always", "complains"
+
+56. そのクラスの生徒たちは、先生が出す宿題が多過ぎると文句を言った。
+"the", "that", "their", "in", "Students", "gives", "homework.", "too", "them", "much", "teacher", "class", "complained"
+
+57. その映画は見る価値がある。
+"watching.", "worth", "is", "movie", "The"
+
+58. あの古い教会は訪れる価値がある。
+"worth", "That", "is", "visiting.", "old", "church"
+
+59. 私はあなたにいくら借りがありますか。
+"do", "owe", "I", "How", "much", "you?"
+
+60. 私はあなたに20ドル借りています。
+"twenty", "you", "owe", "I", "dollars."
+
+61. この方法では上手くいかないと思う。
+"this", "work.", "I", "to", "is", "going", "think", "don't", "method"
+
+62. 教師たちは、常に進んで新しい教授方法を試すべきだ。
+"be", "always", "methods.", "Teachers", "should", "open", "to", "new", "trying", "teaching"
+
+63. 近々、彼らとの会議を手配します。
+"arrange", "a", "meeting", "with", "them", "soon.", "I'll"
+
+64. これらの写真は年代順に並べられている。
+"by", "pictures", "year.", "are", "arranged", "These"
+
+65. 彼らは、どんな種類の製品を開発するべきかを話している。
+"product", "about", "should", "They", "of", "they", "talking", "what", "kind", "develop.", "are"
+
+66. 学校が私の子どもに適切なケアを提供しているとは思わない。
+"children.", "school", "provides", "care", "to", "don't", "my", "I", "proper", "think", "the"
+
+67. 台風がその国でよく洪水を引き起こす。
+"in", "Typhoons", "country.", "often", "floods", "cause", "the"
+
+68. 多くの人々が洪水で家を失った。
+"Many", "of", "people", "the", "lost", "flood.", "homes", "their", "because"
+
+69. 私の長所の一つは、物事の習得が早いことです。
+"I'm", "of", "fast", "strengths", "is", "One", "that", "learner.", "my", "a"
+
+70. 彼はレースを続けるのに十分な力がなかった。
+"race.", "the", "to", "on", "go", "enough", "didn't", "with", "have", "He", "strength"
+
+71. 私は、今日の残りは図書館で勉強するつもりです。
+"of", "library", "the", "at", "rest", "day.", "I'll", "for", "the", "study", "the"
+
+72. 私は残りの人生ずっと、あなたと一緒にいたい。
+"for", "I", "my", "want", "to", "of", "life.", "be", "the", "rest", "with", "you"
+
+73. あなたは赤ちゃんから目を離すべきではない。
+"out", "let", "baby", "of", "sight.", "You", "shouldn't", "your"
+
+74. にわか雨のあとの虹はきれいな光景だった。
+"beautiful", "sight.", "the", "The", "rainbow", "shower", "after", "was", "a"
+
+75. 私が（この仕事を）終わらせることは多分ないだろう。
+"probably", "never", "finish.", "I'll"
+
+76. あなたは恐らく、自分の机をきれいにするべきです。
+"You", "clean", "your", "probably", "should", "desk."
+
+77. 私は特にソースが気に入った。
+"especially", "sauce.", "I", "liked", "the"
+
+78. 私の彼は買い物に行くとき特に使える。
+"useful", "shopping.", "I", "especially", "is", "boyfriend", "when", "go", "My"
+
+79. 少しの間、待っていてください。
+"wait", "Please", "moment.", "a", "for"
+
+80. 彼女はすぐに山の頂上にたどり着くだろう。
+"In", "the", "she", "moment,", "at", "top", "be", "will", "mountain.", "the", "of", "a"
+
+81. 彼は砂の上にできた友達の長い影を見た。
+"He", "his", "long", "shadow", "sand.", "saw", "in", "friend's", "the"
+
+82. 私たちはその大きな木の陰に座った。
+"of", "shadow", "We", "the", "under", "tree.", "sat", "big"
+
+83. 電話網は世界中に広まっている。
+"have", "the", "networks", "spread", "world.", "throughout", "Telephone"
+
+84. そのろうそくはしばらくの間燃えている。
+"has", "while.", "candle", "a", "The", "burning", "been", "for"
+
+85. そのマッチで火傷しないように気をつけなさい。
+"that", "to", "match.", "burn", "with", "not", "Be", "careful", "yourself"
+
+86. その家は2匹の犬によって守られている。
+"two", "house", "by", "The", "protected", "dogs.", "is"
+
+87. あなたは日光から自分自身を守るべきだ。
+"You", "from", "the", "protect", "should", "sun.", "yourself"
+
+88. ドーナツが大好きだけど、代わりにフルーツを食べたほうがもっと健康にはいい。
+"but", "it's", "love", "have", "to", "doughnuts,", "fruit", "healthier", "instead.", "I"
+
+89. 彼女は電話で彼に連絡を取ることができなかったので、代わりにメッセージを送った。
+"on", "him", "couldn't", "his", "she", "She", "message", "sent", "so", "phone,", "reach", "a", "instead.", "him"
+
+90. これらの兵士たちは、敵を殺す準備ができている。
+"ready", "to", "soldiers", "kill", "are", "the", "enemy.", "These"
+
+91. あなたはどちらの種類が好きですか。
+"do", "prefer?", "Which", "kind", "you"
+
+92. 私は赤いのより青のほうが好きだ。
+"to", "prefer", "one", "one.", "the", "the", "blue", "I", "red"
+
+93. 浅草は、外国人観光客の間で人気がある。
+"tourists.", "popular", "Asakusa", "among", "foreign", "is"
+
+94. 私の家族全員で一緒に海辺に行った。
+"together.", "My", "whole", "went", "the", "to", "beach", "family"
+
+95. 私たちは午後はずっと動物園にいました。
+"afternoon", "the", "zoo.", "at", "whole", "the", "We", "spent"
+
+96. この大学では、全学生が4年間一般英語のコースを取らなければならない。
+"this", "students", "to", "four", "take", "for", "courses", "years.", "have", "all", "English", "general", "university,", "At"
+
+97. 昼食後、彼らは話を続けた。
+"conversation", "continued", "their", "They", "lunch.", "after"
+
+98. 彼女の国には興味深い慣習がたくさんある。
+"in", "are", "her", "There", "interesting", "customs", "many", "country."
+
+99. 太陽が雲の後ろに隠れた。
+"behind", "the", "clouds.", "sun", "disappeared", "The"
+
+100. 勝つのは困難だが、可能ではある。
+"but", "possible.", "is", "Winning", "difficult,"
+
+101. 右に行くことも左に行くことも可能だ。
+"possible", "It's", "go", "either", "left.", "or", "right", "to"
+
+102. その男の人は自動車事故で、もう少しで命を落とすところだった。
+"in", "car", "man", "accident.", "nearly", "The", "died", "the"
+
+103. 最近、ほとんど毎日雨が降っている。
+"nearly", "Recently,", "raining", "day.", "every", "been", "it", "has"
+
+104. 誰かが私の財布を盗みました。
+"wallet.", "Someone", "my", "stole"
+
+105. 彼が私のバッグを盗もうとしました。
+"steal", "bag.", "to", "my", "He", "tried"
+
+106. 最近、私たちはいくつか問題を抱えている。
+"been", "having", "some", "recently.", "We've", "difficulties"
+
+107. 彼は宿題に苦労している。
+"having", "homework.", "difficulty", "He's", "with", "his"
+
+108. 赤ちゃんには数時間おきにミルクをあげる必要がある。
+"to", "of", "Babies", "fed", "hours.", "be", "every", "couple", "need"
+
+109. 彼は犬におやつをあげている。
+"dog", "feeding", "a", "snack.", "He's", "his"
+
+110. 私たちは新しい管理職者を雇う必要がある。
+"manager.", "a", "We", "need", "new", "hire", "to"
+
+111. 彼は何かがおかしいので、誰も彼を雇いたがらない。
+"There", "about", "to", "him,", "strange", "him.", "something", "wants", "so", "hire", "is", "nobody"
+
+112. 彼女はとても親切に私を助けてくれた。
+"did", "me", "helping", "She", "by", "favor", "me", "a", "out.", "great"
+
+113. 私のお願いを聞いて、あなた自身の服を（自分で）洗濯してくれませんか。
+"clothes?", "Can", "your", "you", "wash", "a", "do", "favor", "own", "and", "me"
+
+114. その木の根っこはとても太い。
+"very", "roots", "thick.", "tree", "The", "of", "are", "the"
+
+115. 計画不足が多くの問題の根源である。
+"the", "planning", "of", "of", "Lack", "root", "problems.", "is", "many"
+
+116. あなたの計画には賛成できません。
+"your", "with", "I", "don't", "agree", "plan."
+
+117. バスケットボールでは選手の身長は非常に重要だ。
+"basketball,", "a", "player's", "height", "important.", "In", "is", "very"
+
+118. 私は本当に高い所が怖い。
+"afraid", "really", "of", "I'm", "heights."
+
+119. 私は国際ビジネスにおける経験が豊富だ。
+"doing", "international", "have", "experience", "business.", "of", "a", "I", "lot"
+
+120. そのファンたちは、チーム最年少の選手を応援した。
+"The", "player", "in", "for", "team.", "cheered", "fans", "youngest", "the", "the"
+
+121. 彼は息子にその本の説明をしている。
+"son.", "He", "book", "explaining", "the", "his", "to", "is"
+
+122. 私がどうして遅れたのか説明できます。
+"I", "why", "can", "late.", "explain", "I", "was"
+
+123. 私たちの上司は、先月の売り上げの数値を見るよう私たちに言った。
+"look", "Our", "us", "at", "last", "to", "told", "sales", "figures.", "month's", "manager"
+
+124. 警察はその車の持ち主を捜している。
+"police", "car's", "are", "owner.", "for", "looking", "the", "The"
+
+125. 彼らは新米の家の所有者だ。
+"home", "owners.", "They're", "new"
+
+126. そのレストランは、食べ物を配達するのにドローンを使うことを考えている。
+"deliver", "thinking", "The", "drone", "about", "a", "food.", "using", "restaurant", "to", "is"
+
+127. 学校の正面玄関で会いましょう。
+"the", "to", "by", "meet", "you", "the", "school.", "entrance", "I'll", "main"
+
+128. 私はまさに真ん中を射た。
+"center", "hit", "the", "exactly.", "I"
+
+129. ちょうど5秒かかった。
+"It", "took", "five", "seconds.", "exactly"
+
+130. 私のパソコンは、私に多くの問題をもたらしている。
+"of", "a", "trouble.", "is", "causing", "My", "lot", "computer", "me"
+
+131. その事故は悪天候によって起こった。
+"caused", "bad", "was", "the", "by", "weather.", "accident", "The"
+
+132. 最近、私は一生懸命働き過ぎている。
+"working", "been", "too", "hard.", "Recently", "I've"
+
+133. 彼は自分がスーパーヒーローだと想像するのが好きだ。
+"he's", "likes", "a", "He", "superhero.", "imagine", "that", "to"
+
+134. 喫煙は悪い習慣だ。
+"Smoking", "a", "is", "habit.", "bad"
+
+135. 私は遅くまで寝ている習慣がある。
+"a", "have", "I", "of", "late.", "habit", "sleeping"
+
+136. 彼は自分の過ちを許すよう彼女に頼んだ。
+"forgive", "for", "to", "his", "him", "mistake.", "her", "He", "asked"
+
+137. 彼女はまだ、彼を許す準備ができていない。
+"forgive", "to", "ready", "yet.", "She", "him", "is", "not"
+
+138. 家の売却は成功に終わった。
+"house", "sale", "The", "my", "of", "a", "was", "success."
+
+139. 彼らは長い道のりを歩いている。
+"a", "long", "distance.", "walking", "They're"
+
+140. その山は、遠くからの方がよく見える。
+"a", "The", "distance.", "from", "mountain", "looks", "better"
+
+141. ここはテレビの電波がすごく悪い。
+"really", "here.", "signal", "television", "The", "bad", "is"
+
+142. 音楽が本当にうるさいです。音量を下げてくれませんか。
+"you", "music", "loud.", "is", "The", "really", "it", "Could", "turn", "down?"
+
+143. 彼女はテニスの腕を上げようと努力している。
+"to", "at", "She", "trying", "is", "improve", "tennis."
+
+144. どうやったら自分の英語（力）を向上できるのか私には分からない。
+"how", "improve", "my", "I", "don't", "English.", "I", "can", "know"
+
+145. 私のおばあちゃんは、ここ数日間肩に痛みがある。
+"past", "pain", "in", "days.", "grandma", "has", "her", "had", "shoulder", "a", "for", "few", "the", "My"
+
+146. 彼は鼻と手をガラスに押し付けた。
+"his", "and", "the", "hands", "He", "glass.", "against", "nose", "pressed"
+
+147. メッセージを残したい場合は「1」を押してください。
+"you", "message.", "Press", "like", "one", "to", "would", "a", "leave", "if"
+
+148. わが社はインターネット用のソフトウェアを開発している。
+"the", "We", "are", "developing", "Internet.", "software", "for"
+
+149. 彼は息子に一日車を貸した。
+"the", "lent", "car", "the", "day.", "son", "his", "He", "for"
+
+150. ランチにコーヒーは含まれますか。
+"coffee?", "include", "Does", "lunch"
+
+151. その値段に何が含まれているのか知りたいのですが。
+"in", "like", "what", "price.", "know", "to", "I'd", "included", "is", "the"
+
+152. 火がすごい熱を発している。
+"lot", "heat.", "fire", "of", "off", "giving", "The", "a", "is"
+
+153. 彼は、自分のコンピュータに重大な問題を抱えている。
+"a", "with", "problem", "his", "serious", "He", "has", "computer."
+
+154. 彼は全然正直でない。私はどうしたら彼を信頼できるんだろう。
+"He's", "not", "him?", "at", "all.", "honest", "can", "trust", "How", "I"
+
+155. 私の意見では、あなたは髪を切る必要がある。
+"In", "a", "my", "need", "opinion,", "you", "haircut."
+
+156. あなたは皆の注意を引こうと必死すぎるのだと思う。
+"to", "think", "too", "get", "trying", "you're", "everyone's", "I", "hard", "attention."
+
+157. 私の彼氏は私に注意を払ってくれない。
+"me.", "My", "to", "pay", "doesn't", "boyfriend", "attention"
+
+158. 私は事故で脚を骨折した。
+"my", "accident.", "I", "an", "broke", "in", "leg"
+
+159. 多くの事故は雨が降った時に起こる。
+"it", "rains.", "accidents", "Many", "happen", "when"
+
