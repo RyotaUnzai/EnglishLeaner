@@ -1,8 +1,12 @@
-{
-    
+[
     {
         "question": "She seems to _____ everyone in the office.",
-        "selections": ["get along with", "deal with", "work with", "cooperate with"],
+        "selections": [
+            "get along with",
+            "deal with",
+            "work with",
+            "cooperate with"
+        ],
         "answer": 0,
         "explanation": "'Get along with'は他の人とうまくやっていくことを意味します。したがって、'She seems to get along with everyone in the office.'は、彼女がオフィスの全員とうまくやっているようだという意味になります。",
         "en": "She seems to get along with everyone in the office.",
@@ -10,7 +14,12 @@
     },
     {
         "question": "It's important to _____ your teammates when working on a project.",
-        "selections": ["cooperate with", "work with", "deal with", "get along with"],
+        "selections": [
+            "cooperate with",
+            "work with",
+            "deal with",
+            "get along with"
+        ],
         "answer": 3,
         "explanation": "'Get along with'は他の人とうまくやっていくことを意味します。したがって、'It's important to get along with your teammates when working on a project.'は、プロジェクトを進める際にはチームメイトとうまくやっていくことが重要であるという意味になります。",
         "en": "It's important to get along with your teammates when working on a project.",
@@ -18,7 +27,12 @@
     },
     {
         "question": "Can I _____ your pen?",
-        "selections": ["borrow","use", "take",  "have"],
+        "selections": [
+            "borrow",
+            "use",
+            "take",
+            "have"
+        ],
         "answer": 0,
         "explanation": "'Borrow'は他人から一時的に何かを借りることを意味します。したがって、'Can I borrow your pen?'は、あなたのペンを借りてもいいですかという意味になります。",
         "en": "Can I borrow your pen?",
@@ -26,7 +40,12 @@
     },
     {
         "question": "I need to _____ some money for the trip.",
-        "selections": ["get", "have", "borrow", "take"],
+        "selections": [
+            "get",
+            "have",
+            "borrow",
+            "take"
+        ],
         "answer": 2,
         "explanation": "'Borrow'は他人から一時的に何かを借りることを意味します。したがって、'I need to borrow some money for the trip.'は、旅行のためにお金を借りる必要があるという意味になります。",
         "en": "I need to borrow some money for the trip.",
@@ -34,7 +53,12 @@
     },
     {
         "question": "I had to _____ my appointment because of a sudden meeting.",
-        "selections": ["cancel", "reschedule", "postpone", "put off"],
+        "selections": [
+            "cancel",
+            "reschedule",
+            "postpone",
+            "put off"
+        ],
         "answer": 3,
         "explanation": "'Put off'は何かを延期することを意味します。したがって、'I had to put off my appointment because of a sudden meeting.'は、急な会議のために私の予約を延期しなければならなかったという意味になります。",
         "en": "I had to put off my appointment because of a sudden meeting.",
@@ -42,155 +66,248 @@
     },
     {
         "question": "He decided to _____ his decision until next week.",
-        "selections": ["delay", "postpone", "put off", "defer"],
+        "selections": [
+            "delay",
+            "postpone",
+            "put off",
+            "defer"
+        ],
         "answer": 2,
         "explanation": "'Put off'は何かを延期することを意味します。したがって、'He decided to put off his decision until next week.'は、彼が自分の決定を来週まで延期することにしたという意味になります。",
         "en": "He decided to put off his decision until next week.",
         "jp": "彼は自分の決定を来週まで延期することにしました。"
     },
-
-        "question": "It took him a long time to _____ his fear of heights.",
-        "selections": ["overcome", "get over", "pass", "beat"],
-        "answer": 1,
-        "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'It took him a long time to get over his fear of heights.'は、彼が高所恐怖症を克服するのに長い時間がかかったという意味になります。",
-        "en": "It took him a long time to get over his fear of heights.",
-        "jp": "彼が高所恐怖症を克服するのに長い時間がかかりました。"
-    },
-    {
-        "question": "She is trying to _____ her breakup.",
-        "selections": ["forget", "get over", "ignore", "overcome"],
-        "answer": 1,
-        "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'She is trying to get over her breakup.'は、彼女が別れを乗り越えようとしているという意味になります。",
-        "en": "She is trying to get over her breakup.",
-        "jp": "彼女は別れを乗り越えようとしています。"
-    },
-    {
-        "question": "It's hard to _____ the rapid changes in technology.",
-        "selections": ["follow", "keep up with", "catch up with", "track"],
-        "answer": 1,
-        "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'It's hard to keep up with the rapid changes in technology.'は、技術の急速な変化についていくのは難しいという意味になります。",
-        "en": "It's hard to keep up with the rapid changes in technology.",
-        "jp": "技術の急速な変化についていくのは難しいです。"
-    },
-    {
-        "question": "You need to _____ the latest trends to be successful in this industry.",
-        "selections": ["follow", "track", "keep up with", "catch up with"],
-        "answer": 2,
-        "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'You need to keep up with the latest trends to be successful in this industry.'は、この業界で成功するためには最新のトレンドについていく必要があるという意味になります。",
-        "en": "You need to keep up with the latest trends to be successful in this industry.",
-        "jp": "この業界で成功するためには最新のトレンドについていく必要があります。"
-    },
-    {
-        "question": "I didn't _____ him because he had changed so much.",
-        "selections": ["identify", "recognize", "know", "see"],
-        "answer": 1,
-        "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'I didn't recognize him because he had changed so much.'は、彼が大きく変わったために私は彼を認識できなかったという意味になります。",
-        "en": "I didn't recognize him because he had changed so much.",
-        "jp": "彼が大きく変わったため、私は彼を認識できませんでした。"
-    },
-    {
-        "question": "The police were able to _____ the suspect from the security footage.",
-        "selections": ["identify", "see", "recognize", "spot"],
-        "answer": 2,
-        "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'The police were able to recognize the suspect from the security footage.'は、警察がセキュリティ映像から容疑者を認識することができたという意味になります。",
-        "en": "The police were able to recognize the suspect from the security footage.",
-        "jp": "警察はセキュリティ映像から容疑者を認識することができました。"
-    },
-    {
-        "question": "It took him a long time to _____ his fear of heights.",
-        "selections": ["get over", "pass", "overcome", "beat"],
-        "answer": 0,
-        "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'It took him a long time to get over his fear of heights.'は、彼が高所恐怖症を克服するのに長い時間がかかったという意味になります。",
-        "en": "It took him a long time to get over his fear of heights.",
-        "jp": "彼が高所恐怖症を克服するのに長い時間がかかりました。"
-    },
-    {
-        "question": "She is trying to _____ her breakup.",
-        "selections": ["forget", "get over", "ignore", "overcome"],
-        "answer": 1,
-        "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'She is trying to get over her breakup.'は、彼女が別れを乗り越えようとしているという意味になります。",
-        "en": "She is trying to get over her breakup.",
-        "jp": "彼女は別れを乗り越えようとしています。"
-    },
-    {
-        "question": "It's hard to _____ the rapid changes in technology.",
-        "selections": ["follow", "catch up with", "track", "keep up with"],
-        "answer": 3,
-        "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'It's hard to keep up with the rapid changes in technology.'は、技術の急速な変化についていくのは難しいという意味になります。",
-        "en": "It's hard to keep up with the rapid changes in technology.",
-        "jp": "技術の急速な変化についていくのは難しいです。"
-    },
-    {
-        "question": "You need to _____ the latest trends to be successful in this industry.",
-        "selections": ["follow", "track", "keep up with", "catch up with"],
-        "answer": 2,
-        "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'You need to keep up with the latest trends to be successful in this industry.'は、この業界で成功するためには最新のトレンドについていく必要があるという意味になります。",
-        "en": "You need to keep up with the latest trends to be successful in this industry.",
-        "jp": "この業界で成功するためには最新のトレンドについていく必要があります。"
-    },
-    {
-        "question": "I didn't _____ him because he had changed so much.",
-        "selections": ["identify", "recognize", "know", "see"],
-        "answer": 1,
-        "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'I didn't recognize him because he had changed so much.'は、彼が大きく変わったために私は彼を認識できなかったという意味になります。",
-        "en": "I didn't recognize him because he had changed so much.",
-        "jp": "彼が大きく変わったため、私は彼を認識できませんでした。"
-    },
-    {
-        "question": "The police were able to _____ the suspect from the security footage.",
-        "selections": ["identify", "see", "recognize", "spot"],
-        "answer": 2,
-        "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'The police were able to recognize the suspect from the security footage.'は、警察がセキュリティ映像から容疑者を認識することができたという意味になります。",
-        "en": "The police were able to recognize the suspect from the security footage.",
-        "jp": "警察はセキュリティ映像から容疑者を認識することができました。"
-    },
-    
-    {
-        "question": "The plane is scheduled to _____ at 10 AM.",
-        "selections": ["depart", "fly", "take off", "launch"],
-        "answer": 2,
-        "explanation": "'Take off'は飛行機が離陸することを意味します。したがって、'The plane is scheduled to take off at 10 AM.'は、飛行機は午前10時に離陸する予定であるという意味になります。",
-        "en": "The plane is scheduled to take off at 10 AM.",
-        "jp": "飛行機は午前10時に離陸する予定です。"
-    },
-    {
-        "question": "He had to _____ his shoes before entering the house.",
-        "selections": ["remove", "take off", "pull off", "get off"],
-        "answer": 1,
-        "explanation": "'Take off'は靴などを脱ぐことを意味します。したがって、'He had to take off his shoes before entering the house.'は、彼は家に入る前に靴を脱がなければならなかったという意味になります。",
-        "en": "He had to take off his shoes before entering the house.",
-        "jp": "彼は家に入る前に靴を脱がなければならなかった。"
-    },
-    {
-        "question": "The teacher _____ the student for his excellent performance.",
-        "selections": ["commended", "praised", "appreciated", "congratulated"],
-        "answer": 1,
-        "explanation": "'Praise'は他人の行為や業績を称賛することを意味します。したがって、'The teacher praised the student for his excellent performance.'は、教師が生徒の優れたパフォーマンスを称賛したという意味になります。",
-        "en": "The teacher praised the student for his excellent performance.",
-        "jp": "教師は生徒の優れたパフォーマンスを称賛しました。"
-    },
-    {
-        "question": "She _____ her daughter for getting good grades.",
-        "selections": ["praised", "appreciated", "commended", "congratulated"],
-        "answer": 0,
-        "explanation": "'Praise'は他人の行為や業績を称賛することを意味します。したがって、'She praised her daughter for getting good grades.'は、彼女が娘を良い成績を取ったことで称賛したという意味になります。",
-        "en": "She praised her daughter for getting good grades.",
-        "jp": "彼女は娘が良い成績を取ったことを称賛しました。"
-    },
-    {
-        "question": "The court decided to _____ him for his crimes.",
-        "selections": ["punish", "sentence", "condemn", "judge"],
-        "answer": 0,
-        "explanation": "'Punish'は罪や違反に対して罰を与えることを意味します。したがって、'The court decided to punish him for his crimes.'は、裁判所が彼の犯罪に対して罰を与えることを決定したという意味になります。",
-        "en": "The court decided to punish him for his crimes.",
-        "jp": "裁判所は彼の犯罪に対して罰を与えることを決定しました。"
-    },
-    {
-        "question": "Parents should not _____ their children too harshly.",
-        "selections": ["scold", "punish", "criticize", "condemn"],
-        "answer": 1,
-        "explanation": "'Punish'は罪や違反に対して罰を与えることを意味します。したがって、'Parents should not punish their children too harshly.'は、親は子供をあまりにも厳しく罰してはならないという意味になります。",
-        "en": "Parents should not punish their children too harshly.",
-        "jp": "親は子供をあまりにも厳しく罰してはならない。"
-    }
+    "question": "It took him a long time to _____ his fear of heights.",
+    "selections": [
+        "overcome",
+        "get over",
+        "pass",
+        "beat"
+    ],
+    "answer": 1,
+    "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'It took him a long time to get over his fear of heights.'は、彼が高所恐怖症を克服するのに長い時間がかかったという意味になります。",
+    "en": "It took him a long time to get over his fear of heights.",
+    "jp": "彼が高所恐怖症を克服するのに長い時間がかかりました。"
+},
+{
+    "question": "She is trying to _____ her breakup.",
+    "selections": [
+        "forget",
+        "get over",
+        "ignore",
+        "overcome"
+    ],
+    "answer": 1,
+    "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'She is trying to get over her breakup.'は、彼女が別れを乗り越えようとしているという意味になります。",
+    "en": "She is trying to get over her breakup.",
+    "jp": "彼女は別れを乗り越えようとしています。"
+},
+{
+    "question": "It's hard to _____ the rapid changes in technology.",
+    "selections": [
+        "follow",
+        "keep up with",
+        "catch up with",
+        "track"
+    ],
+    "answer": 1,
+    "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'It's hard to keep up with the rapid changes in technology.'は、技術の急速な変化についていくのは難しいという意味になります。",
+    "en": "It's hard to keep up with the rapid changes in technology.",
+    "jp": "技術の急速な変化についていくのは難しいです。"
+},
+{
+    "question": "You need to _____ the latest trends to be successful in this industry.",
+    "selections": [
+        "follow",
+        "track",
+        "keep up with",
+        "catch up with"
+    ],
+    "answer": 2,
+    "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'You need to keep up with the latest trends to be successful in this industry.'は、この業界で成功するためには最新のトレンドについていく必要があるという意味になります。",
+    "en": "You need to keep up with the latest trends to be successful in this industry.",
+    "jp": "この業界で成功するためには最新のトレンドについていく必要があります。"
+},
+{
+    "question": "I didn't _____ him because he had changed so much.",
+    "selections": [
+        "identify",
+        "recognize",
+        "know",
+        "see"
+    ],
+    "answer": 1,
+    "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'I didn't recognize him because he had changed so much.'は、彼が大きく変わったために私は彼を認識できなかったという意味になります。",
+    "en": "I didn't recognize him because he had changed so much.",
+    "jp": "彼が大きく変わったため、私は彼を認識できませんでした。"
+},
+{
+    "question": "The police were able to _____ the suspect from the security footage.",
+    "selections": [
+        "identify",
+        "see",
+        "recognize",
+        "spot"
+    ],
+    "answer": 2,
+    "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'The police were able to recognize the suspect from the security footage.'は、警察がセキュリティ映像から容疑者を認識することができたという意味になります。",
+    "en": "The police were able to recognize the suspect from the security footage.",
+    "jp": "警察はセキュリティ映像から容疑者を認識することができました。"
+},
+{
+    "question": "It took him a long time to _____ his fear of heights.",
+    "selections": [
+        "get over",
+        "pass",
+        "overcome",
+        "beat"
+    ],
+    "answer": 0,
+    "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'It took him a long time to get over his fear of heights.'は、彼が高所恐怖症を克服するのに長い時間がかかったという意味になります。",
+    "en": "It took him a long time to get over his fear of heights.",
+    "jp": "彼が高所恐怖症を克服するのに長い時間がかかりました。"
+},
+{
+    "question": "She is trying to _____ her breakup.",
+    "selections": [
+        "forget",
+        "get over",
+        "ignore",
+        "overcome"
+    ],
+    "answer": 1,
+    "explanation": "'Get over'は何か困難や問題を克服することを意味します。したがって、'She is trying to get over her breakup.'は、彼女が別れを乗り越えようとしているという意味になります。",
+    "en": "She is trying to get over her breakup.",
+    "jp": "彼女は別れを乗り越えようとしています。"
+},
+{
+    "question": "It's hard to _____ the rapid changes in technology.",
+    "selections": [
+        "follow",
+        "catch up with",
+        "track",
+        "keep up with"
+    ],
+    "answer": 3,
+    "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'It's hard to keep up with the rapid changes in technology.'は、技術の急速な変化についていくのは難しいという意味になります。",
+    "en": "It's hard to keep up with the rapid changes in technology.",
+    "jp": "技術の急速な変化についていくのは難しいです。"
+},
+{
+    "question": "You need to _____ the latest trends to be successful in this industry.",
+    "selections": [
+        "follow",
+        "track",
+        "keep up with",
+        "catch up with"
+    ],
+    "answer": 2,
+    "explanation": "'Keep up with'は何かの速度やペースについていくことを意味します。したがって、'You need to keep up with the latest trends to be successful in this industry.'は、この業界で成功するためには最新のトレンドについていく必要があるという意味になります。",
+    "en": "You need to keep up with the latest trends to be successful in this industry.",
+    "jp": "この業界で成功するためには最新のトレンドについていく必要があります。"
+},
+{
+    "question": "I didn't _____ him because he had changed so much.",
+    "selections": [
+        "identify",
+        "recognize",
+        "know",
+        "see"
+    ],
+    "answer": 1,
+    "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'I didn't recognize him because he had changed so much.'は、彼が大きく変わったために私は彼を認識できなかったという意味になります。",
+    "en": "I didn't recognize him because he had changed so much.",
+    "jp": "彼が大きく変わったため、私は彼を認識できませんでした。"
+},
+{
+    "question": "The police were able to _____ the suspect from the security footage.",
+    "selections": [
+        "identify",
+        "see",
+        "recognize",
+        "spot"
+    ],
+    "answer": 2,
+    "explanation": "'Recognize'は誰かを見分ける、または認識することを意味します。したがって、'The police were able to recognize the suspect from the security footage.'は、警察がセキュリティ映像から容疑者を認識することができたという意味になります。",
+    "en": "The police were able to recognize the suspect from the security footage.",
+    "jp": "警察はセキュリティ映像から容疑者を認識することができました。"
+},
+{
+    "question": "The plane is scheduled to _____ at 10 AM.",
+    "selections": [
+        "depart",
+        "fly",
+        "take off",
+        "launch"
+    ],
+    "answer": 2,
+    "explanation": "'Take off'は飛行機が離陸することを意味します。したがって、'The plane is scheduled to take off at 10 AM.'は、飛行機は午前10時に離陸する予定であるという意味になります。",
+    "en": "The plane is scheduled to take off at 10 AM.",
+    "jp": "飛行機は午前10時に離陸する予定です。"
+},
+{
+    "question": "He had to _____ his shoes before entering the house.",
+    "selections": [
+        "remove",
+        "take off",
+        "pull off",
+        "get off"
+    ],
+    "answer": 1,
+    "explanation": "'Take off'は靴などを脱ぐことを意味します。したがって、'He had to take off his shoes before entering the house.'は、彼は家に入る前に靴を脱がなければならなかったという意味になります。",
+    "en": "He had to take off his shoes before entering the house.",
+    "jp": "彼は家に入る前に靴を脱がなければならなかった。"
+},
+{
+    "question": "The teacher _____ the student for his excellent performance.",
+    "selections": [
+        "commended",
+        "praised",
+        "appreciated",
+        "congratulated"
+    ],
+    "answer": 1,
+    "explanation": "'Praise'は他人の行為や業績を称賛することを意味します。したがって、'The teacher praised the student for his excellent performance.'は、教師が生徒の優れたパフォーマンスを称賛したという意味になります。",
+    "en": "The teacher praised the student for his excellent performance.",
+    "jp": "教師は生徒の優れたパフォーマンスを称賛しました。"
+},
+{
+    "question": "She _____ her daughter for getting good grades.",
+    "selections": [
+        "praised",
+        "appreciated",
+        "commended",
+        "congratulated"
+    ],
+    "answer": 0,
+    "explanation": "'Praise'は他人の行為や業績を称賛することを意味します。したがって、'She praised her daughter for getting good grades.'は、彼女が娘を良い成績を取ったことで称賛したという意味になります。",
+    "en": "She praised her daughter for getting good grades.",
+    "jp": "彼女は娘が良い成績を取ったことを称賛しました。"
+},
+{
+    "question": "The court decided to _____ him for his crimes.",
+    "selections": [
+        "punish",
+        "sentence",
+        "condemn",
+        "judge"
+    ],
+    "answer": 0,
+    "explanation": "'Punish'は罪や違反に対して罰を与えることを意味します。したがって、'The court decided to punish him for his crimes.'は、裁判所が彼の犯罪に対して罰を与えることを決定したという意味になります。",
+    "en": "The court decided to punish him for his crimes.",
+    "jp": "裁判所は彼の犯罪に対して罰を与えることを決定しました。"
+},
+{
+    "question": "Parents should not _____ their children too harshly.",
+    "selections": [
+        "scold",
+        "punish",
+        "criticize",
+        "condemn"
+    ],
+    "answer": 1,
+    "explanation": "'Punish'は罪や違反に対して罰を与えることを意味します。したがって、'Parents should not punish their children too harshly.'は、親は子供をあまりにも厳しく罰してはならないという意味になります。",
+    "en": "Parents should not punish their children too harshly.",
+    "jp": "親は子供をあまりにも厳しく罰してはならない。"
 }
+]

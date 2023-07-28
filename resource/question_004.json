@@ -1,8 +1,12 @@
-{
-
+[
     {
         "question": "I _____ an old photo of mine while cleaning the house.",
-        "selections": ["found", "came across", "discovered", "uncovered"],
+        "selections": [
+            "found",
+            "came across",
+            "discovered",
+            "uncovered"
+        ],
         "answer": 1,
         "explanation": "'Come across'は偶然見つけることを意味します。したがって、'I came across an old photo of mine while cleaning the house.'は、家を掃除しているときに自分の古い写真を偶然見つけたという意味になります。",
         "en": "I came across an old photo of mine while cleaning the house.",
@@ -10,7 +14,12 @@
     },
     {
         "question": "She _____ a strange object while walking in the forest.",
-        "selections": ["saw", "found", "came across", "noticed"],
+        "selections": [
+            "saw",
+            "found",
+            "came across",
+            "noticed"
+        ],
         "answer": 2,
         "explanation": "'Come across'は偶然見つけることを意味します。したがって、'She came across a strange object while walking in the forest.'は、森を歩いているときに奇妙な物体を偶然見つけたという意味になります。",
         "en": "She came across a strange object while walking in the forest.",
@@ -18,7 +27,12 @@
     },
     {
         "question": "He _____ to be a doctor to impress the girl.",
-        "selections": ["lied", "pretended", "claimed", "said"],
+        "selections": [
+            "lied",
+            "pretended",
+            "claimed",
+            "said"
+        ],
         "answer": 1,
         "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'He pretended to be a doctor to impress the girl.'は、彼が女の子に感銘を与えるために医者のふりをしたという意味になります。",
         "en": "He pretended to be a doctor to impress the girl.",
@@ -26,7 +40,12 @@
     },
     {
         "question": "The child _____ to be asleep when his mother entered the room.",
-        "selections": ["acted", "pretended", "faked", "played"],
+        "selections": [
+            "acted",
+            "pretended",
+            "faked",
+            "played"
+        ],
         "answer": 1,
         "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'The child pretended to be asleep when his mother entered the room.'は、母親が部屋に入ったときに子供が眠っているふりをしたという意味になります。",
         "en": "The child pretended to be asleep when his mother entered the room.",
@@ -34,7 +53,12 @@
     },
     {
         "question": "The club decided to _____ him from the team due to his bad behavior.",
-        "selections": ["remove", "exclude", "expel", "dismiss"],
+        "selections": [
+            "remove",
+            "exclude",
+            "expel",
+            "dismiss"
+        ],
         "answer": 1,
         "explanation": "'Exclude'は除外することを意味します。したがって、'The club decided to exclude him from the team due to his bad behavior.'は、彼の悪い行動のためにクラブが彼をチームから除外することを決定したという意味になります。",
         "en": "The club decided to exclude him from the team due to his bad behavior.",
@@ -42,7 +66,12 @@
     },
     {
         "question": "The teacher decided to _____ him from the field trip because he didn't submit the permission slip.",
-        "selections": ["exclude", "remove", "leave out", "omit"],
+        "selections": [
+            "exclude",
+            "remove",
+            "leave out",
+            "omit"
+        ],
         "answer": 0,
         "explanation": "'Exclude'は除外することを意味します。したがって、'The teacher decided to exclude him from the field trip because he didn't submit the permission slip.'は、彼が許可書を提出しなかったために教師が彼を遠足から除外することを決定したという意味になります。",
         "en": "The teacher decided to exclude him from the field trip because he didn't submit the permission slip.",
@@ -50,7 +79,12 @@
     },
     {
         "question": "They decided to _____ the room for the party.",
-        "selections": ["prepare", "arrange", "decorate", "set up"],
+        "selections": [
+            "prepare",
+            "arrange",
+            "decorate",
+            "set up"
+        ],
         "answer": 2,
         "explanation": "'Decorate'は装飾することを意味します。したがって、'They decided to decorate the room for the party.'は、彼らがパーティーのために部屋を装飾することを決定したという意味になります。",
         "en": "They decided to decorate the room for the party.",
@@ -58,7 +92,12 @@
     },
     {
         "question": "She loves to _____ her house during the holiday season.",
-        "selections": ["adorn", "decorate", "embellish", "beautify"],
+        "selections": [
+            "adorn",
+            "decorate",
+            "embellish",
+            "beautify"
+        ],
         "answer": 1,
         "explanation": "'Decorate'は装飾することを意味します。したがって、'She loves to decorate her house during the holiday season.'は、彼女が休暇シーズン中に家を装飾するのが好きであるという意味になります。",
         "en": "She loves to decorate her house during the holiday season.",
@@ -66,7 +105,12 @@
     },
     {
         "question": "The company decided to _____ a new manager.",
-        "selections": ["appoint", "hire", "recruit", "employ"],
+        "selections": [
+            "appoint",
+            "hire",
+            "recruit",
+            "employ"
+        ],
         "answer": 1,
         "explanation": "'Hire'は雇うことを意味します。したがって、'The company decided to hire a new manager.'は、会社が新しいマネージャーを雇うことを決定したという意味になります。",
         "en": "The company decided to hire a new manager.",
@@ -74,7 +118,12 @@
     },
     {
         "question": "They had to _____ a translator for the international conference.",
-        "selections": ["employ", "engage", "recruit", "hire"],
+        "selections": [
+            "employ",
+            "engage",
+            "recruit",
+            "hire"
+        ],
         "answer": 3,
         "explanation": "'Hire'は雇うことを意味します。したがって、'They had to hire a translator for the international conference.'は、彼らが国際会議のために翻訳者を雇わなければならなかったという意味になります。",
         "en": "They had to hire a translator for the international conference.",
@@ -82,7 +131,12 @@
     },
     {
         "question": "The company had to _____ him due to his poor performance.",
-        "selections": ["dismiss", "fire", "sack", "terminate"],
+        "selections": [
+            "dismiss",
+            "fire",
+            "sack",
+            "terminate"
+        ],
         "answer": 1,
         "explanation": "'Fire'は解雇することを意味します。したがって、'The company had to fire him due to his poor performance.'は、彼のパフォーマンスが悪かったために会社が彼を解雇しなければならなかったという意味になります。",
         "en": "The company had to fire him due to his poor performance.",
@@ -90,16 +144,25 @@
     },
     {
         "question": "He was _____ from his job for stealing office supplies.",
-        "selections": ["fired", "dismissed", "sacked", "let go"],
+        "selections": [
+            "fired",
+            "dismissed",
+            "sacked",
+            "let go"
+        ],
         "answer": 0,
         "explanation": "'Fire'は解雇することを意味します。したがって、'He was fired from his job for stealing office supplies.'は、彼がオフィス用品を盗んだために彼の仕事から解雇されたという意味になります。",
         "en": "He was fired from his job for stealing office supplies.",
         "jp": "彼はオフィス用品を盗んだために仕事から解雇されました。"
     },
-    
     {
         "question": "I need to _____ my friend who moved to another city.",
-        "selections": ["meet", "find", "see", "catch up with"],
+        "selections": [
+            "meet",
+            "find",
+            "see",
+            "catch up with"
+        ],
         "answer": 3,
         "explanation": "'Catch up with'は追いつく、連絡を取ることを意味します。したがって、'I need to catch up with my friend who moved to another city.'は、他の都市に移住した友人に連絡を取る必要があるという意味になります。",
         "en": "I need to catch up with my friend who moved to another city.",
@@ -107,7 +170,12 @@
     },
     {
         "question": "He is trying to _____ the latest trends in technology.",
-        "selections": ["follow", "catch up with", "keep up with", "track"],
+        "selections": [
+            "follow",
+            "catch up with",
+            "keep up with",
+            "track"
+        ],
         "answer": 1,
         "explanation": "'Catch up with'は追いつくことを意味します。したがって、'He is trying to catch up with the latest trends in technology.'は、彼が技術の最新のトレンドに追いつこうとしているという意味になります。",
         "en": "He is trying to catch up with the latest trends in technology.",
@@ -115,7 +183,12 @@
     },
     {
         "question": "She has to _____ her younger brother while their parents are away.",
-        "selections": ["care for", "watch", "look after", "guard"],
+        "selections": [
+            "care for",
+            "watch",
+            "look after",
+            "guard"
+        ],
         "answer": 2,
         "explanation": "'Look after'は世話をすることを意味します。したがって、'She has to look after her younger brother while their parents are away.'は、両親が不在の間、彼女が弟の世話をしなければならないという意味になります。",
         "en": "She has to look after her younger brother while their parents are away.",
@@ -123,7 +196,12 @@
     },
     {
         "question": "He was hired to _____ the children during the summer vacation.",
-        "selections": ["look after", "care for", "watch", "guard"],
+        "selections": [
+            "look after",
+            "care for",
+            "watch",
+            "guard"
+        ],
         "answer": 0,
         "explanation": "'Look after'は世話をすることを意味します。したがって、'He was hired to look after the children during the summer vacation.'は、彼が夏休み中に子供たちの世話をするために雇われたという意味になります。",
         "en": "He was hired to look after the children during the summer vacation.",
@@ -131,7 +209,12 @@
     },
     {
         "question": "The mechanic was able to _____ the car in a few hours.",
-        "selections": ["fix", "repair", "mend", "restore"],
+        "selections": [
+            "fix",
+            "repair",
+            "mend",
+            "restore"
+        ],
         "answer": 1,
         "explanation": "'Repair'は修理することを意味します。したがって、'The mechanic was able to repair the car in a few hours.'は、メカニックが数時間で車を修理できたという意味になります。",
         "en": "The mechanic was able to repair the car in a few hours.",
@@ -139,7 +222,12 @@
     },
     {
         "question": "He learned how to _____ old furniture from his grandfather.",
-        "selections": ["repair", "fix", "mend", "restore"],
+        "selections": [
+            "repair",
+            "fix",
+            "mend",
+            "restore"
+        ],
         "answer": 0,
         "explanation": "'Repair'は修理することを意味します。したがって、'He learned how to repair old furniture from his grandfather.'は、彼が祖父から古い家具の修理方法を学んだという意味になります。",
         "en": "He learned how to repair old furniture from his grandfather.",
@@ -147,7 +235,12 @@
     },
     {
         "question": "Could you _____ me your pen?",
-        "selections": ["give", "lend", "hand", "pass"],
+        "selections": [
+            "give",
+            "lend",
+            "hand",
+            "pass"
+        ],
         "answer": 1,
         "explanation": "'Lend'は貸すことを意味します。したがって、'Could you lend me your pen?'は、あなたが私にペンを貸してくれるかという意味になります。",
         "en": "Could you lend me your pen?",
@@ -155,7 +248,12 @@
     },
     {
         "question": "I will _____ you the book when I finish reading it.",
-        "selections": ["lend", "give", "hand", "pass"],
+        "selections": [
+            "lend",
+            "give",
+            "hand",
+            "pass"
+        ],
         "answer": 0,
         "explanation": "'Lend'は貸すことを意味します。したがって、'I will lend you the book when I finish reading it.'は、私がそれを読み終えたらあなたにその本を貸すという意味になります。",
         "en": "I will lend you the book when I finish reading it.",
@@ -163,7 +261,12 @@
     },
     {
         "question": "She really _____ her mother in terms of personality.",
-        "selections": ["resembles", "takes after", "looks like", "mimics"],
+        "selections": [
+            "resembles",
+            "takes after",
+            "looks like",
+            "mimics"
+        ],
         "answer": 1,
         "explanation": "'Take after'は（親などに）似ているという意味です。したがって、'She really takes after her mother in terms of personality.'は、彼女は性格において本当に母親に似ているという意味になります。",
         "en": "She really takes after her mother in terms of personality.",
@@ -171,7 +274,12 @@
     },
     {
         "question": "He _____ his father in many ways.",
-        "selections": ["takes after", "resembles", "looks like", "mimics"],
+        "selections": [
+            "takes after",
+            "resembles",
+            "looks like",
+            "mimics"
+        ],
         "answer": 0,
         "explanation": "'Take after'は（親などに）似ているという意味です。したがって、'He takes after his father in many ways.'は、彼は多くの点で父親に似ているという意味になります。",
         "en": "He takes after his father in many ways.",
@@ -179,7 +287,12 @@
     },
     {
         "question": "You have to _____ his bad behavior because he is still a child.",
-        "selections": ["tolerate", "endure", "bear", "put up with"],
+        "selections": [
+            "tolerate",
+            "endure",
+            "bear",
+            "put up with"
+        ],
         "answer": 3,
         "explanation": "'Put up with'は我慢するという意味です。したがって、'You have to put up with his bad behavior because he is still a child.'は、彼がまだ子供なので彼の悪い行動を我慢しなければならないという意味になります。",
         "en": "You have to put up with his bad behavior because he is still a child.",
@@ -187,10 +300,15 @@
     },
     {
         "question": "It's difficult to _____ her constant complaining.",
-        "selections": ["put up with", "tolerate", "endure", "bear"],
+        "selections": [
+            "put up with",
+            "tolerate",
+            "endure",
+            "bear"
+        ],
         "answer": 0,
         "explanation": "'Put up with'は我慢するという意味です。したがって、'It's difficult to put up with her constant complaining.'は、彼女の絶え間ない不平を我慢するのは難しいという意味になります。",
         "en": "It's difficult to put up with her constant complaining.",
         "jp": "彼女の絶え間ない不平を我慢するのは難しいです。"
     }
-}
+]
