@@ -109,12 +109,18 @@ class chankClass:
             if word[-1] in self.symbols:
                 text = f"( ){word[-1]} "
 
-            elif '"' in word or '“' in word or '”' in word:
+            elif '"' in word or '“' in word or '”' in word or '.' in word:
                 if '“' in word or '”' in word:
                     wordlist = []
                     tempList = word.split('“')
                     for w in tempList:
                         wordlist += w.split('”')
+                elif '.' in word:
+                    wordlist = []
+                    tempList = word.split('.')
+                    connectWord = ""
+                    for w in tempList:
+                        wordlist += f"{w}．"
                 else:
                     wordlist = word.split('"')
                 text = ""
@@ -264,5 +270,5 @@ class chankClass:
 
 
 chank = chankClass()
-chank.wbName = "Pie-eating contest ends because pies too big"
+chank.wbName = "en2"
 chank.createSubject()
