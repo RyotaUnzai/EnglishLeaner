@@ -1,0 +1,12 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+QPushButton {
+    max-width: 24px;
+}
+
+QTextEdit{
+    background-color: #00000000;
+    border: solid 0px;
+}
