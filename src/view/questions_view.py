@@ -13,6 +13,8 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
     lineEditAnswer: QtWidgets.QLineEdit
     labelQuestion: QtWidgets.QLabel
     labelResult: QtWidgets.QLabel
+    labelCount: QtWidgets.QLabel
+    labelCurrentNumber: QtWidgets.QLabel
     textEditExplanation: QtWidgets.QTextEdit
     radioButton_0: QtWidgets.QRadioButton
     radioButton_1: QtWidgets.QRadioButton
@@ -24,6 +26,7 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
     menuFile: QtWidgets.QMenu
     actionOpen: QtWidgets.QAction
     statusbar: QtWidgets.QStatusBar
+    buttonGroup: QtWidgets.QButtonGroup
 
     def __init__(self, *args, **kwargs) -> None:
         super(Questions_Window, self).__init__(*args, **kwargs)
@@ -32,11 +35,6 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
 
     def __initUI(self) -> None:
         self.setWindowTitle("English Questions")
-
-    # @property
-    # def lineEditAnswer(self) -> QtWidgets.QLineEdit:
-    #     return self.centralWidget().lineEditAnswer
-
-    # @property
-    # def textEditQuestion(self) -> QtWidgets.QTextEdit:
-    #     return self.centralWidget().textEditQuestion
+        self.buttonGroup = QtWidgets.QButtonGroup()
+        for num in range(4):
+            exec(f"self.buttonGroup.addButton(self.radioButton_{num})")
