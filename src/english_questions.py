@@ -19,6 +19,7 @@ RESOURCE_PATH = Path(__file__).parent.with_name("resource").absolute()
 class Connect:
     __numbers: list = []
     __current: int = 0
+    __count_word: int
 
     def __init__(self) -> None:
         self.window = Questions_Window()
@@ -35,6 +36,7 @@ class Connect:
         self.window.sort.lineEditAnswer.returnPressed.connect(self.__sortResult)
         self.window.sort.pushButtonNext.clicked.connect(self.__nextSortQuestion)
         self.window.sort.pushButtonPrev.clicked.connect(self.__prevSortQuestion)
+        self.window.sort.lineEditAnswer.textChanged.connect(self.check_sentence)
 
     def _setSelectionUI(self) -> None:
         self.__setSelectionQuestion(self.__numbers[self.__current])
@@ -42,15 +44,18 @@ class Connect:
         self.window.selection.pushButtonNext.clicked.connect(self.__nextSelectionQuestion)
         self.window.selection.pushButtonPrev.clicked.connect(self.__prevSelectionQuestion)
 
-    def insert_newlines(self, string, every=60):
-        lines = ""
-        newlines = []
-        print(string)
+    def check_sentence(self, value):
+        inputWords = value.replace(".", "").split(" ")
+        result = len([item for item in self.words if item not in inputWords])
+        self.window.sort.labelWordsCount.setText(f"{result} / {self.word_counts}")
 
-        for i in range(0, len(lines), every):
-            newlines.append(lines[i:i+every])
+    @property
+    def words(self):
+        return self.model.en.replace(".", "").split(" ")
 
-        return "\n".join(newlines)
+    @property
+    def word_counts(self):
+        return len(self.words)
 
     def __setSortQuestion(self, num: int) -> None:
         self.model.num = num
@@ -58,6 +63,7 @@ class Connect:
         self.window.sort.labelJapanese.setText(self.model.jp)
         words = self.model.en.replace(".", "").split(" ")
         random.shuffle(words)
+        self.__count_word = len(words)
         numbered_words = [f"{i+1}.{word},  " for i, word in enumerate(words)]
         shuffled_text = " ".join(numbered_words)
         formatted_text = "\n".join(textwrap.wrap(shuffled_text, width=60))
@@ -146,7 +152,7 @@ class Connect:
         self.model.path = path
 
     def __initSortUI(self) -> None:
-        pass
+        self.window.sort.lineEditAnswer.setText("")
 
     def __initSelectionUI(self) -> None:
         self.window.buttonGroup.setExclusive(False)
@@ -216,6 +222,7 @@ class Connect:
             self.window.selection.pushButtonPrev.setEnabled(False)
         else:
             self.window.selection.pushButtonPrev.setEnabled(True)
+
 
 def main() -> None:
     app = QtWidgets.QApplication([])

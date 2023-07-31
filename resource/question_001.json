@@ -73,9 +73,9 @@
             "see off"
         ],
         "answer": 3,
-        "explanation": "'See off'は誰かを見送ることを意味します。したがって、'She went to the station to see off her family to their train.'は、彼女が家族を電車に見送るために駅に行ったという意味になります。",
+        "explanation": "'See off'は誰かを見送ることを意味します。したがって、'She went to the station to see off her family to their train.'は、彼女は家族を列車まで見送るために駅に向かったという意味になります。",
         "en": "She went to the station to see off her family to their train.",
-        "jp": "彼女は家族を電車に見送るために駅に行きました。"
+        "jp": "彼女は家族を列車まで見送るために駅に向かった。"
     },
     {
         "question": "I need to _____ a car for the weekend trip.",

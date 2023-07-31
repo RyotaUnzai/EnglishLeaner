@@ -102,7 +102,7 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QGridLayout" name="gridLayout_3">
-         <item row="3" column="0">
+         <item row="4" column="0">
           <widget class="QLineEdit" name="lineEditAnswer">
            <property name="text">
             <string/>
@@ -129,21 +129,6 @@
            </property>
           </spacer>
          </item>
-         <item row="1" column="0">
-          <widget class="QFrame" name="frame_5">
-           <property name="frameShape">
-            <enum>QFrame::StyledPanel</enum>
-           </property>
-           <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
-           </property>
-           <layout class="QHBoxLayout" name="horizontalLayout">
-            <item>
-             <widget class="QTextEdit" name="textEditExplanation"/>
-            </item>
-           </layout>
-          </widget>
-         </item>
          <item row="0" column="1" rowspan="2">
           <spacer name="verticalSpacer">
            <property name="orientation">
@@ -159,6 +144,28 @@
             </size>
            </property>
           </spacer>
+         </item>
+         <item row="1" column="0">
+          <widget class="QFrame" name="frame_5">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QTextEdit" name="textEditExplanation"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="labelWordsCount">
+           <property name="text">
+            <string>Words Count</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
