@@ -52,7 +52,7 @@
         "jp": "彼は新製品の開発に貢献しました。"
     },
     {
-        "question": "I went to the airport to _____ my friend _____ to his flight.",
+        "question": "I went to the airport to _____ my friend to his flight.",
         "selections": [
             "send",
             "see off",
@@ -65,7 +65,7 @@
         "jp": "私は友人を飛行機に見送るために空港に行きました。"
     },
     {
-        "question": "She went to the station to _____ her family _____ to their train.",
+        "question": "She went to the station to _____ her family to their train.",
         "selections": [
             "send",
             "dispatch",
@@ -138,9 +138,9 @@
             "await"
         ],
         "answer": 2,
-        "explanation": "'Look forward to'は何かを楽しみに待つことを意味します。したがって、'We look forward to your positive response.'は、私たちがあなたの肯定的な反応を楽しみにしているという意味になります。",
+        "explanation": "'Look forward to'は何かを楽しみに待つことを意味します。したがって、'We look forward to your positive response.'は、皆さんの前向きな反応を楽しみにしているという意味になります。",
         "en": "We look forward to your positive response.",
-        "jp": "私たちはあなたの肯定的な反応を楽しみにしています。"
+        "jp": "皆さんの前向きな反応を楽しみにしている。"
     },
     {
         "question": "The medicine will _____ your illness.",
@@ -177,9 +177,9 @@
             "rise"
         ],
         "answer": 1,
-        "explanation": "'Recover'は状況が改善する、または正常に戻ることを意味します。したがって、'The economy is starting to recover from the recession.'は、経済がリセッションから回復し始めているという意味になります。",
+        "explanation": "'Recover'は状況が改善する、または正常に戻ることを意味します。したがって、'The economy is starting to recover from the recession.'は、経済が不況から回復し始めているという意味になります。",
         "en": "The economy is starting to recover from the recession.",
-        "jp": "経済はリセッションから回復し始めています。"
+        "jp": "景気は不況から回復し始めている。"
     },
     {
         "question": "She managed to _____ a solution to the problem.",
@@ -229,8 +229,8 @@
             "denied"
         ],
         "answer": 3,
-        "explanation": "'Deny'は何かが真実でないと主張することを意味します。したがって、'She denied the allegations made against her.'は、彼女が彼女に対してなされた主張を否定したという意味になります。",
+        "explanation": "'Deny'は何かが真実でないと主張することを意味します。したがって、'She denied the allegations made against her.'は、彼女は自分に対する疑惑を否定したという意味になります。",
         "en": "She denied the allegations made against her.",
-        "jp": "彼女は彼女に対してなされた主張を否定しました。"
+        "jp": "彼女は自分に対する疑惑を否定した。"
     }
 ]
