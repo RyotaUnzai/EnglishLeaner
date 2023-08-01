@@ -5,9 +5,11 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from PySide2 import QtWidgets, QtCore
+
+from PySide2 import QtWidgets, QtCore, QtGui
 
 from model.questions import Questions
+from model.sortlistmodel import SortItemModel, SortListModel
 from view.questions_view import Questions_Window
 
 
@@ -20,16 +22,192 @@ class Connect:
     __numbers: list = []
     __current: int = 0
     __count_word: int
+    __correct_color = "#38A46E"
+    __wrong_color = "#E01450"
+    __sortListModel: SortListModel
 
     def __init__(self) -> None:
         self.window = Questions_Window()
+        self.__sortListModel = SortListModel()
         self.model = Questions(RESOURCE_PATH / "question_001.json")
+        self.window.frame.selection.listView.setModel(self.__sortListModel)
         self.window.setStyleSheet(self.__loadQSS())
-        # print(self.model.items)
-        # self._setUI()
+        self.window.menu.pushButtonSelection.clicked.connect(self.__setUI)
+        self.window.menu.pushButtonSort.clicked.connect(self.__setUI)
+        self.window.frame.lineEditAnswer.returnPressed.connect(self.__result)
+        self.window.frame.pushButtonNext.clicked.connect(self.__nextQuestion)
+        self.window.frame.pushButtonPrev.clicked.connect(self.__prevQuestion)
+        # self.__installHotkey()
+
+    def __installHotkey(self):
+        action = QtWidgets.QAction()
+        action.setShortcut(QtGui.QKeySequence(QtCore.Qt.LeftArrow))
+        action.setShortcutContext(QtCore.Qt.ApplicationShortcut)
+        action.triggered.connect(main)
+
+    def __setUI(self) -> None:
         self.__setNumbers()
-        self.window.menu.pushButtonSelection.clicked.connect(self._setSelectionUI)
-        self.window.menu.pushButtonSort.clicked.connect(self._setSortUI)
+        self.__setQuestion(self.__numbers[self.__current])
+        if self.window.currentMode == "sort":
+            self.window.frame.lineEditAnswer.textChanged.connect(self.check_sentence)
+        else:
+            self.window.frame.lineEditAnswer.textChanged.disconnect(self.check_sentence)
+
+    def check_sentence(self, value):
+        inputWords = value.replace(".", "").split(" ")
+        result = len([item for item in self.words if item not in inputWords])
+        self.window.frame.selection.labelWordsCount.setText(f"{result} / {self.word_counts}")
+
+    def __result(self):
+        self.model.datetime = date.today().isoformat()
+        self.window.frame.frameExplanation.show()
+
+        if self.window.currentMode == "selection":
+            isChecked: bool = False
+            count = 0
+            while count:
+                exec(f"locals()['result'] = self.window.frame.selection.radioButton_{count}.isChecked()")
+                if locals()['result']:
+                    isChecked = True
+                    break
+                if count <= 4:
+                    break
+                count += 1
+            if not isChecked:
+                try:
+                    num = self.model.selections.index(self.window.frame.lineEditAnswer.text())
+                    eval(f"self.window.frame.selection.radioButton_{num}.setChecked(True)")
+                except ValueError:
+                    pass
+
+        self.window.setStyleSheet(self.__resultStyleSheet())
+
+    def __resultStyleSheet(self):
+        if self.window.currentMode == "sort":
+            if self.model.en == self.window.frame.lineEditAnswer.text():
+                self.model.count += 1
+                return self.__loadQSS() + f"\nQLineEdit#lineEditAnswer{{color: {self.__correct_color};}}"
+
+            if self.model.count > 0:
+                self.model.count -= 1
+
+            return self.__loadQSS() + f"\nQLineEdit#lineEditAnswer{{color: {self.__wrong_color};}}"
+        elif self.window.currentMode == "selection":
+            exec(f"locals()['result'] = self.window.frame.selection.radioButton_{self.model.answer}.isChecked()")
+            if locals()['result']:
+                self.model.count += 1
+                return self.__loadQSS() + f"\nQRadioButton#radioButton_{self.model.answer}{{color: {self.__correct_color};}}"
+
+            if self.model.count > 0:
+                self.model.count -= 1
+
+            return self.__loadQSS() + f"\nQRadioButton#radioButton_{self.model.answer}{{color:  {self.__wrong_color};}}"
+
+    def __initUI(self):
+        self.window.frame.lineEditAnswer.setText("")
+        if self.window.currentMode == "selection":
+            self.window.frame.selection.buttonGroup.setExclusive(False)
+            for num in range(4):
+                exec(f"self.window.frame.selection.radioButton_{num}.setChecked(False)")
+            self.window.frame.selection.buttonGroup.setExclusive(True)
+
+    def __nextQuestion(self) -> None:
+        self.window.setStyleSheet(self.__loadQSS())
+        self.__initUI()
+        if self.__current < self.model.item_count:
+            self.__current += 1
+            self.__setQuestion(self.__numbers[self.__current])
+
+        if self.__current > 0:
+            self.window.frame.pushButtonPrev.setEnabled(True)
+
+        if self.__current == self.model.item_count - 1:
+            self.window.frame.pushButtonNext.setEnabled(False)
+        else:
+            self.window.frame.pushButtonNext.setEnabled(True)
+
+    def __prevQuestion(self) -> None:
+        self.window.setStyleSheet(self.__loadQSS())
+        self.__initUI()
+        if self.__current <= self.model.item_count \
+                and self.__current > -1:
+            self.__current -= 1
+            self.__setQuestion(self.__numbers[self.__current])
+
+        if self.__current != self.model.item_count:
+            self.window.frame.pushButtonNext.setEnabled(True)
+
+        if self.__current == 0:
+            self.window.frame.pushButtonPrev.setEnabled(False)
+        else:
+            self.window.frame.pushButtonPrev.setEnabled(True)
+
+    def __setQuestion(self, num: int) -> None:
+        self.model.num = num
+        self.window.setStyleSheet(self.__loadQSS())
+        self.window.frame.lineEditAnswer.setText("")
+        self.window.frame.labelCount.setText(f"{self.model.count}")
+        self.window.frame.selection.labelJapanese.setText(self.model.jp)
+        self.window.frame.selection.labelWordsCount.hide()
+
+        if self.window.currentMode == "selection":
+            self.window.frame.selection.labelQuestion.setText(self.model.question)
+            for num, selection in enumerate(self.model.selections):
+                eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
+
+        elif self.window.currentMode == "sort":
+            self.window.frame.selection.labelWordsCount.show()
+            self.window.frame.selection.listView.show()
+            words = self.model.en.replace(".", "").split(" ")
+            random.shuffle(words)
+            self.__count_word = len(words)
+            self.numbered_words = [f"{i+1}.{word},  " for i, word in enumerate(words)]
+            shuffled_text = " ".join(self.numbered_words)
+            formatted_text = "\n".join(textwrap.wrap(shuffled_text, width=60))
+            formatted_text = f"{formatted_text.replace('.', '. ')}"[:-1]
+            self.__sortListModel.clear()
+            for words in self.numbered_words:
+                self.__sortListModel.addItem(
+                    SortItemModel(
+                        name=words.split(".")[1].replace(",  ", ""),
+                        displayName=words
+                    )
+                )
+
+            self.window.frame.selection.labelQuestion.setText(formatted_text)
+            self.window.frame.selection.labelWordsCount.setText(f"{self.word_counts} / {self.word_counts}")
+
+        self.window.frame.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
+        self.window.frame.textEditExplanation.setPlainText(
+            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}"
+        )
+        self.window.frame.labelResult.setText(self.model.selections[self.model.answer])
+        self.window.frame.frameExplanation.hide()
+
+    def __setSortQuestion(self, num: int) -> None:
+        self.model.num = num
+        self.window.sort.labelCount.setText(f"{self.model.count}")
+        self.window.sort.labelJapanese.setText(self.model.jp)
+
+        self.window.sort.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
+        self.window.sort.textEditExplanation.setPlainText(
+            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}")
+        self.window.sort.labelResult.setText(self.model.selections[self.model.answer])
+        self.window.sort.frameExplanation.hide()
+
+    def __setSelectionQuestion(self, num: int) -> None:
+        self.model.num = num
+        self.window.frame.labelCount.setText(f"{self.model.count}")
+        self.window.frame.selection.labelJapanese.setText(self.model.jp)
+        self.window.frame.selection.labelQuestion.setText(self.model.question)
+        self.window.frame.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
+        for num, selection in enumerate(self.model.selections):
+            eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
+        self.window.frame.textEditExplanation.setPlainText(
+            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}"
+        )
+        self.window.frame.labelResult.setText(self.model.selections[self.model.answer])
+        self.window.frame.frameExplanation.hide()
 
     def _setSortUI(self) -> None:
         self.__setSortQuestion(self.__numbers[self.__current])
@@ -37,17 +215,6 @@ class Connect:
         self.window.sort.pushButtonNext.clicked.connect(self.__nextSortQuestion)
         self.window.sort.pushButtonPrev.clicked.connect(self.__prevSortQuestion)
         self.window.sort.lineEditAnswer.textChanged.connect(self.check_sentence)
-
-    def _setSelectionUI(self) -> None:
-        self.__setSelectionQuestion(self.__numbers[self.__current])
-        self.window.selection.lineEditAnswer.returnPressed.connect(self.__selectionResult)
-        self.window.selection.pushButtonNext.clicked.connect(self.__nextSelectionQuestion)
-        self.window.selection.pushButtonPrev.clicked.connect(self.__prevSelectionQuestion)
-
-    def check_sentence(self, value):
-        inputWords = value.replace(".", "").split(" ")
-        result = len([item for item in self.words if item not in inputWords])
-        self.window.sort.labelWordsCount.setText(f"{result} / {self.word_counts}")
 
     @property
     def words(self):
@@ -57,40 +224,6 @@ class Connect:
     def word_counts(self):
         return len(self.words)
 
-    def __setSortQuestion(self, num: int) -> None:
-        self.model.num = num
-        self.window.sort.labelCount.setText(f"{self.model.count}")
-        self.window.sort.labelJapanese.setText(self.model.jp)
-        words = self.model.en.replace(".", "").split(" ")
-        random.shuffle(words)
-        self.__count_word = len(words)
-        numbered_words = [f"{i+1}.{word},  " for i, word in enumerate(words)]
-        shuffled_text = " ".join(numbered_words)
-        formatted_text = "\n".join(textwrap.wrap(shuffled_text, width=60))
-        formatted_text = f"{formatted_text.replace('.', '. ')}"[:-1]
-
-        self.window.sort.labelQuestion.setText(formatted_text)
-        self.window.sort.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
-        self.window.sort.textEditExplanation.setPlainText(
-            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}")
-        self.window.sort.labelResult.setText(self.model.selections[self.model.answer])
-        self.window.sort.textEditExplanation.hide()
-        self.window.sort.labelResult.hide()
-
-    def __setSelectionQuestion(self, num: int) -> None:
-        self.model.num = num
-        self.window.selection.labelCount.setText(f"{self.model.count}")
-        self.window.selection.labelJapanese.setText(self.model.jp)
-        self.window.selection.labelQuestion.setText(self.model.question)
-        self.window.selection.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
-        for num, selection in enumerate(self.model.selections):
-            eval(f"self.window.selection.radioButton_{num}.setText('{selection}')")
-        self.window.selection.textEditExplanation.setPlainText(
-            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}")
-        self.window.selection.labelResult.setText(self.model.selections[self.model.answer])
-        self.window.selection.textEditExplanation.hide()
-        self.window.selection.labelResult.hide()
-
     def __loadQSS(self) -> str:
         with open(QSS_PATH.absolute().as_posix(), encoding="utf-8") as f:
             return f.read()
@@ -98,130 +231,7 @@ class Connect:
     def __setNumbers(self) -> None:
         self.__numbers = [*range(self.model.item_count)]
         random.shuffle(self.__numbers)
-
-    def __sortResult(self) -> None:
-        self.window.sort.textEditExplanation.show()
-        self.window.sort.labelResult.show()
-        self.window.setStyleSheet(self.__resultSortStyleSheet())
-
-    def __resultSortStyleSheet(self) -> str:
-        self.model.datetime = date.today().isoformat()
-        if self.model.en == self.window.sort.lineEditAnswer.text():
-            self.model.count += 1
-            return self.__loadQSS() + "\nQLineEdit#lineEditAnswer{color: #38A46E;}"
-
-        if self.model.count > 0:
-            self.model.count -= 1
-
-        return self.__loadQSS() + "\nQLineEdit#lineEditAnswer{color: #E01450;}"
-
-    def __selectionResult(self) -> None:
-        isChecked: bool = False
-        self.window.selection.textEditExplanation.show()
-        self.window.selection.labelResult.show()
-        count = 0
-        while count:
-            exec(f"locals()['result'] = self.window.selection.radioButton_{count}.isChecked()")
-            if locals()['result']:
-                isChecked = True
-                break
-            if count <= 4:
-                break
-            count += 1
-        if not isChecked:
-            try:
-                num = self.model.selections.index(self.window.selection.lineEditAnswer.text())
-                eval(f"self.window.selection.radioButton_{num}.setChecked(True)")
-            except ValueError:
-                pass
-        self.window.setStyleSheet(self.__resultSelectionStyleSheet())
-
-    def __resultSelectionStyleSheet(self) -> str:
-        exec(f"locals()['result'] = self.window.selection.radioButton_{self.model.answer}.isChecked()")
-        self.model.datetime = date.today().isoformat()
-        if locals()['result']:
-            self.model.count += 1
-            return self.__loadQSS() + f"\nQRadioButton#radioButton_{self.model.answer}{{color: #38A46E;}}"
-
-        if self.model.count > 0:
-            self.model.count -= 1
-
-        return self.__loadQSS() + f"\nQRadioButton#radioButton_{self.model.answer}{{color: #E01450;}}"
-
-    def __setData(self, path: Path) -> None:
-        self.model.path = path
-
-    def __initSortUI(self) -> None:
-        self.window.sort.lineEditAnswer.setText("")
-
-    def __initSelectionUI(self) -> None:
-        self.window.buttonGroup.setExclusive(False)
-        for num in range(4):
-            exec(f"self.window.selection.radioButton_{num}.setChecked(False)")
-        self.window.buttonGroup.setExclusive(True)
-        self.window.selection.lineEditAnswer.setText("")
-
-    def __nextSortQuestion(self) -> None:
-        self.window.setStyleSheet(self.__loadQSS())
-        self.__initSortUI()
-        if self.__current < self.model.item_count:
-            self.__current += 1
-            self.__setSortQuestion(self.__numbers[self.__current])
-
-        if self.__current > 0:
-            self.window.sort.pushButtonPrev.setEnabled(True)
-
-        if self.__current == self.model.item_count - 1:
-            self.window.sort.pushButtonNext.setEnabled(False)
-        else:
-            self.window.sort.pushButtonNext.setEnabled(True)
-
-    def __prevSortQuestion(self) -> None:
-        self.window.setStyleSheet(self.__loadQSS())
-        self.__initSortUI()
-        if self.__current <= self.model.item_count \
-                and self.__current > -1:
-            self.__current -= 1
-            self.__setSortQuestion(self.__numbers[self.__current])
-
-        if self.__current != self.model.item_count:
-            self.window.sort.pushButtonNext.setEnabled(True)
-
-        if self.__current == 0:
-            self.window.sort.pushButtonPrev.setEnabled(False)
-        else:
-            self.window.sort.pushButtonPrev.setEnabled(True)
-
-    def __nextSelectionQuestion(self) -> None:
-        self.window.setStyleSheet(self.__loadQSS())
-        self.__initSelectionUI()
-        if self.__current < self.model.item_count:
-            self.__current += 1
-            self.__setSelectionQuestion(self.__numbers[self.__current])
-
-        if self.__current > 0:
-            self.window.selection.pushButtonPrev.setEnabled(True)
-
-        if self.__current == self.model.item_count - 1:
-            self.window.selection.pushButtonNext.setEnabled(False)
-        else:
-            self.window.selection.pushButtonNext.setEnabled(True)
-
-    def __prevSelectionQuestion(self) -> None:
-        self.window.setStyleSheet(self.__loadQSS())
-        self.__initSelectionUI()
-        if self.__current <= self.model.item_count \
-                and self.__current > -1:
-            self.__current -= 1
-            self.__setSelectionQuestion(self.__numbers[self.__current])
-
-        if self.__current != self.model.item_count:
-            self.window.selection.pushButtonNext.setEnabled(True)
-
-        if self.__current == 0:
-            self.window.selection.pushButtonPrev.setEnabled(False)
-        else:
-            self.window.selection.pushButtonPrev.setEnabled(True)
+        self.__current = 0
 
 
 def main() -> None:
