@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 from typing import Union
 
-from .sortlistmodel import SortItemModel
+from .sortlistmodel import SortItemModel, SortListModel
 
 PATH_LOCALAPPDATA = Path(f"{os.getenv('LOCALAPPDATA')}") / "EnglishLeaner"
 
@@ -107,7 +107,7 @@ class Questions:
     __path = ""
     __model: QuestionItemModels
     __num: int = 0
-    __sortListModel: SortItemModel
+    __sortListModel: SortListModel
 
     def __init__(self, path: Union[Path, str]) -> None:
         if isinstance(path, str):
@@ -115,9 +115,10 @@ class Questions:
         local_path = PATH_LOCALAPPDATA / path.name
         shutil.copyfile(path, local_path)
         self.__model = QuestionItemModels(local_path)
+        self.__sortListModel = SortListModel()
 
     @property
-    def sortListModel(self) -> SortItemModel:
+    def sortListModel(self) -> SortListModel:
         return self.__sortListModel
 
     @property

@@ -12,6 +12,6 @@ class Questions_Menu(_GENERATED_CLASS, QtWidgets.QWidget):
     pushButtonSelection: QtWidgets.QPushButton
     pushButtonSort: QtWidgets.QPushButton
 
-    def __init__(self, parent=None, *args, **kwargs) -> None:
-        super(Questions_Menu, self).__init__(parent, *args, **kwargs)
+    def __init__(self, parent: QtWidgets.QWidget = None) -> None:
+        super(Questions_Menu, self).__init__(parent)
         self.setupUi(self)
