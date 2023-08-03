@@ -1,6 +1,4 @@
 from typing import Any, Union
-
-import PySide2.QtCore
 from pydantic import BaseModel
 from PySide2 import QtCore, QtGui
 

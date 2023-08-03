@@ -1,15 +1,17 @@
-import os
 import random
-import sys
 import textwrap
+import os
+import sys
 from datetime import date
 from pathlib import Path
 
-from PySide2 import QtCore, QtGui, QtWidgets
+
+from PySide2 import QtWidgets, QtCore, QtGui
 
 from model.questions import Questions
 from model.sortlistmodel import SortItemModel, SortListModel
 from view.questions_view import Questions_Window
+
 
 os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
 QSS_PATH = Path(__file__).parent / "view" / "questions_view.qss"
@@ -20,6 +22,7 @@ class Connect:
     __numbers: list = []
     __current: int = 0
     __count_word: int
+    __sort_connected: bool = False
     __correct_color = "#38A46E"
     __wrong_color = "#E01450"
 
@@ -33,13 +36,17 @@ class Connect:
         self.window.frame.lineEditAnswer.returnPressed.connect(self.__result)
         self.window.frame.pushButtonNext.clicked.connect(self.__nextQuestion)
         self.window.frame.pushButtonPrev.clicked.connect(self.__prevQuestion)
+        self.window.actionOpen.triggered.connect(self.openfile)
         # self.__installHotkey()
 
-    def __installHotkey(self) -> None:
-        action = QtWidgets.QAction()
-        action.setShortcut(QtGui.QKeySequence(QtCore.Qt.LeftArrow))
-        action.setShortcutContext(QtCore.Qt.ApplicationShortcut)
-        action.triggered.connect(main)
+    def openfile(self) -> None:
+        fileDialog = QtWidgets.QFileDialog.getOpenFileNames(
+            parent=self.window,
+            caption="open json",
+            dir=RESOURCE_PATH.as_posix(),
+            filter="Json (*.json)"
+        )
+        self.model.path = Path(fileDialog[0][0])
 
     def __setUI(self) -> None:
         self.__setNumbers()
@@ -55,11 +62,12 @@ class Connect:
         inputWords = value.replace(".", "").split(" ")
 
         for num, item in enumerate(self.model.sortListModel.items):
-            if item.name in inputWords:
+            try:
+                inputWords.remove(item.name)
                 self.model.sortListModel.setData(num, True)
-            else:
+            except Exception:
                 self.model.sortListModel.setData(num, False)
-
+                
         result = len([item for item in self.words if item not in inputWords])
         self.window.frame.selection.labelWordsCount.setText(f"{result} / {self.word_counts}")
 
@@ -72,7 +80,7 @@ class Connect:
             count = 0
             while count:
                 exec(f"locals()['result'] = self.window.frame.selection.radioButton_{count}.isChecked()")
-                if locals()["result"]:
+                if locals()['result']:
                     isChecked = True
                     break
                 if count <= 4:
@@ -101,10 +109,7 @@ class Connect:
             exec(f"locals()['result'] = self.window.frame.selection.radioButton_{self.model.answer}.isChecked()")
             if locals()["result"]:
                 self.model.count += 1
-                return (
-                    self.__loadQSS()
-                    + f"\nQRadioButton#radioButton_{self.model.answer}{{color: {self.__correct_color};}}"
-                )
+                return self.__loadQSS() + f"\nQRadioButton#radioButton_{self.model.answer}{{color: {self.__correct_color};}}"
 
             if self.model.count > 0:
                 self.model.count -= 1
@@ -137,7 +142,8 @@ class Connect:
     def __prevQuestion(self) -> None:
         self.window.setStyleSheet(self.__loadQSS())
         self.__initUI()
-        if self.__current <= self.model.item_count and self.__current > -1:
+        if self.__current <= self.model.item_count \
+                and self.__current > -1:
             self.__current -= 1
             self.__setQuestion(self.__numbers[self.__current])
 
@@ -163,8 +169,8 @@ class Connect:
                 eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
 
         elif self.window.currentMode == "sort":
-            self.window.frame.selection.labelQuestion.hide()
             self.window.frame.selection.labelWordsCount.show()
+            self.window.frame.selection.listView.show()
             words = self.model.en.replace(".", "").split(" ")
             random.shuffle(words)
             self.__count_word = len(words)
@@ -197,8 +203,7 @@ class Connect:
 
         self.window.sort.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
         self.window.sort.textEditExplanation.setPlainText(
-            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}"
-        )
+            f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}")
         self.window.sort.labelResult.setText(self.model.selections[self.model.answer])
         self.window.sort.frameExplanation.hide()
 

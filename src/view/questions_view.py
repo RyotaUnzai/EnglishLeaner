@@ -15,6 +15,7 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
     menu: Questions_Menu
     verticalLayout: QtWidgets.QVBoxLayout
     sender_widget: QtWidgets.QPushButton
+    actionOpen: QtWidgets.QAction
     currentMode = "menu"
 
     def __init__(self, *args, **kwargs) -> None:

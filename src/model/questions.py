@@ -6,10 +6,9 @@ from typing import Union
 
 from .sortlistmodel import SortItemModel, SortListModel
 
-PATH_LOCALAPPDATA = Path(f"{os.getenv('LOCALAPPDATA')}") / "EnglishLeaner"
-
-if not PATH_LOCALAPPDATA.exists():
-    PATH_LOCALAPPDATA.mkdir()
+# PATH_LOCALAPPDATA = Path(f"{os.environ.get('LOCALAPPDATA')}") / "EnglishLeaner"
+PATH_LOCALAPPDATA = Path(os.environ.get("USERPROFILE")) / "Documents" / "EnglishLeaner"
+PATH_LOCALAPPDATA.mkdir(exist_ok=True)
 
 
 class QuestionItemModel:
@@ -64,6 +63,9 @@ class QuestionItemModels:
     __path: Path
 
     def __init__(self, path: Path) -> None:
+        self.reload(path)
+
+    def reload(self, path: Path):
         self.clear()
         self.path = path
         self.setItem()
@@ -108,14 +110,21 @@ class Questions:
     __model: QuestionItemModels
     __num: int = 0
     __sortListModel: SortListModel
+    __sortItemModel: SortItemModel
 
     def __init__(self, path: Union[Path, str]) -> None:
+        self.open(path)
+        self.__model = QuestionItemModels(self.__path)
+        self.__sortListModel = SortListModel()
+
+    def open(self, path: Union[Path, str]):
         if isinstance(path, str):
             path = Path(path)
-        local_path = PATH_LOCALAPPDATA / path.name
-        shutil.copyfile(path, local_path)
-        self.__model = QuestionItemModels(local_path)
-        self.__sortListModel = SortListModel()
+        self.__path = PATH_LOCALAPPDATA / path.name
+        shutil.copyfile(path.as_posix(), self.__path.as_posix())
+
+    def reload(self, path: Union[Path, str]):
+        self.open(path)
 
     @property
     def sortListModel(self) -> SortListModel:
@@ -147,7 +156,8 @@ class Questions:
 
     @path.setter
     def path(self, path: Path) -> None:
-        self.__model.path = path
+        self.reload(path)
+        self.model.reload(self.__path)
 
     @property
     def items(self) -> list[QuestionItemModel]:
