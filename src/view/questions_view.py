@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-from PySide2 import QtWidgets
+from PySide2 import QtWidgets, QtGui
 from PySide2.QtUiTools import loadUiType
 from .questions_frame import Questions_Frame
 from .questions_menu import Questions_Menu
@@ -29,8 +29,15 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
         self.verticalLayout.addWidget(self.menu)
         self.__initUI()
 
+    def __force(self):
+        self.frame.lineEditAnswer.setFocus()
+
     def __initUI(self) -> None:
         self.setWindowTitle("English Questions")
+        self.frame.pushButtonNext.clicked.connect(self.__force)
+        self.frame.pushButtonPrev.clicked.connect(self.__force)
+        self.menu.pushButtonSelection.clicked.connect(self.__force)
+        self.menu.pushButtonSort.clicked.connect(self.__force)
         self.menu.pushButtonSelection.clicked.connect(lambda: self.showUI(mode="selection"))
         self.menu.pushButtonSort.clicked.connect(lambda: self.showUI(mode="sort"))
         self.frame.pushButtonBack.clicked.connect(lambda: self.showUI(mode="menu"))

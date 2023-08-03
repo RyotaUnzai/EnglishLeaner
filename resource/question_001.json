@@ -73,7 +73,7 @@
             "see off"
         ],
         "answer": 3,
-        "explanation": "'See off'は誰かを見送ることを意味します。したがって、'She went to the station to see off her family to their train.'は、彼女は家族を列車まで見送るために駅に向かったという意味になります。",
+        "explanation": "「to see off」は「見送る」というフレーズで、「her family」は「彼女の家族」を、「to their train」は「彼らの列車に」という目的を示しています。「to see off her family to their train」は「彼女の家族を彼らの列車に見送るために」という目的を表しています。",
         "en": "She went to the station to see off her family to their train.",
         "jp": "彼女は家族を列車まで見送るために駅に向かった。"
     },
@@ -203,7 +203,7 @@
             "formulate"
         ],
         "answer": 1,
-        "explanation": "'Come up with'は新しいアイデアや計画を思いつくことを意味します。したがって、'We need to come up with a new strategy for our marketing campaign.'は、私たちがマーケティングキャンペーンのための新しい戦略を思いつく必要があるという意味になります。",
+        "explanation": "この文の理解のための重要なフレーズは「come up with」です。これは「思いつく」「考案する」といった意味のフレーズで、新しいアイデアや解決策を生み出すことを指します。\n\nしたがって、この文は新しいマーケティング戦略の必要性を示しています。これは、現在の戦略が十分に効果的でない、あるいは新たな市場の機会に対応するために新しいアプローチが必要であることを暗示しているかもしれません。",
         "en": "We need to come up with a new strategy for our marketing campaign.",
         "jp": "私たちはマーケティングキャンペーンのための新しい戦略を思いつく必要があります。"
     },
@@ -229,7 +229,7 @@
             "denied"
         ],
         "answer": 3,
-        "explanation": "'Deny'は何かが真実でないと主張することを意味します。したがって、'She denied the allegations made against her.'は、彼女は自分に対する疑惑を否定したという意味になります。",
+        "explanation": "ここでのキーワードは「deny」と「allegations」です。 \n1.「deny」は英語で「否定する」や「拒否する」という意味を持つ動詞で、ここでは「否定する」という意味です。\n2.「allegations」は「主張された事実」や「疑惑」などという意味の名詞で、具体的な証拠に基づかない主張や疑惑を指します。\nしたがって、「She denied the allegations made against her.」とは、「彼女は自分に対して提起された（= made against her）疑惑（= allegations）を否定した（= denied）」という意味になります。つまり、何か彼女に対して主張された事実や疑惑があったが、彼女はそれを否定した、という状況を表しています。\n「the allegations made against her」は「彼女に対してなされた告発」を指しており、「made against her」は「彼女に対してなされた」という意味の句を形成します。ここで、「made」は過去分詞で「～に対してなされた」という意味を持ち、「against her」は「彼女に対して」という意味を持つ前置詞句です。",
         "en": "She denied the allegations made against her.",
         "jp": "彼女は自分に対する疑惑を否定した。"
     }

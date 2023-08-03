@@ -1,5 +1,5 @@
 import random
-import textwrap
+import keyboard
 import os
 import sys
 from datetime import date
@@ -9,7 +9,7 @@ from pathlib import Path
 from PySide2 import QtWidgets, QtCore, QtGui
 
 from model.questions import Questions
-from model.sortlistmodel import SortItemModel, SortListModel
+from model.sortlistmodel import SortItemModel
 from view.questions_view import Questions_Window
 
 
@@ -37,7 +37,17 @@ class Connect:
         self.window.frame.pushButtonNext.clicked.connect(self.__nextQuestion)
         self.window.frame.pushButtonPrev.clicked.connect(self.__prevQuestion)
         self.window.actionOpen.triggered.connect(self.openfile)
-        # self.__installHotkey()
+        self.__installHotkey()
+
+    def __installHotkey(self):
+        QtWidgets.QShortcut(
+            QtGui.QKeySequence(QtCore.Qt.RightArrow),
+            self.window, self.__nextQuestion
+        )
+        QtWidgets.QShortcut(
+            QtGui.QKeySequence(QtCore.Qt.LeftArrow),
+            self.window, self.__prevQuestion
+        )
 
     def openfile(self) -> None:
         fileDialog = QtWidgets.QFileDialog.getOpenFileNames(
@@ -60,7 +70,6 @@ class Connect:
 
     def checkSentence(self, value: str) -> None:
         inputWords = value.replace(".", "").split(" ")
-
         for num, item in enumerate(self.model.sortListModel.items):
             try:
                 inputWords.remove(item.name)
@@ -164,6 +173,7 @@ class Connect:
         self.window.frame.selection.labelWordsCount.hide()
 
         if self.window.currentMode == "selection":
+            self.window.frame.selection.listView.hide()
             self.window.frame.selection.labelQuestion.setText(self.model.question)
             for num, selection in enumerate(self.model.selections):
                 eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
@@ -171,13 +181,11 @@ class Connect:
         elif self.window.currentMode == "sort":
             self.window.frame.selection.labelWordsCount.show()
             self.window.frame.selection.listView.show()
+            self.window.frame.selection.labelQuestion.setText("")
             words = self.model.en.replace(".", "").split(" ")
             random.shuffle(words)
             self.__count_word = len(words)
             self.numbered_words: list[str] = [f"{i+1}.{word},  " for i, word in enumerate(words)]
-            # shuffled_text = " ".join(self.numbered_words)
-            # formatted_text = "\n".join(textwrap.wrap(shuffled_text, width=60))
-            # formatted_text = f"{formatted_text.replace('.', '. ')}"[:-1]
             if self.model.sortListModel.items != []:
                 self.model.sortListModel.clear()
             for word in self.numbered_words:
@@ -185,8 +193,6 @@ class Connect:
                     SortItemModel(name=word.split(".")[1].replace(",  ", ""), displayName=word)
                 )
             self.window.frame.selection.listView.show()
-
-            # self.window.frame.selection.labelQuestion.setText(formatted_text)
             self.window.frame.selection.labelWordsCount.setText(f"{self.word_counts} / {self.word_counts}")
 
         self.window.frame.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
