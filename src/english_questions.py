@@ -1,5 +1,4 @@
 import random
-import keyboard
 import os
 import sys
 from datetime import date
@@ -33,21 +32,13 @@ class Connect:
         self.window.setStyleSheet(self.__loadQSS())
         self.window.menu.pushButtonSelection.clicked.connect(self.__setUI)
         self.window.menu.pushButtonSort.clicked.connect(self.__setUI)
+        self.window.menu.pushButtonWrite.clicked.connect(self.__setUI)
         self.window.frame.lineEditAnswer.returnPressed.connect(self.__result)
         self.window.frame.pushButtonNext.clicked.connect(self.__nextQuestion)
         self.window.frame.pushButtonPrev.clicked.connect(self.__prevQuestion)
         self.window.actionOpen.triggered.connect(self.openfile)
-        self.__installHotkey()
-
-    def __installHotkey(self):
-        QtWidgets.QShortcut(
-            QtGui.QKeySequence(QtCore.Qt.RightArrow),
-            self.window, self.__nextQuestion
-        )
-        QtWidgets.QShortcut(
-            QtGui.QKeySequence(QtCore.Qt.LeftArrow),
-            self.window, self.__prevQuestion
-        )
+        self.window.nextQuestion.connect(self.__nextQuestion)
+        self.window.prevQuestion.connect(self.__prevQuestion)
 
     def openfile(self) -> None:
         fileDialog = QtWidgets.QFileDialog.getOpenFileNames(
@@ -76,13 +67,11 @@ class Connect:
                 self.model.sortListModel.setData(num, True)
             except Exception:
                 self.model.sortListModel.setData(num, False)
-                
-        result = len([item for item in self.words if item not in inputWords])
-        self.window.frame.selection.labelWordsCount.setText(f"{result} / {self.word_counts}")
 
     def __result(self) -> None:
         self.model.datetime = date.today().isoformat()
         self.window.frame.frameExplanation.show()
+        # self.window.setFocus()
 
         if self.window.currentMode == "selection":
             isChecked: bool = False
@@ -114,6 +103,13 @@ class Connect:
                 self.model.count -= 1
 
             return self.__loadQSS() + f"\nQLineEdit#lineEditAnswer{{color: {self.__wrong_color};}}"
+        elif self.window.currentMode == "write":
+            if self.window.frame.lineEditAnswer.text() == self.model.selections[self.model.answer]:
+                self.model.count += 1
+                return self.__loadQSS() + f"\nQLineEdit#lineEditAnswer{{color: {self.__correct_color};}}"
+
+            return self.__loadQSS() + f"\nQLineEdit#lineEditAnswer{{color: {self.__wrong_color};}}"
+
         elif self.window.currentMode == "selection":
             exec(f"locals()['result'] = self.window.frame.selection.radioButton_{self.model.answer}.isChecked()")
             if locals()["result"]:
@@ -127,6 +123,7 @@ class Connect:
 
     def __initUI(self) -> None:
         self.window.frame.lineEditAnswer.setText("")
+        self.window.frame.lineEditAnswer.setFocus()
         if self.window.currentMode == "selection":
             self.window.frame.selection.buttonGroup.setExclusive(False)
             for num in range(4):
@@ -170,16 +167,15 @@ class Connect:
         self.window.frame.lineEditAnswer.setText("")
         self.window.frame.labelCount.setText(f"{self.model.count}")
         self.window.frame.selection.labelJapanese.setText(self.model.jp)
-        self.window.frame.selection.labelWordsCount.hide()
 
-        if self.window.currentMode == "selection":
+        if self.window.currentMode == "write" or self.window.currentMode == "selection":
             self.window.frame.selection.listView.hide()
             self.window.frame.selection.labelQuestion.setText(self.model.question)
-            for num, selection in enumerate(self.model.selections):
-                eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
+            if self.window.currentMode == "selection":
+                for num, selection in enumerate(self.model.selections):
+                    eval(f"self.window.frame.selection.radioButton_{num}.setText('{selection}')")
 
         elif self.window.currentMode == "sort":
-            self.window.frame.selection.labelWordsCount.show()
             self.window.frame.selection.listView.show()
             self.window.frame.selection.labelQuestion.setText("")
             words = self.model.en.replace(".", "").split(" ")
@@ -193,8 +189,6 @@ class Connect:
                     SortItemModel(name=word.split(".")[1].replace(",  ", ""), displayName=word)
                 )
             self.window.frame.selection.listView.show()
-            self.window.frame.selection.labelWordsCount.setText(f"{self.word_counts} / {self.word_counts}")
-
         self.window.frame.labelCurrentNumber.setText(f"{self.__current+1} / {self.model.item_count}")
         self.window.frame.textEditExplanation.setPlainText(
             f"{self.model.en}\n{self.model.jp}\n\n{self.model.explanation}"

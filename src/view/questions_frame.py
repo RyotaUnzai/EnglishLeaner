@@ -31,7 +31,13 @@ class Questions_Frame(_GENERATED_CLASS, QtWidgets.QWidget):
     def showSort(self) -> None:
         super(Questions_Frame, self).show()
         self.selection.frameSelection.hide()
+        self.selection.listView.show()
 
     def showSelection(self) -> None:
         super(Questions_Frame, self).show()
         self.selection.frameSelection.show()
+
+    def showWrite(self) -> None:
+        super(Questions_Frame, self).show()
+        self.selection.frameSelection.hide()
+        self.selection.listView.hide()

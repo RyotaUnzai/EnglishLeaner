@@ -14,7 +14,6 @@ class Questions_Sort(_GENERATED_CLASS, QtWidgets.QWidget):
     labelQuestion: QtWidgets.QLabel
     labelResult: QtWidgets.QLabel
     labelCount: QtWidgets.QLabel
-    labelWordsCount: QtWidgets.QLabel
     labelCurrentNumber: QtWidgets.QLabel
     textEditExplanation: QtWidgets.QTextEdit
     pushButtonNext: QtWidgets.QPushButton

@@ -95,13 +95,6 @@
            </layout>
           </widget>
          </item>
-         <item>
-          <widget class="QLabel" name="labelWordsCount">
-           <property name="text">
-            <string>labelWordsCount</string>
-           </property>
-          </widget>
-         </item>
         </layout>
        </widget>
       </item>

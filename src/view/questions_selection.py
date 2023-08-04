@@ -12,7 +12,6 @@ class Questions_Selection(_GENERATED_CLASS, QtWidgets.QWidget):
     frameSelection: QtWidgets.QFrame
     labelJapanese: QtWidgets.QLabel
     labelQuestion: QtWidgets.QLabel
-    labelWordsCount: QtWidgets.QLabel
     radioButton_0: QtWidgets.QRadioButton
     radioButton_1: QtWidgets.QRadioButton
     radioButton_2: QtWidgets.QRadioButton

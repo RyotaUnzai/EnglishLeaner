@@ -22,6 +22,7 @@ QPushButton#pushButtonBack{
     padding: 5px 15px;
 }
 
+QPushButton#pushButtonWrite,
 QPushButton#pushButtonSelection,
 QPushButton#pushButtonSort {
     border-style: solid;
