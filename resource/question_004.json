@@ -1,314 +1,302 @@
 [
     {
-        "question": "I _____ an old photo of mine while cleaning the house.",
+        "question": "His room is always so _____; everything is in its place.",
         "selections": [
-            "found",
-            "came across",
-            "discovered",
-            "uncovered"
-        ],
-        "answer": 1,
-        "explanation": "'Come across'は偶然見つけることを意味します。したがって、'I came across an old photo of mine while cleaning the house.'は、家を掃除しているときに自分の古い写真を偶然見つけたという意味になります。",
-        "en": "I came across an old photo of mine while cleaning the house.",
-        "jp": "家を掃除しているときに自分の古い写真を偶然見つけました。"
-    },
-    {
-        "question": "She _____ a strange object while walking in the forest.",
-        "selections": [
-            "saw",
-            "found",
-            "came across",
-            "noticed"
-        ],
-        "answer": 2,
-        "explanation": "'Come across'は偶然見つけることを意味します。したがって、'She came across a strange object while walking in the forest.'は、森を歩いているときに奇妙な物体を偶然見つけたという意味になります。",
-        "en": "She came across a strange object while walking in the forest.",
-        "jp": "彼女は森を歩いているときに奇妙な物体を偶然見つけました。"
-    },
-    {
-        "question": "He _____ to be a doctor to impress the girl.",
-        "selections": [
-            "lied",
-            "pretended",
-            "claimed",
-            "said"
-        ],
-        "answer": 1,
-        "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'He pretended to be a doctor to impress the girl.'は、彼が女の子に感銘を与えるために医者のふりをしたという意味になります。",
-        "en": "He pretended to be a doctor to impress the girl.",
-        "jp": "彼は女の子に感銘を与えるために医者のふりをしました。"
-    },
-    {
-        "question": "The child _____ to be asleep when his mother entered the room.",
-        "selections": [
-            "acted",
-            "pretended",
-            "faked",
-            "played"
-        ],
-        "answer": 1,
-        "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'The child pretended to be asleep when his mother entered the room.'は、母親が部屋に入ったときに子供が眠っているふりをしたという意味になります。",
-        "en": "The child pretended to be asleep when his mother entered the room.",
-        "jp": "母親が部屋に入ったとき、子供は眠っているふりをしました。"
-    },
-    {
-        "question": "The club decided to _____ him from the team due to his bad behavior.",
-        "selections": [
-            "remove",
-            "exclude",
-            "expel",
-            "dismiss"
-        ],
-        "answer": 1,
-        "explanation": "'Exclude'は除外することを意味します。したがって、'The club decided to exclude him from the team due to his bad behavior.'は、彼の悪い行動のためにクラブが彼をチームから除外することを決定したという意味になります。",
-        "en": "The club decided to exclude him from the team due to his bad behavior.",
-        "jp": "彼の悪い行動のためにクラブは彼をチームから除外することを決定しました。"
-    },
-    {
-        "question": "The teacher decided to _____ him from the field trip because he didn't submit the permission slip.",
-        "selections": [
-            "exclude",
-            "remove",
-            "leave out",
-            "omit"
+            "neat",
+            "messy",
+            "complicated",
+            "noisy"
         ],
         "answer": 0,
-        "explanation": "'Exclude'は除外することを意味します。したがって、'The teacher decided to exclude him from the field trip because he didn't submit the permission slip.'は、彼が許可書を提出しなかったために教師が彼を遠足から除外することを決定したという意味になります。",
-        "en": "The teacher decided to exclude him from the field trip because he didn't submit the permission slip.",
-        "jp": "彼が許可書を提出しなかったため、教師は彼を遠足から除外することを決定しました。"
+        "explanation": "'Neat'は整然としていることを意味します。他の単語（'messy'、「乱雑な」、'complicated'、「複雑な」、'noisy'、「うるさい」）は、この文脈とは逆の意味を持ちます。",
+        "en": "His room is always so neat; everything is in its place.",
+        "jp": "彼の部屋はいつもとてもきちんとしています。すべてが定位置にあります。"
     },
     {
-        "question": "They decided to _____ the room for the party.",
+        "question": "She arranged the flowers _____ in the vase.",
         "selections": [
-            "prepare",
-            "arrange",
-            "decorate",
-            "set up"
-        ],
-        "answer": 2,
-        "explanation": "'Decorate'は装飾することを意味します。したがって、'They decided to decorate the room for the party.'は、彼らがパーティーのために部屋を装飾することを決定したという意味になります。",
-        "en": "They decided to decorate the room for the party.",
-        "jp": "彼らはパーティーのために部屋を装飾することを決定しました。"
-    },
-    {
-        "question": "She loves to _____ her house during the holiday season.",
-        "selections": [
-            "adorn",
-            "decorate",
-            "embellish",
-            "beautify"
-        ],
-        "answer": 1,
-        "explanation": "'Decorate'は装飾することを意味します。したがって、'She loves to decorate her house during the holiday season.'は、彼女が休暇シーズン中に家を装飾するのが好きであるという意味になります。",
-        "en": "She loves to decorate her house during the holiday season.",
-        "jp": "彼女は休暇シーズン中に家を装飾するのが好きです。"
-    },
-    {
-        "question": "The company decided to _____ a new manager.",
-        "selections": [
-            "appoint",
-            "hire",
-            "recruit",
-            "employ"
-        ],
-        "answer": 1,
-        "explanation": "'Hire'は雇うことを意味します。したがって、'The company decided to hire a new manager.'は、会社が新しいマネージャーを雇うことを決定したという意味になります。",
-        "en": "The company decided to hire a new manager.",
-        "jp": "会社は新しいマネージャーを雇うことを決定しました。"
-    },
-    {
-        "question": "They had to _____ a translator for the international conference.",
-        "selections": [
-            "employ",
-            "engage",
-            "recruit",
-            "hire"
-        ],
-        "answer": 3,
-        "explanation": "'Hire'は雇うことを意味します。したがって、'They had to hire a translator for the international conference.'は、彼らが国際会議のために翻訳者を雇わなければならなかったという意味になります。",
-        "en": "They had to hire a translator for the international conference.",
-        "jp": "彼らは国際会議のために翻訳者を雇わなければならなかった。"
-    },
-    {
-        "question": "The company had to _____ him due to his poor performance.",
-        "selections": [
-            "dismiss",
-            "fire",
-            "sack",
-            "terminate"
-        ],
-        "answer": 1,
-        "explanation": "'Fire'は解雇することを意味します。したがって、'The company had to fire him due to his poor performance.'は、彼のパフォーマンスが悪かったために会社が彼を解雇しなければならなかったという意味になります。",
-        "en": "The company had to fire him due to his poor performance.",
-        "jp": "彼のパフォーマンスが悪かったため、会社は彼を解雇しなければならなかった。"
-    },
-    {
-        "question": "He was _____ from his job for stealing office supplies.",
-        "selections": [
-            "fired",
-            "dismissed",
-            "sacked",
-            "let go"
+            "neatly",
+            "awkwardly",
+            "clumsily",
+            "roughly"
         ],
         "answer": 0,
-        "explanation": "'Fire'は解雇することを意味します。したがって、'He was fired from his job for stealing office supplies.'は、彼がオフィス用品を盗んだために彼の仕事から解雇されたという意味になります。",
-        "en": "He was fired from his job for stealing office supplies.",
-        "jp": "彼はオフィス用品を盗んだために仕事から解雇されました。"
+        "explanation": "'Neatly'は整然としている様子を表します。他の単語（'awkwardly'、「ぎこちなく」、'clumsily'、「不器用に」、'roughly'、「大ざっぱに」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She arranged the flowers neatly in the vase.",
+        "jp": "彼女は花瓶の中の花をきちんと整えました。"
     },
     {
-        "question": "I need to _____ my friend who moved to another city.",
+        "question": "He is known for being _____ and always completing his tasks on time.",
         "selections": [
-            "meet",
-            "find",
-            "see",
-            "catch up with"
-        ],
-        "answer": 3,
-        "explanation": "'Catch up with'は追いつく、連絡を取ることを意味します。したがって、'I need to catch up with my friend who moved to another city.'は、他の都市に移住した友人に連絡を取る必要があるという意味になります。",
-        "en": "I need to catch up with my friend who moved to another city.",
-        "jp": "他の都市に移住した友人に連絡を取る必要があります。"
-    },
-    {
-        "question": "He is trying to _____ the latest trends in technology.",
-        "selections": [
-            "follow",
-            "catch up with",
-            "keep up with",
-            "track"
-        ],
-        "answer": 1,
-        "explanation": "'Catch up with'は追いつくことを意味します。したがって、'He is trying to catch up with the latest trends in technology.'は、彼が技術の最新のトレンドに追いつこうとしているという意味になります。",
-        "en": "He is trying to catch up with the latest trends in technology.",
-        "jp": "彼は技術の最新のトレンドに追いつこうとしています。"
-    },
-    {
-        "question": "She has to _____ her younger brother while their parents are away.",
-        "selections": [
-            "care for",
-            "watch",
-            "look after",
-            "guard"
-        ],
-        "answer": 2,
-        "explanation": "'Look after'は世話をすることを意味します。したがって、'She has to look after her younger brother while their parents are away.'は、両親が不在の間、彼女が弟の世話をしなければならないという意味になります。",
-        "en": "She has to look after her younger brother while their parents are away.",
-        "jp": "両親が不在の間、彼女は弟の世話をしなければなりません。"
-    },
-    {
-        "question": "He was hired to _____ the children during the summer vacation.",
-        "selections": [
-            "look after",
-            "care for",
-            "watch",
-            "guard"
+            "diligent",
+            "lazy",
+            "careless",
+            "negligent"
         ],
         "answer": 0,
-        "explanation": "'Look after'は世話をすることを意味します。したがって、'He was hired to look after the children during the summer vacation.'は、彼が夏休み中に子供たちの世話をするために雇われたという意味になります。",
-        "en": "He was hired to look after the children during the summer vacation.",
-        "jp": "彼は夏休み中に子供たちの世話をするために雇われました。"
+        "explanation": "'Diligent'は勤勉なことを意味します。他の単語（'lazy'、「怠惰な」、'careless'、「不注意な」、'negligent'、「怠慢な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He is known for being diligent and always completing his tasks on time.",
+        "jp": "彼は勤勉で、常にタスクを時間通りに完了することで知られています。"
     },
     {
-        "question": "The mechanic was able to _____ the car in a few hours.",
+        "question": "She worked _____ to finish the project before the deadline.",
         "selections": [
-            "fix",
-            "repair",
-            "mend",
-            "restore"
-        ],
-        "answer": 1,
-        "explanation": "'Repair'は修理することを意味します。したがって、'The mechanic was able to repair the car in a few hours.'は、メカニックが数時間で車を修理できたという意味になります。",
-        "en": "The mechanic was able to repair the car in a few hours.",
-        "jp": "メカニックは数時間で車を修理できました。"
-    },
-    {
-        "question": "He learned how to _____ old furniture from his grandfather.",
-        "selections": [
-            "repair",
-            "fix",
-            "mend",
-            "restore"
+            "diligently",
+            "lazily",
+            "carelessly",
+            "negligently"
         ],
         "answer": 0,
-        "explanation": "'Repair'は修理することを意味します。したがって、'He learned how to repair old furniture from his grandfather.'は、彼が祖父から古い家具の修理方法を学んだという意味になります。",
-        "en": "He learned how to repair old furniture from his grandfather.",
-        "jp": "彼は祖父から古い家具の修理方法を学びました。"
+        "explanation": "'Diligently'は勤勉に働く様子を表します。他の単語（'lazily'、「怠惰に」、'carelessly'、「不注意に」、'negligently'、「怠慢に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She worked diligently to finish the project before the deadline.",
+        "jp": "彼女は締め切り前にプロジェクトを終了させるために勤勉に働きました。"
     },
     {
-        "question": "Could you _____ me your pen?",
+        "question": "Please _____ the recyclables from the trash.",
         "selections": [
-            "give",
-            "lend",
-            "hand",
-            "pass"
-        ],
-        "answer": 1,
-        "explanation": "'Lend'は貸すことを意味します。したがって、'Could you lend me your pen?'は、あなたが私にペンを貸してくれるかという意味になります。",
-        "en": "Could you lend me your pen?",
-        "jp": "ペンを貸してもらえますか？"
-    },
-    {
-        "question": "I will _____ you the book when I finish reading it.",
-        "selections": [
-            "lend",
-            "give",
-            "hand",
-            "pass"
+            "separate",
+            "combine",
+            "mix",
+            "muddle"
         ],
         "answer": 0,
-        "explanation": "'Lend'は貸すことを意味します。したがって、'I will lend you the book when I finish reading it.'は、私がそれを読み終えたらあなたにその本を貸すという意味になります。",
-        "en": "I will lend you the book when I finish reading it.",
-        "jp": "私が読み終えたらその本を貸します。"
+        "explanation": "'Separate'は分けることを意味します。他の単語（'combine'、「結合する」、'mix'、「混ぜる」、'muddle'、「混乱させる」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Please separate the recyclables from the trash.",
+        "jp": "リサイクル可能なものとゴミを分けてください。"
     },
     {
-        "question": "She really _____ her mother in terms of personality.",
+        "question": "The teacher asked the students to work _____ on their projects.",
         "selections": [
-            "resembles",
-            "takes after",
-            "looks like",
-            "mimics"
-        ],
-        "answer": 1,
-        "explanation": "'Take after'は（親などに）似ているという意味です。したがって、'She really takes after her mother in terms of personality.'は、彼女は性格において本当に母親に似ているという意味になります。",
-        "en": "She really takes after her mother in terms of personality.",
-        "jp": "彼女は性格において本当に母親に似ています。"
-    },
-    {
-        "question": "He _____ his father in many ways.",
-        "selections": [
-            "takes after",
-            "resembles",
-            "looks like",
-            "mimics"
+            "separately",
+            "together",
+            "identically",
+            "uniformly"
         ],
         "answer": 0,
-        "explanation": "'Take after'は（親などに）似ているという意味です。したがって、'He takes after his father in many ways.'は、彼は多くの点で父親に似ているという意味になります。",
-        "en": "He takes after his father in many ways.",
-        "jp": "彼は多くの点で父親に似ています。"
+        "explanation": "'Separately'は個別に行うことを意味します。他の単語（'together'、「一緒に」、'identically'、「同一に」、'uniformly'、「均一に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The teacher asked the students to work separately on their projects.",
+        "jp": "先生は生徒たちに、プロジェクトを個別に取り組むように頼みました。"
     },
     {
-        "question": "You have to _____ his bad behavior because he is still a child.",
+        "question": "He is known for being _____ and always telling the truth.",
         "selections": [
-            "tolerate",
-            "endure",
-            "bear",
-            "put up with"
-        ],
-        "answer": 3,
-        "explanation": "'Put up with'は我慢するという意味です。したがって、'You have to put up with his bad behavior because he is still a child.'は、彼がまだ子供なので彼の悪い行動を我慢しなければならないという意味になります。",
-        "en": "You have to put up with his bad behavior because he is still a child.",
-        "jp": "彼がまだ子供なので、彼の悪い行動を我慢しなければなりません。"
-    },
-    {
-        "question": "It's difficult to _____ her constant complaining.",
-        "selections": [
-            "put up with",
-            "tolerate",
-            "endure",
-            "bear"
+            "honest",
+            "deceptive",
+            "dishonest",
+            "misleading"
         ],
         "answer": 0,
-        "explanation": "'Put up with'は我慢するという意味です。したがって、'It's difficult to put up with her constant complaining.'は、彼女の絶え間ない不平を我慢するのは難しいという意味になります。",
-        "en": "It's difficult to put up with her constant complaining.",
-        "jp": "彼女の絶え間ない不平を我慢するのは難しいです。"
+        "explanation": "'Honest'は正直なことを意味します。他の単語（'deceptive'、「欺瞞的な」、'dishonest'、「不正直な」、'misleading'、「誤解を招く」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He is known for being honest and always telling the truth.",
+        "jp": "彼は正直で、常に真実を語ることで知られています。"
+    },
+    {
+        "question": "She spoke _____ about her feelings and didn't hide anything.",
+        "selections": [
+            "honestly",
+            "deceptively",
+            "dishonestly",
+            "misleadingly"
+        ],
+        "answer": 0,
+        "explanation": "'Honestly'は正直に話す様子を表します。他の単語（'deceptively'、「欺瞞的に」、'dishonestly'、「不正直に」、'misleadingly'、「誤解を招くように」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She spoke honestly about her feelings and didn't hide anything.",
+        "jp": "彼女は自分の感情について正直に話し、何も隠しませんでした。"
+    },
+    {
+        "question": "The instructions were _____ and easy to follow.",
+        "selections": [
+            "simple",
+            "complicated",
+            "confusing",
+            "ambiguous"
+        ],
+        "answer": 0,
+        "explanation": "'Simple'は単純なことを意味します。他の単語（'complicated'、「複雑な」、'confusing'、「混乱させる」、'ambiguous'、「曖昧な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The instructions were simple and easy to follow.",
+        "jp": "指示は単純で、簡単に従うことができました。"
+    },
+    {
+        "question": "Just follow the recipe _____, and you'll make a delicious cake.",
+        "selections": [
+            "simply",
+            "complicatedly",
+            "confusingly",
+            "ambiguously"
+        ],
+        "answer": 0,
+        "explanation": "'Simply'は単純に行う様子を表します。他の単語（'complicatedly'、「複雑に」、'confusingly'、「混乱させるように」、'ambiguously'、「曖昧に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Just follow the recipe simply, and you'll make a delicious cake.",
+        "jp": "単にレシピに従うだけで、美味しいケーキが作れます。"
+    },
+    {
+        "question": "This is a _____ matter, and we need to handle it with care.",
+        "selections": [
+            "serious",
+            "trivial",
+            "insignificant",
+            "unimportant"
+        ],
+        "answer": 0,
+        "explanation": "'Serious'は重要なことを意味します。他の単語（'trivial'、「些細な」、'insignificant'、「重要でない」、'unimportant'、「重要でない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "This is a serious matter, and we need to handle it with care.",
+        "jp": "これは重要な問題であり、慎重に取り扱う必要があります。"
+    },
+    {
+        "question": "He spoke _____ about the situation, showing his concern and understanding.",
+        "selections": [
+            "seriously",
+            "trivially",
+            "insignificantly",
+            "unimportantly"
+        ],
+        "answer": 0,
+        "explanation": "'Seriously'は真剣に話す様子を表します。他の単語（'trivially'、「些細に」、'insignificantly'、「重要でなく」、'unimportantly'、「重要でなく」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He spoke seriously about the situation, showing his concern and understanding.",
+        "jp": "彼は状況について真剣に話し、彼の懸念と理解を示しました。"
+    },
+    {
+        "question": "He worked hard to _____ the project before the deadline.",
+        "selections": [
+            "complete",
+            "destroy",
+            "avoid",
+            "ignore"
+        ],
+        "answer": 0,
+        "explanation": "'Complete'は何かを完成させることを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He worked hard to complete the project before the deadline.",
+        "jp": "彼は期限前にプロジェクトを完成させるために一生懸命働きました。"
+    },
+    {
+        "question": "The room was _____ empty; there was not a single piece of furniture.",
+        "selections": [
+            "completely",
+            "partially",
+            "nearly",
+            "mostly"
+        ],
+        "answer": 0,
+        "explanation": "'Completely'は完全にという意味です。他の単語（'partially'、「部分的に」、'nearly'、「ほぼ」、'mostly'、「主に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The room was completely empty; there was not a single piece of furniture.",
+        "jp": "部屋は完全に空で、家具は一つもありませんでした。"
+    },
+    
+    {
+        "question": "After a long day at work, he was so tired that he fell _____ on the couch.",
+        "selections": [
+            "asleep",
+            "awake",
+            "alert",
+            "active"
+        ],
+        "answer": 0,
+        "explanation": "'Asleep'は眠っている状態を意味します。他の単語（'awake'、「目覚めている」、'alert'、「警戒している」、'active'、「活動的な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After a long day at work, he was so tired that he fell asleep on the couch.",
+        "jp": "一日の仕事が終わった後、彼はとても疲れていたので、ソファで寝てしまいました。"
+    },
+    {
+        "question": "The two sisters look so _____ that people often mistake them for twins.",
+        "selections": [
+            "alike",
+            "different",
+            "separate",
+            "diverse"
+        ],
+        "answer": 0,
+        "explanation": "'Alike'は似ていることを意味します。他の単語（'different'、「異なる」、'separate'、「別々の」、'diverse'、「多様な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The two sisters look so alike that people often mistake them for twins.",
+        "jp": "2人の姉妹はとても似ているので、人々はしばしば彼女たちを双子だと間違えます。"
+    },
+    {
+        "question": "After the accident, everyone was relieved to find that the driver was still _____.",
+        "selections": [
+            "alive",
+            "dead",
+            "extinct",
+            "inanimate"
+        ],
+        "answer": 0,
+        "explanation": "'Alive'は生きている状態を意味します。他の単語（'dead'、「死んでいる」、'extinct'、「絶滅した」、'inanimate'、「無生物の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After the accident, everyone was relieved to find that the driver was still alive.",
+        "jp": "事故の後、運転手がまだ生きていることがわかり、みんなが安心しました。"
+    },
+    {
+        "question": "I've _____ finished my homework, so I can play with you now.",
+        "selections": [
+            "already",
+            "never",
+            "sometimes",
+            "often"
+        ],
+        "answer": 0,
+        "explanation": "'Already'はすでに何かが完了したことを意味します。他の単語（'never'、「決してない」、'sometimes'、「時々」、'often'、「しばしば」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I've already finished my homework, so I can play with you now.",
+        "jp": "すでに宿題が終わったので、今あそべます。"
+    },
+    {
+        "question": "Have you finished your project _____?",
+        "selections": [
+            "yet",
+            "always",
+            "often",
+            "sometimes"
+        ],
+        "answer": 0,
+        "explanation": "'Yet'はまだ何かが完了していないことを問い合わせる際に使用します。他の単語（'always'、「いつも」、'often'、「しばしば」、'sometimes'、「時々」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Have you finished your project yet?",
+        "jp": "プロジェクトはもう終わりましたか？"
+    },
+    {
+        "question": "I'm _____ working on my assignment; it's taking longer than expected.",
+        "selections": [
+            "still",
+            "never",
+            "always",
+            "rarely"
+        ],
+        "answer": 0,
+        "explanation": "'Still'は現在も継続していることを意味します。他の単語（'never'、「決してない」、'always'、「いつも」、'rarely'、「めったにない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'm still working on my assignment; it's taking longer than expected.",
+        "jp": "まだ課題に取り組んでいます。予想より時間がかかっています。"
+    },
+    {
+        "question": "She _____ goes to the gym, maybe once a month.",
+        "selections": [
+            "rarely",
+            "always",
+            "frequently",
+            "yet"
+        ],
+        "answer": 0,
+        "explanation": "'Rarely'はほとんどしないことを意味します。他の単語（'always'、「いつも」、'frequently'、「頻繁に」、'yet'、「まだ」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She rarely goes to the gym, maybe once a month.",
+        "jp": "彼女はめったにジムに行かない、多分月に一度です。"
+    },
+    {
+        "question": "He _____ visits his grandparents on the weekends.",
+        "selections": [
+            "occasionally",
+            "never",
+            "always",
+            "yet"
+        ],
+        "answer": 0,
+        "explanation": "'Occasionally'は時折、たまにという意味です。他の単語（'never'、「決してない」、'always'、「いつも」、'yet'、「まだ」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He occasionally visits his grandparents on the weekends.",
+        "jp": "彼は週末に時折祖父母を訪れます。"
+    },
+    {
+        "question": "She _____ checks her emails throughout the day to stay updated.",
+        "selections": [
+            "frequently",
+            "never",
+            "rarely",
+            "yet"
+        ],
+        "answer": 0,
+        "explanation": "'Frequently'は頻繁にという意味です。他の単語（'never'、「決してない」、'rarely'、「めったにない」、'yet'、「まだ」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She frequently checks her emails throughout the day to stay updated.",
+        "jp": "彼女は最新の情報を得るために、一日中頻繁にメールをチェックします。"
     }
 ]

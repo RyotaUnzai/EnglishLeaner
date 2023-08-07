@@ -1,0 +1,548 @@
+[
+    {
+        "question": "The new product didn't _____ to the younger audience, so the company had to rethink its marketing strategy.",
+        "selections": [
+            "appeal",
+            "ignore",
+            "destroy",
+            "compete"
+        ],
+        "answer": 0,
+        "explanation": "'Appeal'は魅力を感じさせることを意味します。他の単語（'ignore'、「無視する」、'destroy'、「破壊する」、'compete'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The new product didn't appeal to the younger audience, so the company had to rethink its marketing strategy.",
+        "jp": "新製品は若い層に魅力を感じさせなかったため、会社はマーケティング戦略を再考しなければなりませんでした。"
+    },
+    {
+        "question": "He couldn't _____ the pain any longer and finally went to see a doctor.",
+        "selections": [
+            "bear",
+            "enjoy",
+            "celebrate",
+            "collect"
+        ],
+        "answer": 0,
+        "explanation": "'Bear'は耐えることを意味します。他の単語（'enjoy'、「楽しむ」、'celebrate'、「祝う」、'collect'、「集める」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He couldn't bear the pain any longer and finally went to see a doctor.",
+        "jp": "彼はこれ以上痛みに耐えられず、ついに医者に診てもらいました。"
+    },
+    {
+        "question": "Due to bad weather, the airline had to _____ all flights for the day.",
+        "selections": [
+            "cancel",
+            "enjoy",
+            "bear",
+            "collect"
+        ],
+        "answer": 0,
+        "explanation": "'Cancel'は取り消すことを意味します。他の単語（'enjoy'、「楽しむ」、'bear'、「耐える」、'collect'、「集める」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Due to bad weather, the airline had to cancel all flights for the day.",
+        "jp": "悪天候のため、航空会社はその日のすべての便をキャンセルしなければなりませんでした。"
+    },
+    {
+        "question": "They decided to _____ their anniversary by going on a romantic vacation.",
+        "selections": [
+            "celebrate",
+            "ignore",
+            "cancel",
+            "collect"
+        ],
+        "answer": 0,
+        "explanation": "'Celebrate'は祝うことを意味します。他の単語（'ignore'、「無視する」、'cancel'、「取り消す」、'collect'、「集める」）は、この文脈とは逆の意味を持ちます。",
+        "en": "They decided to celebrate their anniversary by going on a romantic vacation.",
+        "jp": "彼らはロマンチックな休暇に行くことで、記念日を祝うことにしました。"
+    },
+    {
+        "question": "The charity organization is planning to _____ donations for the children's hospital.",
+        "selections": [
+            "collect",
+            "ignore",
+            "cancel",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Collect'は集めることを意味します。他の単語（'ignore'、「無視する」、'cancel'、「取り消す」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The charity organization is planning to collect donations for the children's hospital.",
+        "jp": "慈善団体は、子供病院のために寄付を集める予定です。"
+    },
+    {
+        "question": "This new laptop _____ around $1000; it's quite expensive.",
+        "selections": [
+            "cost",
+            "increase",
+            "appear",
+            "lose"
+        ],
+        "answer": 0,
+        "explanation": "'Cost'は価格がいくらかを意味します。他の単語（'increase'、「増加する」、'appear'、「現れる」、'lose'、「失う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "This new laptop costs around $1000; it's quite expensive.",
+        "jp": "この新しいラップトップは約1000ドルで、かなり高価です。"
+    },
+    {
+        "question": "The company's profits _____ by 10% last quarter.",
+        "selections": [
+            "decrease",
+            "cost",
+            "appear",
+            "earn"
+        ],
+        "answer": 0,
+        "explanation": "'Decrease'は減少することを意味します。他の単語（'cost'、「費用がかかる」、'appear'、「現れる」、'earn'、「稼ぐ」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The company's profits decreased by 10% last quarter.",
+        "jp": "会社の利益は先四半期に10％減少しました。"
+    },
+    {
+        "question": "Your success in this job will _____ on your ability to work with others.",
+        "selections": [
+            "depend",
+            "cost",
+            "decrease",
+            "disappear"
+        ],
+        "answer": 0,
+        "explanation": "'Depend'は依存することを意味します。他の単語（'cost'、「費用がかかる」、'decrease'、「減少する」、'disappear'、「消える」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Your success in this job will depend on your ability to work with others.",
+        "jp": "この仕事での成功は、他人との協力能力に依存します。"
+    },
+    {
+        "question": "The sun began to _____ behind the clouds, signaling the end of the day.",
+        "selections": [
+            "disappear",
+            "cost",
+            "decrease",
+            "depend"
+        ],
+        "answer": 0,
+        "explanation": "'Disappear'は消えることを意味します。他の単語（'cost'、「費用がかかる」、'decrease'、「減少する」、'depend'、「依存する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The sun began to disappear behind the clouds, signaling the end of the day.",
+        "jp": "太陽が雲の後ろに消え始め、一日の終わりを知らせました。"
+    },
+    {
+        "question": "She works hard to _____ enough money to support her family.",
+        "selections": [
+            "earn",
+            "cost",
+            "decrease",
+            "disappear"
+        ],
+        "answer": 0,
+        "explanation": "'Earn'はお金を稼ぐことを意味します。他の単語（'cost'、「費用がかかる」、'decrease'、「減少する」、'disappear'、「消える」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She works hard to earn enough money to support her family.",
+        "jp": "彼女は家族を支えるために十分なお金を稼ぐために一生懸命働いています。"
+    },
+    {
+        "question": "The coach always tries to _____ the players to give their best during the game.",
+        "selections": [
+            "encourage",
+            "ignore",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Encourage'は他人を励ますことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The coach always tries to encourage the players to give their best during the game.",
+        "jp": "コーチは常に、選手たちが試合中に最善を尽くすよう励まします。"
+    },
+    {
+        "question": "The prisoners found a way to _____ from the high-security jail.",
+        "selections": [
+            "escape",
+            "enter",
+            "welcome",
+            "invite"
+        ],
+        "answer": 0,
+        "explanation": "'Escape'は何かから逃げることを意味します。他の単語（'enter'、「入る」、'welcome'、「歓迎する」、'invite'、「招待する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The prisoners found a way to escape from the high-security jail.",
+        "jp": "囚人たちは、高セキュリティの刑務所から逃げる方法を見つけました。"
+    },
+    {
+        "question": "Can you _____ why you were late for the meeting?",
+        "selections": [
+            "explain",
+            "ignore",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Explain'は何かを説明することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Can you explain why you were late for the meeting?",
+        "jp": "会議に遅れた理由を説明できますか？"
+    },
+    {
+        "question": "She didn't know how to _____ her feelings to her family.",
+        "selections": [
+            "express",
+            "hide",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Express'は感情などを表現することを意味します。他の単語（'hide'、「隠す」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She didn't know how to express her feelings to her family.",
+        "jp": "彼女は家族に感情をどう表現すればよいかわかりませんでした。"
+    },
+    {
+        "question": "After losing his job, he had to _____ the reality of finding new employment.",
+        "selections": [
+            "face",
+            "ignore",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Face'は現実などに直面することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After losing his job, he had to face the reality of finding new employment.",
+        "jp": "仕事を失った後、彼は新しい雇用を見つける現実に直面しなければなりませんでした。"
+    },
+    {
+        "question": "If you don't study hard, you might _____ the exam.",
+        "selections": [
+            "fail",
+            "succeed",
+            "create",
+            "build"
+        ],
+        "answer": 0,
+        "explanation": "'Fail'は失敗することを意味します。他の単語（'succeed'、「成功する」、'create'、「作成する」、'build'、「建設する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "If you don't study hard, you might fail the exam.",
+        "jp": "一生懸命勉強しないと、試験に失敗するかもしれません。"
+    },
+    {
+        "question": "Can you _____ my computer? It's not working properly.",
+        "selections": [
+            "fix",
+            "break",
+            "ignore",
+            "avoid"
+        ],
+        "answer": 0,
+        "explanation": "'Fix'は修理することを意味します。他の単語（'break'、「壊す」、'ignore'、「無視する」、'avoid'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Can you fix my computer? It's not working properly.",
+        "jp": "私のコンピューターを修理してもらえますか？正常に動作していません。"
+    },
+    {
+        "question": "You shouldn't _____ someone to do something they don't want to do.",
+        "selections": [
+            "force",
+            "encourage",
+            "assist",
+            "praise"
+        ],
+        "answer": 0,
+        "explanation": "'Force'は強制することを意味します。他の単語（'encourage'、「励ます」、'assist'、「支援する」、'praise'、「称賛する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "You shouldn't force someone to do something they don't want to do.",
+        "jp": "人々にしたくないことを強制すべきではありません。"
+    },
+    {
+        "question": "After four years of hard work, she will _____ from university next month.",
+        "selections": [
+            "graduate",
+            "enter",
+            "avoid",
+            "fail"
+        ],
+        "answer": 0,
+        "explanation": "'Graduate'は卒業することを意味します。他の単語（'enter'、「入学する」、'avoid'、「避ける」、'fail'、「失敗する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After four years of hard work, she will graduate from university next month.",
+        "jp": "4年間の懸命な努力の後、彼女は来月大学を卒業します。"
+    },
+    {
+        "question": "With regular practice, you can _____ your skills in any field.",
+        "selections": [
+            "improve",
+            "destroy",
+            "reject",
+            "avoid"
+        ],
+        "answer": 0,
+        "explanation": "'Improve'は改善することを意味します。他の単語（'destroy'、「破壊する」、'reject'、「拒否する」、'avoid'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "With regular practice, you can improve your skills in any field.",
+        "jp": "定期的な練習で、どんな分野でもスキルを向上させることができます。"
+    },
+    {
+        "question": "Let me _____ you to my friend, who is an expert in this field.",
+        "selections": [
+            "introduce",
+            "avoid",
+            "reject",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Introduce'は誰かを紹介することを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Let me introduce you to my friend, who is an expert in this field.",
+        "jp": "この分野の専門家である友人を紹介させてください。"
+    },
+    {
+        "question": "Would you like to _____ your friends to the party next weekend?",
+        "selections": [
+            "invite",
+            "ignore",
+            "avoid",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Invite'は誰かを招待することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Would you like to invite your friends to the party next weekend?",
+        "jp": "来週末のパーティーに友達を招待したいですか？"
+    },
+    {
+        "question": "His strong leadership skills _____ the team to success.",
+        "selections": [
+            "lead",
+            "destroy",
+            "reject",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Lead'は誰かを導くことを意味します。他の単語（'destroy'、「破壊する」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "His strong leadership skills lead the team to success.",
+        "jp": "彼の強いリーダーシップスキルがチームを成功に導きます。"
+    },
+    {
+        "question": "She was able to _____ the project successfully despite the challenges.",
+        "selections": [
+            "manage",
+            "ignore",
+            "avoid",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Manage'は何かを管理または取り扱うことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She was able to manage the project successfully despite the challenges.",
+        "jp": "彼女は困難にもかかわらず、プロジェクトを成功させることができました。"
+    },
+    {
+        "question": "I'm sorry I'm late; I _____ the earlier train.",
+        "selections": [
+            "miss",
+            "invite",
+            "lead",
+            "manage"
+        ],
+        "answer": 0,
+        "explanation": "'Miss'は何かを逃すことを意味します。他の単語（'invite'、「招待する」、'lead'、「導く」、'manage'、「管理する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'm sorry I'm late; I missed the earlier train.",
+        "jp": "遅れて申し訳ありません。前の電車を逃しました。"
+    },
+    {
+        "question": "Farmers _____ seeds in the spring to grow crops.",
+        "selections": [
+            "plant",
+            "destroy",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Plant'は種を植えることを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Farmers plant seeds in the spring to grow crops.",
+        "jp": "農民は作物を育てるために春に種を植えます。"
+    },
+    {
+        "question": "I _____ tea to coffee in the morning.",
+        "selections": [
+            "prefer",
+            "destroy",
+            "plant",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Prefer'は何かを他のものより好むことを意味します。他の単語（'destroy'、「破壊する」、'plant'、「植える」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I prefer tea to coffee in the morning.",
+        "jp": "私は朝、コーヒーよりも紅茶を好みます。"
+    },
+    {
+        "question": "The factory _____ a wide range of electronic devices.",
+        "selections": [
+            "produce",
+            "destroy",
+            "avoid",
+            "prefer"
+        ],
+        "answer": 0,
+        "explanation": "'Produce'は何かを生産することを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'prefer'、「好む」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The factory produces a wide range of electronic devices.",
+        "jp": "工場はさまざまな電子機器を生産しています。"
+    },
+    {
+        "question": "The organization works to _____ endangered species from extinction.",
+        "selections": [
+            "protect",
+            "destroy",
+            "produce",
+            "prefer"
+        ],
+        "answer": 0,
+        "explanation": "'Protect'は何かを保護することを意味します。他の単語（'destroy'、「破壊する」、'produce'、「生産する」、'prefer'、「好む」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The organization works to protect endangered species from extinction.",
+        "jp": "この組織は、絶滅危惧種を絶滅から保護するために活動しています。"
+    },
+    {
+        "question": "The lawyer was able to _____ his client's innocence in court.",
+        "selections": [
+            "prove",
+            "destroy",
+            "produce",
+            "prefer"
+        ],
+        "answer": 0,
+        "explanation": "'Prove'は何かを証明することを意味します。他の単語（'destroy'、「破壊する」、'produce'、「生産する」、'prefer'、「好む」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The lawyer was able to prove his client's innocence in court.",
+        "jp": "弁護士は裁判所で依頼人の無罪を証明することができました。"
+    },
+    {
+        "question": "The government must _____ basic healthcare services to all citizens.",
+        "selections": [
+            "provide",
+            "destroy",
+            "produce",
+            "prefer"
+        ],
+        "answer": 0,
+        "explanation": "'Provide'は何かを提供することを意味します。他の単語（'destroy'、「破壊する」、'produce'、「生産する」、'prefer'、「好む」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The government must provide basic healthcare services to all citizens.",
+        "jp": "政府は、すべての市民に基本的な医療サービスを提供しなければなりません。"
+    },
+    {
+        "question": "The author is excited to _____ her new book next month.",
+        "selections": [
+            "publish",
+            "destroy",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Publish'は何かを公開することを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The author is excited to publish her new book next month.",
+        "jp": "著者は来月、新しい本を出版することを楽しみにしています。"
+    },
+    {
+        "question": "He had to _____ the invitation to the party due to a prior commitment.",
+        "selections": [
+            "refuse",
+            "accept",
+            "publish",
+            "serve"
+        ],
+        "answer": 0,
+        "explanation": "'Refuse'は何かを拒否することを意味します。他の単語（'accept'、「受け入れる」、'publish'、「公開する」、'serve'、「提供する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He had to refuse the invitation to the party due to a prior commitment.",
+        "jp": "彼は以前の約束があったため、パーティーへの招待を断らなければなりませんでした。"
+    },
+    {
+        "question": "They decided to _____ a table at the restaurant for their anniversary dinner.",
+        "selections": [
+            "reserve",
+            "publish",
+            "refuse",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Reserve'は何かを予約することを意味します。他の単語（'publish'、「公開する」、'refuse'、「拒否する」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "They decided to reserve a table at the restaurant for their anniversary dinner.",
+        "jp": "彼らは記念日のディナーのためにレストランのテーブルを予約することにしました。"
+    },
+    {
+        "question": "It's important to _____ others' opinions and values, even if you disagree with them.",
+        "selections": [
+            "respect",
+            "ignore",
+            "destroy",
+            "refuse"
+        ],
+        "answer": 0,
+        "explanation": "'Respect'は他人の意見や価値観を尊重することを意味します。他の単語（'ignore'、「無視する」、'destroy'、「破壊する」、'refuse'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's important to respect others' opinions and values, even if you disagree with them.",
+        "jp": "他人の意見や価値観を尊重することは重要です、たとえそれに同意しなくても。"
+    },
+    {
+        "question": "She volunteered to _____ meals to the homeless at the local shelter.",
+        "selections": [
+            "serve",
+            "destroy",
+            "refuse",
+            "publish"
+        ],
+        "answer": 0,
+        "explanation": "'Serve'は何かを提供することを意味します。他の単語（'destroy'、「破壊する」、'refuse'、「拒否する」、'publish'、「公開する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She volunteered to serve meals to the homeless at the local shelter.",
+        "jp": "彼女は地元のシェルターでホームレスに食事を提供するためにボランティアを申し出ました。"
+    },
+    {
+        "question": "It's important to _____ your thoughts and feelings with someone you trust.",
+        "selections": [
+            "share",
+            "ignore",
+            "avoid",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Share'は他人と何かを共有することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's important to share your thoughts and feelings with someone you trust.",
+        "jp": "信頼する人と自分の考えや感情を共有することが重要です。"
+    },
+    {
+        "question": "She likes to _____ her weekends with family and friends.",
+        "selections": [
+            "spend",
+            "reject",
+            "compete with",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Spend'は時間を何かに使うことを意味します。他の単語（'reject'、「拒否する」、'compete with'、「競う」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She likes to spend her weekends with family and friends.",
+        "jp": "彼女は週末を家族や友人と過ごすのが好きです。"
+    },
+    {
+        "question": "With hard work and determination, you can _____ in any field.",
+        "selections": [
+            "succeed",
+            "avoid",
+            "destroy",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Succeed'は成功することを意味します。他の単語（'avoid'、「避ける」、'destroy'、「破壊する」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "With hard work and determination, you can succeed in any field.",
+        "jp": "努力と決意があれば、どんな分野でも成功することができます。"
+    },
+    {
+        "question": "I _____ trying a new approach to solve this problem.",
+        "selections": [
+            "suggest",
+            "ignore",
+            "avoid",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Suggest'は提案することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I suggest trying a new approach to solve this problem.",
+        "jp": "この問題を解決するために新しいアプローチを試すことを提案します。"
+    },
+    {
+        "question": "Don't _____ your time on things that don't matter; focus on what's important.",
+        "selections": [
+            "waste",
+            "share",
+            "compete with",
+            "succeed"
+        ],
+        "answer": 0,
+        "explanation": "'Waste'は無駄にすることを意味します。他の単語（'share'、「共有する」、'compete with'、「競う」、'succeed'、「成功する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Don't waste your time on things that don't matter; focus on what's important.",
+        "jp": "重要でないことに時間を無駄にしないで、重要なことに集中してください。"
+    },
+    {
+        "question": "There's no need to _____ about the future; just do your best in the present.",
+        "selections": [
+            "worry",
+            "share",
+            "succeed",
+            "destroy"
+        ],
+        "answer": 0,
+        "explanation": "'Worry'は心配することを意味します。他の単語（'share'、「共有する」、'succeed'、「成功する」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "There's no need to worry about the future; just do your best in the present.",
+        "jp": "未来を心配する必要はありません。現在、最善を尽くすだけです。"
+    }
+]

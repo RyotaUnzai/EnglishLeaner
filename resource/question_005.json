@@ -1,0 +1,470 @@
+[
+    {
+        "question": "Hiking is a popular outdoor _____ for many people.",
+        "selections": [
+            "activity",
+            "object",
+            "place",
+            "food"
+        ],
+        "answer": 0,
+        "explanation": "'Activity'は行動や活動を意味します。他の単語（'object'、「物」、'place'、「場所」、'food'、「食べ物」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Hiking is a popular outdoor activity for many people.",
+        "jp": "ハイキングは多くの人々にとって人気のある屋外活動です。"
+    },
+    {
+        "question": "The travel _____ helped us plan our vacation.",
+        "selections": [
+            "agency",
+            "activity",
+            "expert",
+            "experience"
+        ],
+        "answer": 0,
+        "explanation": "'Agency'は機関や代理店を意味します。他の単語（'activity'、「活動」、'expert'、「専門家」、'experience'、「経験」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The travel agency helped us plan our vacation.",
+        "jp": "旅行代理店が私たちの休暇の計画を手伝ってくれました。"
+    },
+    {
+        "question": "The children were excited to visit the _____ and see the fish.",
+        "selections": [
+            "aquarium",
+            "agency",
+            "activity",
+            "expert"
+        ],
+        "answer": 0,
+        "explanation": "'Aquarium'は水族館を意味します。他の単語（'agency'、「代理店」、'activity'、「活動」、'expert'、「専門家」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The children were excited to visit the aquarium and see the fish.",
+        "jp": "子供たちは水族館を訪れて魚を見るのが楽しみでした。"
+    },
+    {
+        "question": "The wedding _____ was beautiful and filled with joy.",
+        "selections": [
+            "ceremony",
+            "aquarium",
+            "activity",
+            "expert"
+        ],
+        "answer": 0,
+        "explanation": "'Ceremony'は式典や儀式を意味します。他の単語（'aquarium'、「水族館」、'activity'、「活動」、'expert'、「専門家」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The wedding ceremony was beautiful and filled with joy.",
+        "jp": "結婚式は美しく、喜びに満ちていました。"
+    },
+    {
+        "question": "Many people prefer the peace and tranquility of the _____ to the hustle and bustle of the city.",
+        "selections": [
+            "countryside",
+            "ceremony",
+            "aquarium",
+            "expert"
+        ],
+        "answer": 0,
+        "explanation": "'Countryside'は田舎を意味します。他の単語（'ceremony'、「式典」、'aquarium'、「水族館」、'expert'、「専門家」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Many people prefer the peace and tranquility of the countryside to the hustle and bustle of the city.",
+        "jp": "多くの人々は、都会の喧騒よりも田舎の平和と静けさを好みます。"
+    },
+    {
+        "question": "The store offers excellent service to every _____ who walks in.",
+        "selections": [
+            "customer",
+            "ceremony",
+            "aquarium",
+            "countryside"
+        ],
+        "answer": 0,
+        "explanation": "'Customer'は顧客を意味します。他の単語（'ceremony'、「式典」、'aquarium'、「水族館」、'countryside'、「田舎」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The store offers excellent service to every customer who walks in.",
+        "jp": "その店は、来店するすべての顧客に優れたサービスを提供しています。"
+    },
+    {
+        "question": "The _____ between the two cities is over 200 miles.",
+        "selections": [
+            "distance",
+            "customer",
+            "ceremony",
+            "countryside"
+        ],
+        "answer": 0,
+        "explanation": "'Distance'は距離を意味します。他の単語（'customer'、「顧客」、'ceremony'、「式典」、'countryside'、「田舎」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The distance between the two cities is over 200 miles.",
+        "jp": "2つの都市間の距離は200マイル以上です。"
+    },
+    {
+        "question": "Traveling to a new country can be an eye-opening _____ for many people.",
+        "selections": [
+            "experience",
+            "distance",
+            "customer",
+            "countryside"
+        ],
+        "answer": 0,
+        "explanation": "'Experience'は経験を意味します。他の単語（'distance'、「距離」、'customer'、「顧客」、'countryside'、「田舎」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Traveling to a new country can be an eye-opening experience for many people.",
+        "jp": "新しい国への旅行は、多くの人々にとって目を見張る経験になることがあります。"
+    },
+    {
+        "question": "If you have any technical problems, consult our IT _____ for help.",
+        "selections": [
+            "expert",
+            "experience",
+            "distance",
+            "customer"
+        ],
+        "answer": 0,
+        "explanation": "'Expert'は専門家を意味します。他の単語（'experience'、「経験」、'distance'、「距離」、'customer'、「顧客」）は、この文脈とは逆の意味を持ちます。",
+        "en": "If you have any technical problems, consult our IT expert for help.",
+        "jp": "技術的な問題がある場合は、当社のIT専門家に相談してください。"
+    },
+    {
+        "question": "Every member of the _____ must contribute to the family budget.",
+        "selections": [
+            "household",
+            "factory",
+            "vehicle",
+            "garden"
+        ],
+        "answer": 0,
+        "explanation": "'Household'は家庭を意味します。他の単語（'factory'、「工場」、'vehicle'、「車両」、'garden'、「庭園」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Every member of the household must contribute to the family budget.",
+        "jp": "家庭の各メンバーは、家庭の予算に貢献しなければなりません。"
+    },
+    {
+        "question": "The automotive _____ has seen significant growth in the past decade.",
+        "selections": [
+            "industry",
+            "instrument",
+            "lecture",
+            "match"
+        ],
+        "answer": 0,
+        "explanation": "'Industry'は産業を意味します。他の単語（'instrument'、「楽器」、'lecture'、「講義」、'match'、「試合」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The automotive industry has seen significant growth in the past decade.",
+        "jp": "自動車産業は過去10年間で顕著な成長を遂げています。"
+    },
+    {
+        "question": "The violin is a beautiful _____ used in classical music.",
+        "selections": [
+            "instrument",
+            "industry",
+            "match",
+            "mile"
+        ],
+        "answer": 0,
+        "explanation": "'Instrument'は楽器を意味します。他の単語（'industry'、「産業」、'match'、「試合」、'mile'、「マイル」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The violin is a beautiful instrument used in classical music.",
+        "jp": "バイオリンは、クラシック音楽で使用される美しい楽器です。"
+    },
+    {
+        "question": "The professor's _____ on ancient civilizations was both informative and engaging.",
+        "selections": [
+            "lecture",
+            "instrument",
+            "match",
+            "mile"
+        ],
+        "answer": 0,
+        "explanation": "'Lecture'は講義を意味します。他の単語（'instrument'、「楽器」、'match'、「試合」、'mile'、「マイル」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The professor's lecture on ancient civilizations was both informative and engaging.",
+        "jp": "教授の古代文明に関する講義は、情報提供と魅力の両方がありました。"
+    },
+    {
+        "question": "The final _____ of the tournament will determine the champion.",
+        "selections": [
+            "match",
+            "industry",
+            "instrument",
+            "lecture"
+        ],
+        "answer": 0,
+        "explanation": "'Match'は試合を意味します。他の単語（'industry'、「産業」、'instrument'、「楽器」、'lecture'、「講義」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The final match of the tournament will determine the champion.",
+        "jp": "トーナメントの最終試合で優勝者が決まります。"
+    },
+    {
+        "question": "The marathon is a race that covers a distance of 26.2 _____.",
+        "selections": [
+            "miles",
+            "instruments",
+            "lectures",
+            "matches"
+        ],
+        "answer": 0,
+        "explanation": "'Miles'は距離の単位を意味します。他の単語（'instruments'、「楽器」、'lectures'、「講義」、'matches'、「試合」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The marathon is a race that covers a distance of 26.2 miles.",
+        "jp": "マラソンは、26.2マイルの距離をカバーするレースです。"
+    },
+    {
+        "question": "Wait a _____, I need to tie my shoelaces.",
+        "selections": [
+            "moment",
+            "neighbor",
+            "notice",
+            "performance"
+        ],
+        "answer": 0,
+        "explanation": "'Moment'は短い時間を意味します。他の単語（'neighbor'、「隣人」、'notice'、「通知」、'performance'、「パフォーマンス」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Wait a moment, I need to tie my shoelaces.",
+        "jp": "ちょっと待って、靴ひもを結ばなければなりません。"
+    },
+    {
+        "question": "My _____ helped me move the furniture into my new apartment.",
+        "selections": [
+            "neighbor",
+            "moment",
+            "notice",
+            "performance"
+        ],
+        "answer": 0,
+        "explanation": "'Neighbor'は隣人を意味します。他の単語（'moment'、「瞬間」、'notice'、「通知」、'performance'、「パフォーマンス」）は、この文脈とは逆の意味を持ちます。",
+        "en": "My neighbor helped me move the furniture into my new apartment.",
+        "jp": "隣人が私の新しいアパートに家具を運ぶのを手伝ってくれました。"
+    },
+    {
+        "question": "I didn't _____ the sign on the door, so I accidentally entered the wrong room.",
+        "selections": [
+            "notice",
+            "moment",
+            "neighbor",
+            "performance"
+        ],
+        "answer": 0,
+        "explanation": "'Notice'は気づくことを意味します。他の単語（'moment'、「瞬間」、'neighbor'、「隣人」、'performance'、「パフォーマンス」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I didn't notice the sign on the door, so I accidentally entered the wrong room.",
+        "jp": "ドアに掛かっている看板に気づかなかったので、間違って違う部屋に入ってしまいました。"
+    },
+    {
+        "question": "The _____ asked for my identification at the checkpoint.",
+        "selections": [
+            "officer",
+            "moment",
+            "neighbor",
+            "performance"
+        ],
+        "answer": 0,
+        "explanation": "'Officer'は警察官や役人を意味します。他の単語（'moment'、「瞬間」、'neighbor'、「隣人」、'performance'、「パフォーマンス」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The officer asked for my identification at the checkpoint.",
+        "jp": "検問所で警察官が私の身分証明書を求めました。"
+    },
+    {
+        "question": "The _____ next to me on the plane was very talkative.",
+        "selections": [
+            "passenger",
+            "moment",
+            "neighbor",
+            "performance"
+        ],
+        "answer": 0,
+        "explanation": "'Passenger'は乗客を意味します。他の単語（'moment'、「瞬間」、'neighbor'、「隣人」、'performance'、「パフォーマンス」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The passenger next to me on the plane was very talkative.",
+        "jp": "飛行機で隣に座っていた乗客はとてもおしゃべりでした。"
+    },
+    {
+        "question": "The actor's _____ in the play was outstanding and received a standing ovation.",
+        "selections": [
+            "performance",
+            "moment",
+            "neighbor",
+            "notice"
+        ],
+        "answer": 0,
+        "explanation": "'Performance'は演技やパフォーマンスを意味します。他の単語（'moment'、「瞬間」、'neighbor'、「隣人」、'notice'、「通知」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The actor's performance in the play was outstanding and received a standing ovation.",
+        "jp": "俳優の演技は素晴らしく、スタンディングオベーションを受けました。"
+    },
+    {
+        "question": "The factory has a new _____ that produces energy from solar power.",
+        "selections": [
+            "plant",
+            "animal",
+            "vehicle",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'Plant'は工場や発電所などの施設を意味します。他の単語（'animal'、「動物」、'vehicle'、「車両」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The factory has a new plant that produces energy from solar power.",
+        "jp": "工場には、太陽エネルギーからエネルギーを生産する新しいプラントがあります。"
+    },
+    {
+        "question": "The _____ of the country will give a speech on national television tonight.",
+        "selections": [
+            "president",
+            "flower",
+            "vehicle",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'President'は国の元首を意味します。他の単語（'flower'、「花」、'vehicle'、「車両」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The president of the country will give a speech on national television tonight.",
+        "jp": "国の大統領が今夜、国営テレビで演説を行います。"
+    },
+    {
+        "question": "The new _____ will provide better communication services for remote areas.",
+        "selections": [
+            "satellite",
+            "flower",
+            "animal",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'Satellite'は通信などのサービスを提供する人工衛星を意味します。他の単語（'flower'、「花」、'animal'、「動物」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The new satellite will provide better communication services for remote areas.",
+        "jp": "新しい衛星によって、遠隔地域への通信サービスが向上します。"
+    },
+    {
+        "question": "The _____ is working on a groundbreaking research project that could change the world.",
+        "selections": [
+            "scientist",
+            "flower",
+            "vehicle",
+            "plant"
+        ],
+        "answer": 0,
+        "explanation": "'Scientist'は科学者を意味します。他の単語（'flower'、「花」、'vehicle'、「車両」、'plant'、「工場」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The scientist is working on a groundbreaking research project that could change the world.",
+        "jp": "科学者は、世界を変える可能性のある画期的な研究プロジェクトに取り組んでいます。"
+    },
+    {
+        "question": "The _____ outside the shop indicates that it's open for business.",
+        "selections": [
+            "sign",
+            "animal",
+            "vehicle",
+            "plant"
+        ],
+        "answer": 0,
+        "explanation": "'Sign'は表示や標識を意味します。他の単語（'animal'、「動物」、'vehicle'、「車両」、'plant'、「工場」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The sign outside the shop indicates that it's open for business.",
+        "jp": "店の外にある看板は、営業中であることを示しています。"
+    },
+    {
+        "question": "Learning a new language requires patience, practice, and the right _____ set.",
+        "selections": [
+            "skill",
+            "flower",
+            "animal",
+            "vehicle"
+        ],
+        "answer": 0,
+        "explanation": "'Skill'は技能や能力を意味します。他の単語（'flower'、「花」、'animal'、「動物」、'vehicle'、「車両」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Learning a new language requires patience, practice, and the right skill set.",
+        "jp": "新しい言語を学ぶには、忍耐、練習、そして適切なスキルセットが必要です。"
+    },
+    {
+        "question": "The moon's _____ is covered with craters and dust.",
+        "selections": [
+            "surface",
+            "technology",
+            "temperature",
+            "trade"
+        ],
+        "answer": 0,
+        "explanation": "'Surface'は物体の外部または上部の部分を意味します。他の単語（'technology'、「技術」、'temperature'、「温度」、'trade'、「貿易」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The moon's surface is covered with craters and dust.",
+        "jp": "月の表面はクレーターと塵で覆われています。"
+    },
+    {
+        "question": "Advancements in _____ have made our lives more convenient and efficient.",
+        "selections": [
+            "technology",
+            "surface",
+            "temperature",
+            "trade"
+        ],
+        "answer": 0,
+        "explanation": "'Technology'は科学技術を意味します。他の単語（'surface'、「表面」、'temperature'、「温度」、'trade'、「貿易」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Advancements in technology have made our lives more convenient and efficient.",
+        "jp": "技術の進歩により、私たちの生活はより便利で効率的になりました。"
+    },
+    {
+        "question": "The _____ in the room was too high, so we turned on the air conditioner.",
+        "selections": [
+            "temperature",
+            "surface",
+            "technology",
+            "trade"
+        ],
+        "answer": 0,
+        "explanation": "'Temperature'は温度を意味します。他の単語（'surface'、「表面」、'technology'、「技術」、'trade'、「貿易」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The temperature in the room was too high, so we turned on the air conditioner.",
+        "jp": "部屋の温度が高すぎたので、エアコンをつけました。"
+    },
+    {
+        "question": "International _____ agreements help in boosting the economy of a country.",
+        "selections": [
+            "trade",
+            "surface",
+            "technology",
+            "temperature"
+        ],
+        "answer": 0,
+        "explanation": "'Trade'は貿易を意味します。他の単語（'surface'、「表面」、'technology'、「技術」、'temperature'、「温度」）は、この文脈とは逆の意味を持ちます。",
+        "en": "International trade agreements help in boosting the economy of a country.",
+        "jp": "国際貿易協定は、国の経済を促進するのに役立ちます。"
+    },
+    {
+        "question": "It's your _____ to play in the game; make it count!",
+        "selections": [
+            "turn",
+            "surface",
+            "technology",
+            "temperature"
+        ],
+        "answer": 0,
+        "explanation": "'Turn'は順番を意味します。他の単語（'surface'、「表面」、'technology'、「技術」、'temperature'、「温度」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's your turn to play in the game; make it count!",
+        "jp": "あなたの番です、ゲームでプレイしてください。大切にしましょう！"
+    },
+    {
+        "question": "After graduating from high school, she plans to attend a _____ to study engineering.",
+        "selections": [
+            "university",
+            "garden",
+            "vehicle",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'University'は高等教育機関を意味します。他の単語（'garden'、「庭園」、'vehicle'、「乗り物」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After graduating from high school, she plans to attend a university to study engineering.",
+        "jp": "高校卒業後、彼女は工学を学ぶために大学に進学する予定です。"
+    },
+    {
+        "question": "The supermarket offers a wide _____ of fresh fruits and vegetables.",
+        "selections": [
+            "variety",
+            "building",
+            "vehicle",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'Variety'は多様性を意味します。他の単語（'building'、「建物」、'vehicle'、「乗り物」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The supermarket offers a wide variety of fresh fruits and vegetables.",
+        "jp": "スーパーマーケットは新鮮な果物と野菜の幅広い品揃えを提供しています。"
+    },
+    {
+        "question": "From the top of the mountain, you can enjoy a breathtaking _____ of the city below.",
+        "selections": [
+            "view",
+            "instrument",
+            "vehicle",
+            "garden"
+        ],
+        "answer": 0,
+        "explanation": "'View'は景色を意味します。他の単語（'instrument'、「楽器」、'vehicle'、「乗り物」、'garden'、「庭園」）は、この文脈とは逆の意味を持ちます。",
+        "en": "From the top of the mountain, you can enjoy a breathtaking view of the city below.",
+        "jp": "山の頂上から、下の都市の息を呑むような景色を楽しむことができます。"
+    },
+    {
+        "question": "He decided to become a _____ at the local animal shelter to help take care of abandoned pets.",
+        "selections": [
+            "volunteer",
+            "building",
+            "vehicle",
+            "instrument"
+        ],
+        "answer": 0,
+        "explanation": "'Volunteer'はボランティアを意味します。他の単語（'building'、「建物」、'vehicle'、「乗り物」、'instrument'、「楽器」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He decided to become a volunteer at the local animal shelter to help take care of abandoned pets.",
+        "jp": "彼は地元の動物保護施設でボランティアになり、捨てられたペットの世話を手伝うことにしました。"
+    }
+]

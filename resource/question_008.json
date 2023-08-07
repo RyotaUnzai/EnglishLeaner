@@ -1,0 +1,314 @@
+[
+    {
+        "question": "She leads an _____ lifestyle, always participating in sports and outdoor activities.",
+        "selections": [
+            "active",
+            "lazy",
+            "boring",
+            "dull"
+        ],
+        "answer": 0,
+        "explanation": "'Active'は活動的なことを意味します。他の単語（'lazy'、「怠惰な」、'boring'、「退屈な」、'dull'、「鈍い」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She leads an active lifestyle, always participating in sports and outdoor activities.",
+        "jp": "彼女は活動的なライフスタイルを送っており、常にスポーツやアウトドア活動に参加しています。"
+    },
+    {
+        "question": "The _____ ruins of the temple attract many tourists every year.",
+        "selections": [
+            "modern",
+            "new",
+            "ancient",
+            "recent"
+        ],
+        "answer": 2,
+        "explanation": "'Ancient'は非常に古いことを意味します。他の単語（'modern'、「現代の」、'new'、「新しい」、'recent'、「最近の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The ancient ruins of the temple attract many tourists every year.",
+        "jp": "寺院の古代の遺跡は、毎年多くの観光客を引きつけます。"
+    },
+    {
+        "question": "It's important to understand the _____ principles of physics before studying more complex theories.",
+        "selections": [
+            "advanced",
+            "complex",
+            "intricate",
+            "basic"
+        ],
+        "answer": 3,
+        "explanation": "'Basic'は基本的なことを意味します。他の単語（'advanced'、「高度な」、'complex'、「複雑な」、'intricate'、「入り組んだ」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's important to understand the basic principles of physics before studying more complex theories.",
+        "jp": "より複雑な理論を学ぶ前に、物理学の基本的な原則を理解することが重要です。"
+    },
+    {
+        "question": "You should be _____ when crossing the street, especially in heavy traffic.",
+        "selections": [
+            "reckless",
+            "negligent",
+            "careful",
+            "careless"
+        ],
+        "answer": 2,
+        "explanation": "'Careful'は注意深いことを意味します。他の単語（'reckless'、「無謀な」、'negligent'、「怠慢な」、'careless'、「不注意な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "You should be careful when crossing the street, especially in heavy traffic.",
+        "jp": "特に交通量が多い場合、道路を渡る際には注意が必要です。"
+    },
+    {
+        "question": "It's _____ for people to shake hands when they meet for the first time.",
+        "selections": [
+            "rare",
+            "common",
+            "unusual",
+            "strange"
+        ],
+        "answer": 1,
+        "explanation": "'Common'は一般的なことを意味します。他の単語（'rare'、「珍しい」、'unusual'、「普通でない」、'strange'、「奇妙な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's common for people to shake hands when they meet for the first time.",
+        "jp": "初対面の時に握手するのは一般的です。"
+    },
+    {
+        "question": "Climbing without proper equipment is a _____ activity and should be avoided.",
+        "selections": [
+            "dangerous",
+            "safe",
+            "secure",
+            "protected"
+        ],
+        "answer": 0,
+        "explanation": "'Dangerous'は危険なことを意味します。他の単語（'safe'、「安全な」、'secure'、「安全な」、'protected'、「保護された」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Climbing without proper equipment is a dangerous activity and should be avoided.",
+        "jp": "適切な装備なしでの登山は危険な活動であり、避けるべきです。"
+    },
+    {
+        "question": "The math problem was so _____ that even a child could solve it.",
+        "selections": [
+            "elementary",
+            "complicated",
+            "expensive",
+            "huge"
+        ],
+        "answer": 0,
+        "explanation": "'Elementary'は基本的な、初歩的なことを意味します。他の単語（'complicated'、「複雑な」、'expensive'、「高価な」、'huge'、「巨大な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The math problem was so elementary that even a child could solve it.",
+        "jp": "その数学の問題は非常に初歩的だったので、子供でも解けました。"
+    },
+    {
+        "question": "The room was completely _____ when we arrived, so we could choose any seat.",
+        "selections": [
+            "empty",
+            "expensive",
+            "healthy",
+            "formal"
+        ],
+        "answer": 0,
+        "explanation": "'Empty'は何もない、空のことを意味します。他の単語（'expensive'、「高価な」、'healthy'、「健康な」、'formal'、「正式な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The room was completely empty when we arrived, so we could choose any seat.",
+        "jp": "私たちが到着したとき、部屋は完全に空だったので、どの席でも選ぶことができました。"
+    },
+    {
+        "question": "The restaurant is known for its _____ dishes, so make sure to bring enough money.",
+        "selections": [
+            "expensive",
+            "empty",
+            "huge",
+            "elementary"
+        ],
+        "answer": 0,
+        "explanation": "'Expensive'は高価なことを意味します。他の単語（'empty'、「空の」、'huge'、「巨大な」、'elementary'、「初歩的な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The restaurant is known for its expensive dishes, so make sure to bring enough money.",
+        "jp": "そのレストランは高価な料理で知られているので、十分なお金を持ってくるようにしてください。"
+    },
+    {
+        "question": "The event requires _____ attire, so please wear a suit or a nice dress.",
+        "selections": [
+            "empty",
+            "healthy",
+            "huge",
+            "formal",
+        ],
+        "answer": 3,
+        "explanation": "'Formal'は正式な、堅苦しいことを意味します。他の単語（'empty'、「空の」、'healthy'、「健康な」、'huge'、「巨大な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The event requires formal attire, so please wear a suit or a nice dress.",
+        "jp": "そのイベントは正式な服装を必要とするので、スーツまたはきれいなドレスを着てください。"
+    },
+    {
+        "question": "Eating a balanced diet and exercising regularly are essential for a _____ lifestyle.",
+        "selections": [
+            "expensive",
+            "healthy",
+            "empty",
+            "formal"
+        ],
+        "answer": 1,
+        "explanation": "'Healthy'は健康なことを意味します。他の単語（'expensive'、「高価な」、'empty'、「空の」、'formal'、「正式な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Eating a balanced diet and exercising regularly are essential for a healthy lifestyle.",
+        "jp": "バランスの取れた食事と定期的な運動は、健康的なライフスタイルに欠かせません。"
+    },
+    {
+        "question": "The mountain was so _____ that it took us three days to reach the summit.",
+        "selections": [
+            "huge",
+            "empty",
+            "expensive",
+            "healthy"
+        ],
+        "answer": 0,
+        "explanation": "'Huge'は非常に大きいことを意味します。他の単語（'empty'、「空の」、'expensive'、「高価な」、'healthy'、「健康な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The mountain was so huge that it took us three days to reach the summit.",
+        "jp": "その山は非常に巨大だったので、頂上に到達するのに3日かかりました。"
+    },
+    {
+        "question": "The _____ solution to this problem would be to address the root cause.",
+        "selections": [
+            "likely",
+            "modern",
+            "ideal",
+            "local"
+        ],
+        "answer": 2,
+        "explanation": "'Ideal'は最適な、理想的なことを意味します。他の単語（'likely'、「ありそうな」、'modern'、「現代の」、'local'、「地元の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The ideal solution to this problem would be to address the root cause.",
+        "jp": "この問題の理想的な解決策は、根本原因に対処することです。"
+    },
+    {
+        "question": "It's _____ that we will have rain tomorrow, according to the weather forecast.",
+        "selections": [
+            "necessary",
+            "likely",
+            "main",
+            "modern"
+        ],
+        "answer": 1,
+        "explanation": "'Likely'は何かが起こる可能性が高いことを意味します。他の単語（'necessary'、「必要な」、'main'、「主要な」、'modern'、「現代の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's likely that we will have rain tomorrow, according to the weather forecast.",
+        "jp": "天気予報によれば、明日は雨が降る可能性が高いです。"
+    },
+    {
+        "question": "The _____ farmers market offers fresh produce every weekend.",
+        "selections": [
+            "main",
+            "local",
+            "necessary",
+            "likely"
+        ],
+        "answer": 1,
+        "explanation": "'Local'は地元の、地域のことを意味します。他の単語（'main'、「主要な」、'necessary'、「必要な」、'likely'、「ありそうな」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The local farmers market offers fresh produce every weekend.",
+        "jp": "地元の農産物市場は、毎週末新鮮な農産物を提供しています。"
+    },
+    {
+        "question": "The _____ focus of the conference is on sustainable development.",
+        "selections": [
+            "modern",
+            "likely",
+            "main",
+            "necessary"
+        ],
+        "answer": 2,
+        "explanation": "'Main'は主要な、中心的なことを意味します。他の単語（'modern'、「現代の」、'likely'、「ありそうな」、'necessary'、「必要な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The main focus of the conference is on sustainable development.",
+        "jp": "会議の主要な焦点は、持続可能な開発にあります。"
+    },
+    {
+        "question": "The museum showcases _____ art from the 21st century.",
+        "selections": [
+            "necessary",
+            "likely",
+            "local",
+            "modern"
+        ],
+        "answer": 3,
+        "explanation": "'Modern'は現代の、新しいことを意味します。他の単語（'necessary'、「必要な」、'likely'、「ありそうな」、'local'、「地元の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The museum showcases modern art from the 21st century.",
+        "jp": "博物館は21世紀の現代美術を展示しています。"
+    },
+    {
+        "question": "It's _____ to have a valid passport for international travel.",
+        "selections": [
+            "likely",
+            "local",
+            "necessary",
+            "main"
+        ],
+        "answer": 2,
+        "explanation": "'Necessary'は必要なことを意味します。他の単語（'likely'、「ありそうな」、'local'、「地元の」、'main'、「主要な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's necessary to have a valid passport for international travel.",
+        "jp": "国際旅行には有効なパスポートが必要です。"
+    },
+    {
+        "question": "The artist's _____ work is displayed in the gallery.",
+        "selections": [
+            "common",
+            "original",
+            "fake",
+            "modern"
+        ],
+        "answer": 1,
+        "explanation": "'Original'は独自の、独創的なものを意味します。他の単語（'common'、「一般的な」、'fake'、「偽の」、'modern'、「現代の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The artist's original work is displayed in the gallery.",
+        "jp": "アーティストの独自の作品がギャラリーに展示されています。"
+    },
+    {
+        "question": "She conducts herself in a _____ manner at all business meetings.",
+        "selections": [
+            "casual",
+            "unprofessional",
+            "professional",
+            "lazy"
+        ],
+        "answer": 2,
+        "explanation": "'Professional'は専門的な、プロフェッショナルな態度を意味します。他の単語（'casual'、「カジュアルな」、'unprofessional'、「非専門的な」、'lazy'、「怠惰な」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She conducts herself in a professional manner at all business meetings.",
+        "jp": "彼女はすべてのビジネスミーティングで専門的な態度で振る舞います。"
+    },
+    {
+        "question": "The mayor announced the new policy at a _____ press conference.",
+        "selections": [
+            "public",
+            "private",
+            "secret",
+            "hidden"
+        ],
+        "answer": 0,
+        "explanation": "'Public'は公の、公開されたものを意味します。他の単語（'private'、「私的な」、'secret'、「秘密の」、'hidden'、「隠された」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The mayor announced the new policy at a public press conference.",
+        "jp": "市長は公開の記者会見で新しい方針を発表しました。"
+    },
+    {
+        "question": "After years of hard work, the company became _____ in the market.",
+        "selections": [
+            "unsuccessful",
+            "failed",
+            "successful",
+            "struggling"
+        ],
+        "answer": 2,
+        "explanation": "'Successful'は成功した、うまくいったものを意味します。他の単語（'unsuccessful'、「失敗した」、'failed'、「失敗した」、'struggling'、「奮闘している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After years of hard work, the company became successful in the market.",
+        "jp": "何年もの努力の後、会社は市場で成功しました。"
+    },
+    {
+        "question": "Are you _____ you want to proceed with this decision?",
+        "selections": [
+            "unsure",
+            "doubtful",
+            "sure",
+            "confused"
+        ],
+        "answer": 2,
+        "explanation": "'Sure'は確信している、確かなものを意味します。他の単語（'unsure'、「確信していない」、'doubtful'、「疑わしい」、'confused'、「混乱している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Are you sure you want to proceed with this decision?",
+        "jp": "この決定を進めたいと確信していますか？"
+    },
+    {
+        "question": "The village still follows the _____ methods of farming.",
+        "selections": [
+            "traditional",
+            "modern",
+            "innovative",
+            "new"
+        ],
+        "answer": 0,
+        "explanation": "'Traditional'は伝統的な、昔ながらのものを意味します。他の単語（'modern'、「現代の」、'innovative'、「革新的な」、'new'、「新しい」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The village still follows the traditional methods of farming.",
+        "jp": "その村はまだ農業の伝統的な方法に従っています。"
+    }
+]

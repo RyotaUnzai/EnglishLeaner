@@ -1,236 +1,522 @@
 [
     {
-        "question": "I _____ an old photo of mine while cleaning the house.",
+        "question": "The annual festival will _____ in the town square next month.",
         "selections": [
-            "found",
-            "came across",
-            "discovered",
-            "uncovered"
+            "disappear",
+            "take place",
+            "vanish",
+            "collapse"
         ],
         "answer": 1,
-        "explanation": "'Come across'は偶然見つけることを意味します。したがって、'I came across an old photo of mine while cleaning the house.'は、家を掃除しているときに自分の古い写真を偶然見つけたという意味になります。",
-        "en": "I came across an old photo of mine while cleaning the house.",
-        "jp": "家を掃除しているときに自分の古い写真を偶然見つけました。"
+        "explanation": "'Take place'は何かが起こる、または行われることを意味します。他の単語（'disappear'、「消える」、'vanish'、「消失する」、'collapse'、「崩壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The annual festival will take place in the town square next month.",
+        "jp": "来月、町の広場で年次祭りが開催されます。"
     },
     {
-        "question": "She _____ a strange object while walking in the forest.",
+        "question": "The meeting is scheduled to _____ at 10 AM in the conference room.",
         "selections": [
-            "saw",
-            "found",
-            "came across",
-            "noticed"
-        ],
-        "answer": 2,
-        "explanation": "'Come across'は偶然見つけることを意味します。したがって、'She came across a strange object while walking in the forest.'は、森を歩いているときに奇妙な物体を偶然見つけたという意味になります。",
-        "en": "She came across a strange object while walking in the forest.",
-        "jp": "彼女は森を歩いているときに奇妙な物体を偶然見つけました。"
-    },
-    {
-        "question": "He _____ to be a doctor to impress the girl.",
-        "selections": [
-            "lied",
-            "pretended",
-            "claimed",
-            "said"
-        ],
-        "answer": 1,
-        "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'He pretended to be a doctor to impress the girl.'は、彼が女の子に感銘を与えるために医者のふりをしたという意味になります。",
-        "en": "He pretended to be a doctor to impress the girl.",
-        "jp": "彼は女の子に感銘を与えるために医者のふりをしました。"
-    },
-    {
-        "question": "The child _____ to be asleep when his mother entered the room.",
-        "selections": [
-            "acted",
-            "pretended",
-            "faked",
-            "played"
-        ],
-        "answer": 1,
-        "explanation": "'Pretend'は偽る、ふりをすることを意味します。したがって、'The child pretended to be asleep when his mother entered the room.'は、母親が部屋に入ったときに子供が眠っているふりをしたという意味になります。",
-        "en": "The child pretended to be asleep when his mother entered the room.",
-        "jp": "母親が部屋に入ったとき、子供は眠っているふりをしました。"
-    },
-    {
-        "question": "The club decided to _____ him from the team due to his bad behavior.",
-        "selections": [
-            "remove",
-            "exclude",
-            "expel",
-            "dismiss"
-        ],
-        "answer": 1,
-        "explanation": "'Exclude'は除外することを意味します。したがって、'The club decided to exclude him from the team due to his bad behavior.'は、彼の悪い行動のためにクラブが彼をチームから除外することを決定したという意味になります。",
-        "en": "The club decided to exclude him from the team due to his bad behavior.",
-        "jp": "彼の悪い行動のためにクラブは彼をチームから除外することを決定しました。"
-    },
-    {
-        "question": "The teacher decided to _____ him from the field trip because he didn't submit the permission slip.",
-        "selections": [
-            "exclude",
-            "remove",
-            "leave out",
-            "omit"
-        ],
-        "answer": 0,
-        "explanation": "'Exclude'は除外することを意味します。したがって、'The teacher decided to exclude him from the field trip because he didn't submit the permission slip.'は、彼が許可書を提出しなかったために教師が彼を遠足から除外することを決定したという意味になります。",
-        "en": "The teacher decided to exclude him from the field trip because he didn't submit the permission slip.",
-        "jp": "彼が許可書を提出しなかったため、教師は彼を遠足から除外することを決定しました。"
-    },
-    {
-        "question": "They decided to _____ the room for the party.",
-        "selections": [
-            "prepare",
-            "arrange",
-            "decorate",
-            "set up"
-        ],
-        "answer": 2,
-        "explanation": "'Decorate'は装飾することを意味します。したがって、'They decided to decorate the room for the party.'は、彼らがパーティーのために部屋を装飾することを決定したという意味になります。",
-        "en": "They decided to decorate the room for the party.",
-        "jp": "彼らはパーティーのために部屋を装飾することを決定しました。"
-    },
-    {
-        "question": "She loves to _____ her house during the holiday season.",
-        "selections": [
-            "adorn",
-            "decorate",
-            "embellish",
-            "beautify"
-        ],
-        "answer": 1,
-        "explanation": "'Decorate'は装飾することを意味します。したがって、'She loves to decorate her house during the holiday season.'は、彼女が休暇シーズン中に家を装飾するのが好きであるという意味になります。",
-        "en": "She loves to decorate her house during the holiday season.",
-        "jp": "彼女は休暇シーズン中に家を装飾するのが好きです。"
-    },
-    {
-        "question": "The company decided to _____ a new manager.",
-        "selections": [
-            "appoint",
-            "hire",
-            "recruit",
-            "employ"
-        ],
-        "answer": 1,
-        "explanation": "'Hire'は雇うことを意味します。したがって、'The company decided to hire a new manager.'は、会社が新しいマネージャーを雇うことを決定したという意味になります。",
-        "en": "The company decided to hire a new manager.",
-        "jp": "会社は新しいマネージャーを雇うことを決定しました。"
-    },
-    {
-        "question": "They had to _____ a translator for the international conference.",
-        "selections": [
-            "employ",
-            "engage",
-            "recruit",
-            "hire"
-        ],
-        "answer": 3,
-        "explanation": "'Hire'は雇うことを意味します。したがって、'They had to hire a translator for the international conference.'は、彼らが国際会議のために翻訳者を雇わなければならなかったという意味になります。",
-        "en": "They had to hire a translator for the international conference.",
-        "jp": "彼らは国際会議のために翻訳者を雇わなければならなかった。"
-    },
-    {
-        "question": "The company had to _____ him due to his poor performance.",
-        "selections": [
-            "dismiss",
-            "fire",
-            "sack",
+            "take place",
+            "cancel",
+            "postpone",
             "terminate"
         ],
-        "answer": 1,
-        "explanation": "'Fire'は解雇することを意味します。したがって、'The company had to fire him due to his poor performance.'は、彼のパフォーマンスが悪かったために会社が彼を解雇しなければならなかったという意味になります。",
-        "en": "The company had to fire him due to his poor performance.",
-        "jp": "彼のパフォーマンスが悪かったため、会社は彼を解雇しなければならなかった。"
+        "answer": 0,
+        "explanation": "'Take place'は何かが起こる、または行われることを意味します。他の単語（'cancel'、「キャンセルする」、'postpone'、「延期する」、'terminate'、「終了する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The meeting is scheduled to take place at 10 AM in the conference room.",
+        "jp": "会議は、会議室で午前10時に開催される予定です。"
     },
     {
-        "question": "He was _____ from his job for stealing office supplies.",
+        "question": "She decided to _____ the charity event to help those in need.",
         "selections": [
-            "fired",
-            "dismissed",
-            "sacked",
-            "let go"
+            "ignore",
+            "avoid",
+            "take part in",
+            "reject"
+        ],
+        "answer": 2,
+        "explanation": "'Take part in'は何かに参加することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She decided to take part in the charity event to help those in need.",
+        "jp": "彼女は必要な人々を助けるために、チャリティイベントに参加することにしました。"
+    },
+    {
+        "question": "Many athletes from around the world _____ the Olympic Games.",
+        "selections": [
+            "withdraw from",
+            "escape",
+            "take part in",
+            "abandon"
+        ],
+        "answer": 2,
+        "explanation": "'Take part in'は何かに参加することを意味します。他の単語（'withdraw from'、「撤退する」、'escape'、「逃げる」、'abandon'、「放棄する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Many athletes from around the world take part in the Olympic Games.",
+        "jp": "世界中の多くの選手がオリンピックに参加します。"
+    },
+    {
+        "question": "While hiking in the forest, I _____ an old abandoned cabin.",
+        "selections": [
+            "come across",
+            "destroy",
+            "build",
+            "ignore"
         ],
         "answer": 0,
-        "explanation": "'Fire'は解雇することを意味します。したがって、'He was fired from his job for stealing office supplies.'は、彼がオフィス用品を盗んだために彼の仕事から解雇されたという意味になります。",
-        "en": "He was fired from his job for stealing office supplies.",
-        "jp": "彼はオフィス用品を盗んだために仕事から解雇されました。"
+        "explanation": "'Come across'は偶然見つけることを意味します。他の単語（'destroy'、「破壊する」、'build'、「建てる」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "While hiking in the forest, I came across an old abandoned cabin.",
+        "jp": "森をハイキングしていると、古い放棄された小屋に出くわしました。"
     },
     {
-        "question": "I need to _____ my friend who moved to another city.",
+        "question": "She _____ a beautiful painting when she was cleaning the attic.",
         "selections": [
-            "meet",
-            "find",
-            "see",
+            "come across",
+            "paint",
+            "hide",
+            "sell"
+        ],
+        "answer": 0,
+        "explanation": "'Come across'は偶然見つけることを意味します。他の単語（'paint'、「塗る」、'hide'、「隠す」、'sell'、「売る」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She came across a beautiful painting when she was cleaning the attic.",
+        "jp": "彼女が屋根裏部屋を掃除しているとき、美しい絵画に出くわしました。"
+    },
+    {
+        "question": "The scientist struggled to _____ a solution to the complex problem.",
+        "selections": [
+            "come up with",
+            "reject",
+            "forget",
+            "deny"
+        ],
+        "answer": 0,
+        "explanation": "'Come up with'は何かを考え出す、または提案することを意味します。他の単語（'reject'、「拒否する」、'forget'、「忘れる」、'deny'、「否定する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The scientist struggled to come up with a solution to the complex problem.",
+        "jp": "科学者は、複雑な問題に対する解決策を考え出すのに苦労しました。"
+    },
+    {
+        "question": "The team needs to _____ a new marketing strategy to increase sales.",
+        "selections": [
+            "destroy",
+            "ignore",
+            "avoid",
+            "come up with"
+        ],
+        "answer": 3,
+        "explanation": "'Come up with'は何かを考え出す、または提案することを意味します。他の単語（'destroy'、「破壊する」、'ignore'、「無視する」、'avoid'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The team needs to come up with a new marketing strategy to increase sales.",
+        "jp": "チームは、売上を増加させるために新しいマーケティング戦略を考え出す必要があります。"
+    },
+    {
+        "question": "After years of hard work, his dream of becoming a doctor finally _____.",
+        "selections": [
+            "collapse",
+            "vanish",
+            "come true",
+            "fail"
+        ],
+        "answer": 2,
+        "explanation": "'Come true'は夢が実現することを意味します。他の単語（'collapse'、「崩壊する」、'vanish'、「消失する」、'fail'、「失敗する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After years of hard work, his dream of becoming a doctor finally came true.",
+        "jp": "長年の努力の後、彼の医者になる夢がついに実現しました。"
+    },
+    {
+        "question": "If you believe in yourself and work hard, your dreams can _____.",
+        "selections": [
+            "come true",
+            "disappear",
+            "break",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Come true'は夢が実現することを意味します。他の単語（'disappear'、「消える」、'break'、「壊れる」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "If you believe in yourself and work hard, your dreams can come true.",
+        "jp": "自分を信じて一生懸命働けば、夢は実現することができます。"
+    },
+    {
+        "question": "It's important to _____ your coworkers to have a positive work environment.",
+        "selections": [
+            "argue with",
+            "get along with",
+            "compete with",
+            "fight with"
+        ],
+        "answer": 1,
+        "explanation": "'Get along with'は誰かと仲良くすることを意味します。他の単語（'argue with'、「議論する」、'compete with'、「競う」、'fight with'、「戦う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's important to get along with your coworkers to have a positive work environment.",
+        "jp": "前向きな職場環境を持つためには、同僚と仲良くすることが重要です。"
+    },
+    {
+        "question": "She always _____ her younger siblings, even though they have different interests.",
+        "selections": [
+            "ignore",
+            "avoid",
+            "reject",
+            "get along with"
+        ],
+        "answer": 3,
+        "explanation": "'Get along with'は誰かと仲良くすることを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She always gets along with her younger siblings, even though they have different interests.",
+        "jp": "彼女は、興味が異なるにもかかわらず、常に弟妹と仲良くします。"
+    },
+    {
+        "question": "While exploring the unfamiliar city, he managed to _____ and needed help finding his way back.",
+        "selections": [
+            "arrive",
+            "settle",
+            "get lost",
+            "discover"
+        ],
+        "answer": 2,
+        "explanation": "'Get lost'は迷うことを意味します。他の単語（'arrive'、「到着する」、'settle'、「落ち着く」、'discover'、「発見する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "While exploring the unfamiliar city, he managed to get lost and needed help finding his way back.",
+        "jp": "見知らぬ都市を探索している間、彼は迷ってしまい、帰る道を見つけるのに助けが必要でした。"
+    },
+    {
+        "question": "If you _____ in the forest without a map, it can be dangerous.",
+        "selections": [
+            "get lost",
+            "celebrate",
+            "dance",
+            "sing"
+        ],
+        "answer": 0,
+        "explanation": "'Get lost'は迷うことを意味します。他の単語（'celebrate'、「祝う」、'dance'、「踊る」、'sing'、「歌う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "If you get lost in the forest without a map, it can be dangerous.",
+        "jp": "地図なしで森で迷ってしまうと、危険になることがあります。"
+    },
+    {
+        "question": "After a long illness, it took him several months to _____ and return to normal life.",
+        "selections": [
+            "ignore",
+            "get over",
+            "avoid",
+            "reject"
+        ],
+        "answer": 1,
+        "explanation": "'Get over'は何かを乗り越える、または回復することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After a long illness, it took him several months to get over it and return to normal life.",
+        "jp": "長い病気の後、彼はそれを乗り越えて通常の生活に戻るのに数ヶ月かかりました。"
+    },
+    {
+        "question": "She was heartbroken, but with time and support from friends, she was able to _____ the breakup.",
+        "selections": [
+            "cause",
+            "start",
+            "get over",
+            "create"
+        ],
+        "answer": 2,
+        "explanation": "'Get over'は何かを乗り越える、または回復することを意味します。他の単語（'cause'、「引き起こす」、'start'、「始める」、'create'、「作成する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She was heartbroken, but with time and support from friends, she was able to get over the breakup.",
+        "jp": "彼女は失恋していましたが、時間と友人からの支援で、別れを乗り越えることができました。"
+    },
+    {
+        "question": "As the eldest sibling, it's her responsibility to _____ her younger brothers and sisters.",
+        "selections": [
+            "ignore",
+            "avoid",
+            "look after",
+            "reject"
+        ],
+        "answer": 2,
+        "explanation": "'Look after'は誰かの世話をすることを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "As the eldest sibling, it's her responsibility to look after her younger brothers and sisters.",
+        "jp": "長女として、彼女の責任は弟妹の世話をすることです。"
+    },
+    {
+        "question": "Can you _____ my plants while I'm on vacation?",
+        "selections": [
+            "look after",
+            "destroy",
+            "remove",
+            "hide"
+        ],
+        "answer": 0,
+        "explanation": "'Look after'は誰かの世話をすることを意味します。他の単語（'destroy'、「破壊する」、'remove'、「取り除く」、'hide'、「隠す」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Can you look after my plants while I'm on vacation?",
+        "jp": "私が休暇中、私の植物の世話をしてもらえますか？"
+    },
+    {
+        "question": "Many young athletes _____ their professional counterparts and aspire to be like them.",
+        "selections": [
+            "ignore",
+            "avoid",
+            "reject",
+            "look up to"
+        ],
+        "answer": 3,
+        "explanation": "'Look up to'は誰かを尊敬することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Many young athletes look up to their professional counterparts and aspire to be like them.",
+        "jp": "多くの若い選手は、プロの仲間を尊敬し、彼らのようになりたいと願っています。"
+    },
+    {
+        "question": "He _____ his grandfather, who was a war hero and a man of great integrity.",
+        "selections": [
+            "compete with",
+            "look up to",
+            "fight with",
+            "argue with"
+        ],
+        "answer": 1,
+        "explanation": "'Look up to'は誰かを尊敬することを意味します。他の単語（'compete with'、「競う」、'fight with'、「戦う」、'argue with'、「議論する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He looks up to his grandfather, who was a war hero and a man of great integrity.",
+        "jp": "彼は戦争の英雄で、高い誠実さを持つ祖父を尊敬しています。"
+    },
+    {
+        "question": "He decided to _____ the meeting until next week due to unforeseen circumstances.",
+        "selections": [
+            "accelerate",
+            "put off",
+            "begin",
+            "celebrate"
+        ],
+        "answer": 1,
+        "explanation": "'Put off'は何かを延期することを意味します。他の単語（'accelerate'、「加速する」、'begin'、「始める」、'celebrate'、「祝う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He decided to put off the meeting until next week due to unforeseen circumstances.",
+        "jp": "彼は予期せぬ事態により、会議を来週まで延期することにしました。"
+    },
+    {
+        "question": "She had to _____ her vacation plans because of work commitments.",
+        "selections": [
+            "start",
+            "put off",
+            "enjoy",
+            "expand"
+        ],
+        "answer": 1,
+        "explanation": "'Put off'は何かを延期することを意味します。他の単語（'start'、「始める」、'enjoy'、「楽しむ」、'expand'、「拡大する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She had to put off her vacation plans because of work commitments.",
+        "jp": "彼女は仕事の都合で休暇の計画を延期しなければなりませんでした。"
+    },
+    {
+        "question": "It's not easy to _____ constant noise when you're trying to concentrate.",
+        "selections": [
+            "create",
+            "put up with",
+            "enjoy",
+            "promote"
+        ],
+        "answer": 1,
+        "explanation": "'Put up with'は何かを我慢することを意味します。他の単語（'create'、「作成する」、'enjoy'、「楽しむ」、'promote'、「促進する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's not easy to put up with constant noise when you're trying to concentrate.",
+        "jp": "集中しようとしているときに、絶えず騒音を我慢するのは簡単ではありません。"
+    },
+    {
+        "question": "He's very patient and can _____ a lot of stress without complaining.",
+        "selections": [
+            "put up with",
+            "reduce",
+            "eliminate",
+            "celebrate"
+        ],
+        "answer": 0,
+        "explanation": "'Put up with'は何かを我慢することを意味します。他の単語（'reduce'、「減らす」、'eliminate'、「排除する」、'celebrate'、「祝う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He's very patient and can put up with a lot of stress without complaining.",
+        "jp": "彼は非常に忍耐強く、不平を言わずに多くのストレスを我慢することができます。"
+    },
+    {
+        "question": "I don't _____ going to the party tonight; I'm too tired.",
+        "selections": [
+            "avoid",
+            "reject",
+            "force",
+            "feel like"
+        ],
+        "answer": 3,
+        "explanation": "'Feel like doing'は何かをしたいと感じることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I don't feel like going to the party tonight; I'm too tired.",
+        "jp": "今夜はパーティーに行きたくない気分です。私はとても疲れています。"
+    },
+    {
+        "question": "Do you _____ eating out tonight, or would you prefer to stay home?",
+        "selections": [
+            "reject",
+            "avoid",
+            "feel like",
+            "force"
+        ],
+        "answer": 2,
+        "explanation": "'Feel like doing'は何かをしたいと感じることを意味します。他の単語（'reject'、「拒否する」、'avoid'、「避ける」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Do you feel like eating out tonight, or would you prefer to stay home?",
+        "jp": "今夜外食したい気分ですか、それとも家にいたいですか？"
+    },
+    {
+        "question": "We went to the airport to see our friends _____ before their flight.",
+        "selections": [
+            "off",
+            "invite",
+            "welcome",
+            "ignore"
+        ],
+        "answer": 0,
+        "explanation": "'See off'は誰かを見送ることを意味します。他の単語（'invite'、「招待する」、'welcome'、「歓迎する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "We went to the airport to see our friends off before their flight.",
+        "jp": "私たちは友人たちの飛行機が出発する前に空港に行って見送りました。"
+    },
+    {
+        "question": "It's a tradition in our family to _____ relatives off at the train station when they leave.",
+        "selections": [
+            "avoid",
+            "reject",
+            "force",
+            "see"
+        ],
+        "answer": 3,
+        "explanation": "'See off'は誰かを見送ることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's a tradition in our family to see relatives off at the train station when they leave.",
+        "jp": "私たちの家族の伝統では、親戚が出発するときに駅で見送ります。"
+    },
+    {
+        "question": "The company plans to _____ a new marketing campaign next month.",
+        "selections": [
+            "destroy",
+            "avoid",
+            "carry out",
+            "reject"
+        ],
+        "answer": 2,
+        "explanation": "'Carry out'は何かを実行することを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The company plans to carry out a new marketing campaign next month.",
+        "jp": "会社は来月、新しいマーケティングキャンペーンを実施する予定です。"
+    },
+    {
+        "question": "The scientists are eager to _____ their experiments to test the new theory.",
+        "selections": [
+            "carry out",
+            "ignore",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Carry out'は何かを実行することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The scientists are eager to carry out their experiments to test the new theory.",
+        "jp": "科学者たちは、新しい理論をテストするために実験を実施することを熱望しています。"
+    },
+    {
+        "question": "I need to _____ my classmates; they are ahead of me in the project.",
+        "selections": [
+            "ignore",
+            "avoid",
+            "catch up with",
+            "compete with"
+        ],
+        "answer": 2,
+        "explanation": "'Catch up with'は誰かに追いつくことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I need to catch up with my classmates; they are ahead of me in the project.",
+        "jp": "私はクラスメートに追いつく必要があります。彼らはプロジェクトで私より先に進んでいます。"
+    },
+    {
+        "question": "After being sick for a week, he had to work hard to _____ his colleagues at work.",
+        "selections": [
+            "fight with",
+            "argue with",
+            "compete with",
             "catch up with"
         ],
         "answer": 3,
-        "explanation": "'Catch up with'は追いつく、連絡を取ることを意味します。したがって、'I need to catch up with my friend who moved to another city.'は、他の都市に移住した友人に連絡を取る必要があるという意味になります。",
-        "en": "I need to catch up with my friend who moved to another city.",
-        "jp": "他の都市に移住した友人に連絡を取る必要があります。"
+        "explanation": "'Catch up with'は誰かに追いつくことを意味します。他の単語（'fight with'、「戦う」、'argue with'、「議論する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After being sick for a week, he had to work hard to catch up with his colleagues at work.",
+        "jp": "1週間病気でいた後、彼は仕事で同僚に追いつくために一生懸命働かなければなりませんでした。"
     },
     {
-        "question": "He is trying to _____ the latest trends in technology.",
+        "question": "Good communication skills _____ a part in success in any career.",
         "selections": [
-            "follow",
-            "catch up with",
+            "play",
+            "destroy",
+            "avoid",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Play a part in'は何かに一役買うことを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Good communication skills play a part in success in any career.",
+        "jp": "良いコミュニケーションスキルは、どんなキャリアにおいても成功に一役買います。"
+    },
+    {
+        "question": "His dedication and hard work play a part _____ the team's victory in the tournament.",
+        "selections": [
+            "ignore",
+            "in",
+            "avoid",
+            "destroy"
+        ],
+        "answer": 1,
+        "explanation": "'Play a part in'は何かに一役買うことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "His dedication and hard work play a part in the team's victory in the tournament.",
+        "jp": "彼の献身と努力は、チームがトーナメントで勝利するのに一役買っています。"
+    },
+    {
+        "question": "She wants to play a _____ in environmental conservation by volunteering for clean-up activities.",
+        "selections": [
+            "avoid",
+            "role",
+            "reject",
+            "ignore"
+        ],
+        "answer": 1,
+        "explanation": "'Play a role in'は何かに一役買うことを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She wants to play a role in environmental conservation by volunteering for clean-up activities.",
+        "jp": "彼女は清掃活動のボランティアを通じて、環境保全に一役買いたいと思っています。"
+    },
+    {
+        "question": "His innovative ideas _____ the success of the new product launch.",
+        "selections": [
+            "play a role in",
+            "destroy",
+            "avoid",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Play a role in'は何かに一役買うことを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "His innovative ideas play a role in the success of the new product launch.",
+        "jp": "彼の革新的なアイデアは、新製品のローンチの成功に一役買っています。"
+    },
+    {
+        "question": "Can you _____ my children _____ from school today? I'm stuck at work.",
+        "selections": [
+            "pick up",
+            "ignore",
+            "avoid",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Pick up'は誰かを迎えに行くことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Can you pick up my children from school today? I'm stuck at work.",
+        "jp": "今日、学校から子供たちを迎えに行ってもらえますか？私は仕事で動けません。"
+    },
+    {
+        "question": "I'll _____ the groceries up on my way home from work.",
+        "selections": [
+            "pick",
+            "destroy",
+            "reject",
+            "compete"
+        ],
+        "answer": 0,
+        "explanation": "'Pick up'は何かを拾うことを意味します。他の単語（'destroy'、「破壊する」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'll pick up the groceries on my way home from work.",
+        "jp": "仕事帰りに食料品を拾います。"
+    },
+    {
+        "question": "You need to work hard to _____ up with the latest trends in technology.",
+        "selections": [
+            "avoid",
+            "keep",
+            "destroy",
+            "reject"
+        ],
+        "answer": 1,
+        "explanation": "'Keep up with'は何かに追いつくことを意味します。他の単語（'avoid'、「避ける」、'destroy'、「破壊する」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "You need to work hard to keep up with the latest trends in technology.",
+        "jp": "最新の技術動向に追いつくために一生懸命働く必要があります。"
+    },
+    {
+        "question": "He's always reading and learning to _____ his peers in the industry.",
+        "selections": [
             "keep up with",
-            "track"
-        ],
-        "answer": 1,
-        "explanation": "'Catch up with'は追いつくことを意味します。したがって、'He is trying to catch up with the latest trends in technology.'は、彼が技術の最新のトレンドに追いつこうとしているという意味になります。",
-        "en": "He is trying to catch up with the latest trends in technology.",
-        "jp": "彼は技術の最新のトレンドに追いつこうとしています。"
-    },
-    {
-        "question": "She has to _____ her younger brother while their parents are away.",
-        "selections": [
-            "care for",
-            "watch",
-            "look after",
-            "guard"
-        ],
-        "answer": 2,
-        "explanation": "'Look after'は世話をすることを意味します。したがって、'She has to look after her younger brother while their parents are away.'は、両親が不在の間、彼女が弟の世話をしなければならないという意味になります。",
-        "en": "She has to look after her younger brother while their parents are away.",
-        "jp": "両親が不在の間、彼女は弟の世話をしなければなりません。"
-    },
-    {
-        "question": "He was hired to _____ the children during the summer vacation.",
-        "selections": [
-            "look after",
-            "care for",
-            "watch",
-            "guard"
+            "ignore",
+            "avoid",
+            "compete with"
         ],
         "answer": 0,
-        "explanation": "'Look after'は世話をすることを意味します。したがって、'He was hired to look after the children during the summer vacation.'は、彼が夏休み中に子供たちの世話をするために雇われたという意味になります。",
-        "en": "He was hired to look after the children during the summer vacation.",
-        "jp": "彼は夏休み中に子供たちの世話をするために雇われました。"
-    },
-    {
-        "question": "The mechanic was able to _____ the car in a few hours.",
-        "selections": [
-            "fix",
-            "repair",
-            "mend",
-            "restore"
-        ],
-        "answer": 1,
-        "explanation": "'Repair'は修理することを意味します。したがって、'The mechanic was able to repair the car in a few hours.'は、メカニックが数時間で車を修理できたという意味になります。",
-        "en": "The mechanic was able to repair the car in a few hours.",
-        "jp": "メカニックは数時間で車を修理できました。"
-    },
-    {
-        "question": "He learned how to _____ old furniture from his grandfather.",
-        "selections": [
-            "repair",
-            "fix",
-            "mend",
-            "restore"
-        ],
-        "answer": 0,
-        "explanation": "'Repair'は修理することを意味します。したがって、'He learned how to repair old furniture from his grandfather.'は、彼が祖父から古い家具の修理方法を学んだという意味になります。",
-        "en": "He learned how to repair old furniture from his grandfather.",
-        "jp": "彼は祖父から古い家具の修理方法を学びました。"
+        "explanation": "'Keep up with'は何かに追いつくことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He's always reading and learning to keep up with his peers in the industry.",
+        "jp": "彼は常に読んで学び、業界の仲間に追いつくよう努めています。"
     }
 ]

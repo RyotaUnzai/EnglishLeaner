@@ -121,7 +121,8 @@ class Questions:
         if isinstance(path, str):
             path = Path(path)
         self.__path = PATH_LOCALAPPDATA / path.name
-        shutil.copyfile(path.as_posix(), self.__path.as_posix())
+        if path.as_posix() != self.__path.as_posix():
+            shutil.copyfile(path.as_posix(), self.__path.as_posix())
 
     def reload(self, path: Union[Path, str]):
         self.open(path)

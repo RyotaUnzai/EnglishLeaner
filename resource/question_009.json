@@ -1,0 +1,262 @@
+[
+    {
+        "question": "After graduating, he plans to study _____ in Europe.",
+        "selections": [
+            "exactly",
+            "abroad",
+            "especially",
+            "actually"
+        ],
+        "answer": 1,
+        "explanation": "'Abroad'は外国であることを意味します。他の単語（'exactly'、「正確に」、'especially'、「特に」、'actually'、「実際に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After graduating, he plans to study abroad in Europe.",
+        "jp": "卒業後、彼はヨーロッパで留学する予定です。"
+    },
+    {
+        "question": "I didn't go to the party; _____, I stayed home and watched a movie.",
+        "selections": [
+            "actually",
+            "exactly",
+            "abroad",
+            "especially"
+        ],
+        "answer": 0,
+        "explanation": "'Actually'は実際にあることを意味します。他の単語（'exactly'、「正確に」、'abroad'、「外国で」、'especially'、「特に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I didn't go to the party; actually, I stayed home and watched a movie.",
+        "jp": "私はパーティーに行かなかった。実際、家にいて映画を見ました。"
+    },
+    {
+        "question": "You should _____ consult a doctor if the symptoms persist.",
+        "selections": [
+            "especially",
+            "exactly",
+            "abroad",
+            "certainly"
+        ],
+        "answer": 3,
+        "explanation": "'Certainly'は確かにあることを意味します。他の単語（'especially'、「特に」、'exactly'、「正確に」、'abroad'、「外国で」）は、この文脈とは逆の意味を持ちます。",
+        "en": "You should certainly consult a doctor if the symptoms persist.",
+        "jp": "症状が続く場合は、確かに医師に相談するべきです。"
+    },
+    {
+        "question": "I enjoy reading, _____ science fiction novels.",
+        "selections": [
+            "exactly",
+            "abroad",
+            "especially",
+            "actually"
+        ],
+        "answer": 2,
+        "explanation": "'Especially'は特にあることを意味します。他の単語（'exactly'、「正確に」、'abroad'、「外国で」、'actually'、「実際に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I enjoy reading, especially science fiction novels.",
+        "jp": "私は読書が好きです、特にサイエンスフィクションの小説が。"
+    },
+    {
+        "question": "The measurements need to be _____ right for the construction to be successful.",
+        "selections": [
+            "abroad",
+            "actually",
+            "certainly",
+            "exactly"
+        ],
+        "answer": 3,
+        "explanation": "'Exactly'は正確にあることを意味します。他の単語（'abroad'、「外国で」、'actually'、「実際に」、'certainly'、「確かに」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The measurements need to be exactly right for the construction to be successful.",
+        "jp": "建設が成功するためには、寸法が正確でなければなりません。"
+    },
+    {
+        "question": "We waited for hours, and _____ the bus arrived.",
+        "selections": [
+            "mostly",
+            "however",
+            "finally",
+            "moreover"
+        ],
+        "answer": 2,
+        "explanation": "'Finally'は最終的に、ついにという意味です。他の単語（'mostly'、「主に」、'however'、「しかし」、'moreover'、「その上」）は、この文脈とは逆の意味を持ちます。",
+        "en": "We waited for hours, and finally the bus arrived.",
+        "jp": "私たちは何時間も待ちましたが、ついにバスが到着しました。"
+    },
+    {
+        "question": "I forgot my umbrella, _____ it didn't rain.",
+        "selections": [
+            "fortunately",
+            "finally",
+            "moreover",
+            "mostly"
+        ],
+        "answer": 0,
+        "explanation": "'Fortunately'は幸いにもという意味です。他の単語（'finally'、「ついに」、'moreover'、「その上」、'mostly'、「主に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I forgot my umbrella, fortunately it didn't rain.",
+        "jp": "傘を忘れましたが、幸いにも雨は降りませんでした。"
+    },
+    {
+        "question": "I love chocolate. _____, I don't eat it often.",
+        "selections": [
+            "mostly",
+            "however",
+            "finally",
+            "fortunately"
+        ],
+        "answer": 1,
+        "explanation": "'However'はしかしという意味です。他の単語（'mostly'、「主に」、'finally'、「ついに」、'fortunately'、「幸いにも」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I love chocolate. However, I don't eat it often.",
+        "jp": "私はチョコレートが大好きです。しかし、あまり食べません。"
+    },
+    {
+        "question": "She passed the exam. _____, she got a scholarship.",
+        "selections": [
+            "finally",
+            "moreover",
+            "fortunately",
+            "mostly"
+        ],
+        "answer": 1,
+        "explanation": "'Moreover'はその上という意味です。他の単語（'finally'、「ついに」、'fortunately'、「幸いにも」、'mostly'、「主に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She passed the exam. Moreover, she got a scholarship.",
+        "jp": "彼女は試験に合格しました。その上、奨学金を得ました。"
+    },
+    {
+        "question": "The team _____ plays well, but they lost the last game.",
+        "selections": [
+            "fortunately",
+            "mostly",
+            "finally",
+            "however"
+        ],
+        "answer": 1,
+        "explanation": "'Mostly'は主にという意味です。他の単語（'fortunately'、「幸いにも」、'finally'、「ついに」、'however'、「しかし」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The team mostly plays well, but they lost the last game.",
+        "jp": "そのチームは主にうまくプレーしますが、最後の試合に負けました。"
+    },
+    {
+        "question": "He _____ missed the train this morning, but luckily he caught it just in time.",
+        "selections": [
+            "always",
+            "nearly",
+            "sometimes",
+            "often"
+        ],
+        "answer": 1,
+        "explanation": "'Nearly'はほとんどの意味です。他の単語（'always'、「いつも」、'sometimes'、「時々」、'often'、「しばしば」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He nearly missed the train this morning, but luckily he caught it just in time.",
+        "jp": "今朝、彼はほとんど列車を逃しましたが、幸運にもちょうど間に合いました。"
+    },
+    {
+        "question": "_____ my brother nor my sister will be attending the family gathering.",
+        "selections": [
+            "either",
+            "always",
+            "neither",
+            "sometimes"
+        ],
+        "answer": 2,
+        "explanation": "'Neither'はどちらもないという意味です。他の単語（'either'、「どちらか」、'always'、「いつも」、'sometimes'、「時々」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Neither my brother nor my sister will be attending the family gathering.",
+        "jp": "私の兄も姉も家族の集まりには出席しません。"
+    },
+    {
+        "question": "It was raining, _____ we decided to go on the hike.",
+        "selections": [
+            "therefore",
+            "nevertheless",
+            "because",
+            "since"
+        ],
+        "answer": 1,
+        "explanation": "'Nevertheless'はそれにもかかわらずという意味です。他の単語（'therefore'、「それゆえに」、'because'、「なぜなら」、'since'、「以来」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It was raining, nevertheless we decided to go on the hike.",
+        "jp": "雨が降っていましたが、それでも私たちはハイキングに行くことにしました。"
+    },
+    {
+        "question": "_____ people prefer shopping online rather than going to physical stores.",
+        "selections": [
+            "nevertheless",
+            "sometimes",
+            "nowadays",
+            "always"
+        ],
+        "answer": 2,
+        "explanation": "'Nowadays'は現在、最近という意味です。他の単語（'nevertheless'、「それにもかかわらず」、'sometimes'、「時々」、'always'、「いつも」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Nowadays people prefer shopping online rather than going to physical stores.",
+        "jp": "現在、人々は物理的な店舗に行くよりもオンラインで買い物をすることを好む傾向があります。"
+    },
+    {
+        "question": "She is _____ interested in art and often visits galleries and museums.",
+        "selections": [
+            "sometimes",
+            "particularly",
+            "never",
+            "always"
+        ],
+        "answer": 1,
+        "explanation": "'Particularly'は特にという意味です。他の単語（'sometimes'、「時々」、'never'、「決して」、'always'、「いつも」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She is particularly interested in art and often visits galleries and museums.",
+        "jp": "彼女は特に芸術に興味を持っており、しばしばギャラリーや美術館を訪れます。"
+    },
+    {
+        "question": "_____ you could ask your supervisor for help with the project?",
+        "selections": [
+            "recently",
+            "unfortunately",
+            "perhaps",
+            "rather"
+        ],
+        "answer": 2,
+        "explanation": "'Perhaps'は「もしかしたら」という意味です。他の単語はこの文脈とは合いません。",
+        "en": "Perhaps you could ask your supervisor for help with the project?",
+        "jp": "もしかしたら、プロジェクトの助けを上司に頼むことができるかもしれませんか？"
+    },
+    {
+        "question": "I'll _____ be able to finish the work by the deadline.",
+        "selections": [
+            "probably",
+            "recently",
+            "unfortunately",
+            "rather"
+        ],
+        "answer": 0,
+        "explanation": "'Probably'は「おそらく」という意味です。他の単語はこの文脈とは合いません。",
+        "en": "I'll probably be able to finish the work by the deadline.",
+        "jp": "私はおそらく締め切りまでに仕事を終えることができるでしょう。"
+    },
+    {
+        "question": "I would _____ prefer to stay home tonight than go out.",
+        "selections": [
+            "recently",
+            "unfortunately",
+            "rather",
+            "probably"
+        ],
+        "answer": 2,
+        "explanation": "'Rather'は「むしろ」という意味です。他の単語はこの文脈とは合いません。",
+        "en": "I would rather prefer to stay home tonight than go out.",
+        "jp": "今夜は外出するよりも、むしろ家にいたいと思います。"
+    },
+    {
+        "question": "He has _____ joined a new company and is excited about his role.",
+        "selections": [
+            "recently",
+            "unfortunately",
+            "rather",
+            "probably"
+        ],
+        "answer": 0,
+        "explanation": "'Recently'は「最近」という意味です。他の単語はこの文脈とは合いません。",
+        "en": "He has recently joined a new company and is excited about his role.",
+        "jp": "彼は最近新しい会社に入社し、役割に興奮しています。"
+    },
+    {
+        "question": "_____ the event has been canceled due to bad weather.",
+        "selections": [
+            "probably",
+            "recently",
+            "rather",
+            "unfortunately"
+        ],
+        "answer": 3,
+        "explanation": "'Unfortunately'は「残念ながら」という意味です。他の単語はこの文脈とは合いません。",
+        "en": "Unfortunately the event has been canceled due to bad weather.",
+        "jp": "残念ながら、悪天候のためイベントはキャンセルされました。"
+    }
+]
