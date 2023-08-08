@@ -2,12 +2,12 @@
     {
         "question": "His room is always so _____; everything is in its place.",
         "selections": [
-            "neat",
             "messy",
+            "neat",
             "complicated",
             "noisy"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "'Neat'は整然としていることを意味します。他の単語（'messy'、「乱雑な」、'complicated'、「複雑な」、'noisy'、「うるさい」）は、この文脈とは逆の意味を持ちます。",
         "en": "His room is always so neat; everything is in its place.",
         "jp": "彼の部屋はいつもとてもきちんとしています。すべてが定位置にあります。"
@@ -15,12 +15,12 @@
     {
         "question": "She arranged the flowers _____ in the vase.",
         "selections": [
-            "neatly",
             "awkwardly",
             "clumsily",
+            "neatly",
             "roughly"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'Neatly'は整然としている様子を表します。他の単語（'awkwardly'、「ぎこちなく」、'clumsily'、「不器用に」、'roughly'、「大ざっぱに」）は、この文脈とは逆の意味を持ちます。",
         "en": "She arranged the flowers neatly in the vase.",
         "jp": "彼女は花瓶の中の花をきちんと整えました。"
@@ -41,12 +41,12 @@
     {
         "question": "She worked _____ to finish the project before the deadline.",
         "selections": [
-            "diligently",
             "lazily",
             "carelessly",
-            "negligently"
+            "negligently",
+            "diligently"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'Diligently'は勤勉に働く様子を表します。他の単語（'lazily'、「怠惰に」、'carelessly'、「不注意に」、'negligently'、「怠慢に」）は、この文脈とは逆の意味を持ちます。",
         "en": "She worked diligently to finish the project before the deadline.",
         "jp": "彼女は締め切り前にプロジェクトを終了させるために勤勉に働きました。"
@@ -80,12 +80,12 @@
     {
         "question": "He is known for being _____ and always telling the truth.",
         "selections": [
-            "honest",
             "deceptive",
             "dishonest",
-            "misleading"
+            "misleading",
+            "honest"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'Honest'は正直なことを意味します。他の単語（'deceptive'、「欺瞞的な」、'dishonest'、「不正直な」、'misleading'、「誤解を招く」）は、この文脈とは逆の意味を持ちます。",
         "en": "He is known for being honest and always telling the truth.",
         "jp": "彼は正直で、常に真実を語ることで知られています。"
@@ -93,12 +93,12 @@
     {
         "question": "She spoke _____ about her feelings and didn't hide anything.",
         "selections": [
-            "honestly",
             "deceptively",
+            "honestly",
             "dishonestly",
             "misleadingly"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "'Honestly'は正直に話す様子を表します。他の単語（'deceptively'、「欺瞞的に」、'dishonestly'、「不正直に」、'misleadingly'、「誤解を招くように」）は、この文脈とは逆の意味を持ちます。",
         "en": "She spoke honestly about her feelings and didn't hide anything.",
         "jp": "彼女は自分の感情について正直に話し、何も隠しませんでした。"
@@ -106,12 +106,12 @@
     {
         "question": "The instructions were _____ and easy to follow.",
         "selections": [
-            "simple",
             "complicated",
             "confusing",
+            "simple",
             "ambiguous"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'Simple'は単純なことを意味します。他の単語（'complicated'、「複雑な」、'confusing'、「混乱させる」、'ambiguous'、「曖昧な」）は、この文脈とは逆の意味を持ちます。",
         "en": "The instructions were simple and easy to follow.",
         "jp": "指示は単純で、簡単に従うことができました。"
@@ -132,12 +132,12 @@
     {
         "question": "This is a _____ matter, and we need to handle it with care.",
         "selections": [
-            "serious",
             "trivial",
             "insignificant",
-            "unimportant"
+            "unimportant",
+            "serious"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'Serious'は重要なことを意味します。他の単語（'trivial'、「些細な」、'insignificant'、「重要でない」、'unimportant'、「重要でない」）は、この文脈とは逆の意味を持ちます。",
         "en": "This is a serious matter, and we need to handle it with care.",
         "jp": "これは重要な問題であり、慎重に取り扱う必要があります。"
@@ -158,12 +158,12 @@
     {
         "question": "He worked hard to _____ the project before the deadline.",
         "selections": [
-            "complete",
             "destroy",
+            "complete",
             "avoid",
             "ignore"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "'Complete'は何かを完成させることを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
         "en": "He worked hard to complete the project before the deadline.",
         "jp": "彼は期限前にプロジェクトを完成させるために一生懸命働きました。"
@@ -185,12 +185,12 @@
     {
         "question": "After a long day at work, he was so tired that he fell _____ on the couch.",
         "selections": [
-            "asleep",
             "awake",
+            "asleep",
             "alert",
             "active"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "'Asleep'は眠っている状態を意味します。他の単語（'awake'、「目覚めている」、'alert'、「警戒している」、'active'、「活動的な」）は、この文脈とは逆の意味を持ちます。",
         "en": "After a long day at work, he was so tired that he fell asleep on the couch.",
         "jp": "一日の仕事が終わった後、彼はとても疲れていたので、ソファで寝てしまいました。"
@@ -211,12 +211,12 @@
     {
         "question": "After the accident, everyone was relieved to find that the driver was still _____.",
         "selections": [
-            "alive",
             "dead",
             "extinct",
+            "alive",
             "inanimate"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'Alive'は生きている状態を意味します。他の単語（'dead'、「死んでいる」、'extinct'、「絶滅した」、'inanimate'、「無生物の」）は、この文脈とは逆の意味を持ちます。",
         "en": "After the accident, everyone was relieved to find that the driver was still alive.",
         "jp": "事故の後、運転手がまだ生きていることがわかり、みんなが安心しました。"
@@ -224,12 +224,12 @@
     {
         "question": "I've _____ finished my homework, so I can play with you now.",
         "selections": [
-            "already",
             "never",
             "sometimes",
+            "already",
             "often"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'Already'はすでに何かが完了したことを意味します。他の単語（'never'、「決してない」、'sometimes'、「時々」、'often'、「しばしば」）は、この文脈とは逆の意味を持ちます。",
         "en": "I've already finished my homework, so I can play with you now.",
         "jp": "すでに宿題が終わったので、今あそべます。"
@@ -276,12 +276,12 @@
     {
         "question": "He _____ visits his grandparents on the weekends.",
         "selections": [
-            "occasionally",
             "never",
+            "occasionally",
             "always",
             "yet"
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "'Occasionally'は時折、たまにという意味です。他の単語（'never'、「決してない」、'always'、「いつも」、'yet'、「まだ」）は、この文脈とは逆の意味を持ちます。",
         "en": "He occasionally visits his grandparents on the weekends.",
         "jp": "彼は週末に時折祖父母を訪れます。"
@@ -289,12 +289,12 @@
     {
         "question": "She _____ checks her emails throughout the day to stay updated.",
         "selections": [
-            "frequently",
             "never",
             "rarely",
-            "yet"
+            "yet",
+            "frequently"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "'Frequently'は頻繁にという意味です。他の単語（'never'、「決してない」、'rarely'、「めったにない」、'yet'、「まだ」）は、この文脈とは逆の意味を持ちます。",
         "en": "She frequently checks her emails throughout the day to stay updated.",
         "jp": "彼女は最新の情報を得るために、一日中頻繁にメールをチェックします。"

@@ -9,6 +9,7 @@ _GENERATED_CLASS, _ = loadUiType(_UI_PATH.as_posix())
 
 
 class Questions_Menu(_GENERATED_CLASS, QtWidgets.QWidget):
+    pushButtonExport: QtWidgets.QPushButton
     pushButtonSelection: QtWidgets.QPushButton
     pushButtonSort: QtWidgets.QPushButton
     pushButtonWrite: QtWidgets.QPushButton

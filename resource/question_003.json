@@ -26,11 +26,11 @@
         "jp": "会議は、会議室で午前10時に開催される予定です。"
     },
     {
-        "question": "She decided to _____ the charity event to help those in need.",
+        "question": "She decided to _____ in the charity event to help those in need.",
         "selections": [
             "ignore",
             "avoid",
-            "take part in",
+            "take part",
             "reject"
         ],
         "answer": 2,
@@ -39,11 +39,11 @@
         "jp": "彼女は必要な人々を助けるために、チャリティイベントに参加することにしました。"
     },
     {
-        "question": "Many athletes from around the world _____ the Olympic Games.",
+        "question": "Many athletes from around the world _____ in the Olympic Games.",
         "selections": [
             "withdraw from",
             "escape",
-            "take part in",
+            "take part",
             "abandon"
         ],
         "answer": 2,
@@ -67,12 +67,12 @@
     {
         "question": "She _____ a beautiful painting when she was cleaning the attic.",
         "selections": [
-            "come across",
             "paint",
             "hide",
+            "come across",
             "sell"
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "'Come across'は偶然見つけることを意味します。他の単語（'paint'、「塗る」、'hide'、「隠す」、'sell'、「売る」）は、この文脈とは逆の意味を持ちます。",
         "en": "She came across a beautiful painting when she was cleaning the attic.",
         "jp": "彼女が屋根裏部屋を掃除しているとき、美しい絵画に出くわしました。"
@@ -258,265 +258,5 @@
         "explanation": "'Look up to'は誰かを尊敬することを意味します。他の単語（'compete with'、「競う」、'fight with'、「戦う」、'argue with'、「議論する」）は、この文脈とは逆の意味を持ちます。",
         "en": "He looks up to his grandfather, who was a war hero and a man of great integrity.",
         "jp": "彼は戦争の英雄で、高い誠実さを持つ祖父を尊敬しています。"
-    },
-    {
-        "question": "He decided to _____ the meeting until next week due to unforeseen circumstances.",
-        "selections": [
-            "accelerate",
-            "put off",
-            "begin",
-            "celebrate"
-        ],
-        "answer": 1,
-        "explanation": "'Put off'は何かを延期することを意味します。他の単語（'accelerate'、「加速する」、'begin'、「始める」、'celebrate'、「祝う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "He decided to put off the meeting until next week due to unforeseen circumstances.",
-        "jp": "彼は予期せぬ事態により、会議を来週まで延期することにしました。"
-    },
-    {
-        "question": "She had to _____ her vacation plans because of work commitments.",
-        "selections": [
-            "start",
-            "put off",
-            "enjoy",
-            "expand"
-        ],
-        "answer": 1,
-        "explanation": "'Put off'は何かを延期することを意味します。他の単語（'start'、「始める」、'enjoy'、「楽しむ」、'expand'、「拡大する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "She had to put off her vacation plans because of work commitments.",
-        "jp": "彼女は仕事の都合で休暇の計画を延期しなければなりませんでした。"
-    },
-    {
-        "question": "It's not easy to _____ constant noise when you're trying to concentrate.",
-        "selections": [
-            "create",
-            "put up with",
-            "enjoy",
-            "promote"
-        ],
-        "answer": 1,
-        "explanation": "'Put up with'は何かを我慢することを意味します。他の単語（'create'、「作成する」、'enjoy'、「楽しむ」、'promote'、「促進する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "It's not easy to put up with constant noise when you're trying to concentrate.",
-        "jp": "集中しようとしているときに、絶えず騒音を我慢するのは簡単ではありません。"
-    },
-    {
-        "question": "He's very patient and can _____ a lot of stress without complaining.",
-        "selections": [
-            "put up with",
-            "reduce",
-            "eliminate",
-            "celebrate"
-        ],
-        "answer": 0,
-        "explanation": "'Put up with'は何かを我慢することを意味します。他の単語（'reduce'、「減らす」、'eliminate'、「排除する」、'celebrate'、「祝う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "He's very patient and can put up with a lot of stress without complaining.",
-        "jp": "彼は非常に忍耐強く、不平を言わずに多くのストレスを我慢することができます。"
-    },
-    {
-        "question": "I don't _____ going to the party tonight; I'm too tired.",
-        "selections": [
-            "avoid",
-            "reject",
-            "force",
-            "feel like"
-        ],
-        "answer": 3,
-        "explanation": "'Feel like doing'は何かをしたいと感じることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "I don't feel like going to the party tonight; I'm too tired.",
-        "jp": "今夜はパーティーに行きたくない気分です。私はとても疲れています。"
-    },
-    {
-        "question": "Do you _____ eating out tonight, or would you prefer to stay home?",
-        "selections": [
-            "reject",
-            "avoid",
-            "feel like",
-            "force"
-        ],
-        "answer": 2,
-        "explanation": "'Feel like doing'は何かをしたいと感じることを意味します。他の単語（'reject'、「拒否する」、'avoid'、「避ける」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "Do you feel like eating out tonight, or would you prefer to stay home?",
-        "jp": "今夜外食したい気分ですか、それとも家にいたいですか？"
-    },
-    {
-        "question": "We went to the airport to see our friends _____ before their flight.",
-        "selections": [
-            "off",
-            "invite",
-            "welcome",
-            "ignore"
-        ],
-        "answer": 0,
-        "explanation": "'See off'は誰かを見送ることを意味します。他の単語（'invite'、「招待する」、'welcome'、「歓迎する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "We went to the airport to see our friends off before their flight.",
-        "jp": "私たちは友人たちの飛行機が出発する前に空港に行って見送りました。"
-    },
-    {
-        "question": "It's a tradition in our family to _____ relatives off at the train station when they leave.",
-        "selections": [
-            "avoid",
-            "reject",
-            "force",
-            "see"
-        ],
-        "answer": 3,
-        "explanation": "'See off'は誰かを見送ることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'force'、「強制する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "It's a tradition in our family to see relatives off at the train station when they leave.",
-        "jp": "私たちの家族の伝統では、親戚が出発するときに駅で見送ります。"
-    },
-    {
-        "question": "The company plans to _____ a new marketing campaign next month.",
-        "selections": [
-            "destroy",
-            "avoid",
-            "carry out",
-            "reject"
-        ],
-        "answer": 2,
-        "explanation": "'Carry out'は何かを実行することを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "The company plans to carry out a new marketing campaign next month.",
-        "jp": "会社は来月、新しいマーケティングキャンペーンを実施する予定です。"
-    },
-    {
-        "question": "The scientists are eager to _____ their experiments to test the new theory.",
-        "selections": [
-            "carry out",
-            "ignore",
-            "avoid",
-            "reject"
-        ],
-        "answer": 0,
-        "explanation": "'Carry out'は何かを実行することを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "The scientists are eager to carry out their experiments to test the new theory.",
-        "jp": "科学者たちは、新しい理論をテストするために実験を実施することを熱望しています。"
-    },
-    {
-        "question": "I need to _____ my classmates; they are ahead of me in the project.",
-        "selections": [
-            "ignore",
-            "avoid",
-            "catch up with",
-            "compete with"
-        ],
-        "answer": 2,
-        "explanation": "'Catch up with'は誰かに追いつくことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "I need to catch up with my classmates; they are ahead of me in the project.",
-        "jp": "私はクラスメートに追いつく必要があります。彼らはプロジェクトで私より先に進んでいます。"
-    },
-    {
-        "question": "After being sick for a week, he had to work hard to _____ his colleagues at work.",
-        "selections": [
-            "fight with",
-            "argue with",
-            "compete with",
-            "catch up with"
-        ],
-        "answer": 3,
-        "explanation": "'Catch up with'は誰かに追いつくことを意味します。他の単語（'fight with'、「戦う」、'argue with'、「議論する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "After being sick for a week, he had to work hard to catch up with his colleagues at work.",
-        "jp": "1週間病気でいた後、彼は仕事で同僚に追いつくために一生懸命働かなければなりませんでした。"
-    },
-    {
-        "question": "Good communication skills _____ a part in success in any career.",
-        "selections": [
-            "play",
-            "destroy",
-            "avoid",
-            "reject"
-        ],
-        "answer": 0,
-        "explanation": "'Play a part in'は何かに一役買うことを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "Good communication skills play a part in success in any career.",
-        "jp": "良いコミュニケーションスキルは、どんなキャリアにおいても成功に一役買います。"
-    },
-    {
-        "question": "His dedication and hard work play a part _____ the team's victory in the tournament.",
-        "selections": [
-            "ignore",
-            "in",
-            "avoid",
-            "destroy"
-        ],
-        "answer": 1,
-        "explanation": "'Play a part in'は何かに一役買うことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'destroy'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "His dedication and hard work play a part in the team's victory in the tournament.",
-        "jp": "彼の献身と努力は、チームがトーナメントで勝利するのに一役買っています。"
-    },
-    {
-        "question": "She wants to play a _____ in environmental conservation by volunteering for clean-up activities.",
-        "selections": [
-            "avoid",
-            "role",
-            "reject",
-            "ignore"
-        ],
-        "answer": 1,
-        "explanation": "'Play a role in'は何かに一役買うことを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "She wants to play a role in environmental conservation by volunteering for clean-up activities.",
-        "jp": "彼女は清掃活動のボランティアを通じて、環境保全に一役買いたいと思っています。"
-    },
-    {
-        "question": "His innovative ideas _____ the success of the new product launch.",
-        "selections": [
-            "play a role in",
-            "destroy",
-            "avoid",
-            "compete with"
-        ],
-        "answer": 0,
-        "explanation": "'Play a role in'は何かに一役買うことを意味します。他の単語（'destroy'、「破壊する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "His innovative ideas play a role in the success of the new product launch.",
-        "jp": "彼の革新的なアイデアは、新製品のローンチの成功に一役買っています。"
-    },
-    {
-        "question": "Can you _____ my children _____ from school today? I'm stuck at work.",
-        "selections": [
-            "pick up",
-            "ignore",
-            "avoid",
-            "compete with"
-        ],
-        "answer": 0,
-        "explanation": "'Pick up'は誰かを迎えに行くことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "Can you pick up my children from school today? I'm stuck at work.",
-        "jp": "今日、学校から子供たちを迎えに行ってもらえますか？私は仕事で動けません。"
-    },
-    {
-        "question": "I'll _____ the groceries up on my way home from work.",
-        "selections": [
-            "pick",
-            "destroy",
-            "reject",
-            "compete"
-        ],
-        "answer": 0,
-        "explanation": "'Pick up'は何かを拾うことを意味します。他の単語（'destroy'、「破壊する」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "I'll pick up the groceries on my way home from work.",
-        "jp": "仕事帰りに食料品を拾います。"
-    },
-    {
-        "question": "You need to work hard to _____ up with the latest trends in technology.",
-        "selections": [
-            "avoid",
-            "keep",
-            "destroy",
-            "reject"
-        ],
-        "answer": 1,
-        "explanation": "'Keep up with'は何かに追いつくことを意味します。他の単語（'avoid'、「避ける」、'destroy'、「破壊する」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
-        "en": "You need to work hard to keep up with the latest trends in technology.",
-        "jp": "最新の技術動向に追いつくために一生懸命働く必要があります。"
-    },
-    {
-        "question": "He's always reading and learning to _____ his peers in the industry.",
-        "selections": [
-            "keep up with",
-            "ignore",
-            "avoid",
-            "compete with"
-        ],
-        "answer": 0,
-        "explanation": "'Keep up with'は何かに追いつくことを意味します。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
-        "en": "He's always reading and learning to keep up with his peers in the industry.",
-        "jp": "彼は常に読んで学び、業界の仲間に追いつくよう努めています。"
     }
 ]

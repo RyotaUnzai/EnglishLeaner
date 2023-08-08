@@ -33,10 +33,21 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
 
     def __initUI(self) -> None:
         self.setWindowTitle("English Questions")
-        self.menu.pushButtonSelection.clicked.connect(lambda: self.showUI(mode="selection"))
-        self.menu.pushButtonSort.clicked.connect(lambda: self.showUI(mode="sort"))
-        self.menu.pushButtonWrite.clicked.connect(lambda: self.showUI(mode="write"))
-        self.frame.pushButtonBack.clicked.connect(lambda: self.showUI(mode="menu"))
+        self.menu.pushButtonSelection.clicked.connect(
+            lambda: self.showUI(mode="selection")
+        )
+        self.menu.pushButtonSort.clicked.connect(
+            lambda: self.showUI(mode="sort")
+        )
+        self.menu.pushButtonWrite.clicked.connect(
+            lambda: self.showUI(mode="write")
+        )
+        self.menu.pushButtonExport.clicked.connect(
+            lambda: self.showUI(mode="export")
+        )
+        self.frame.pushButtonBack.clicked.connect(
+            lambda: self.showUI(mode="menu")
+        )
 
     def keyPressEvent(self, event):
         numpad_mod = int(event.modifiers()) & QtCore.Qt.KeypadModifier
@@ -59,9 +70,11 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
             self.showWrite()
         elif self.currentMode == "sort":
             self.showSort()
+        elif self.currentMode == "export":
+            self.showExport()
         elif self.currentMode == "menu":
             self.showMenu()
-        if self.currentMode != "menu":
+        if self.currentMode != "":
             self.frame.lineEditAnswer.setFocus()
         self.setGeometry(geometry)
 
@@ -80,3 +93,7 @@ class Questions_Window(_GENERATED_CLASS, QtWidgets.QMainWindow):
     def showMenu(self) -> None:
         self.frame.hide()
         self.menu.show()
+
+    def showExport(self) -> None:
+        self.menu.hide()
+        self.frame.showExport()

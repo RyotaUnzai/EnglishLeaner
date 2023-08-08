@@ -41,3 +41,8 @@ class Questions_Frame(_GENERATED_CLASS, QtWidgets.QWidget):
         super(Questions_Frame, self).show()
         self.selection.frameSelection.hide()
         self.selection.listView.hide()
+
+    def showExport(self) -> None:
+        super(Questions_Frame, self).show()
+        self.frameExplanation.show()
+        self.selection.hide()
