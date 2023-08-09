@@ -1,0 +1,106 @@
+[
+    {
+        "question": "私はもう壁を塗りました。",
+        "selections": [
+            "I have been painting the wall.",
+            "I painted the wall.",
+            "I have painted the wall.",
+            "I had painted the wall."
+        ],
+        "answer": 3,
+        "explanation": "話し手が壁を塗ったことを強調し、その結果が現在に続いていることを示します。壁はすでに塗られています。",
+        "en": "I have painted the wall.",
+        "jp": "私はもう壁を塗りました。"
+    },
+    {
+        "question": "私は壁を塗った。",
+        "selections": [
+            "I painted the wall.",
+            "I have painted the wall.",
+            "I had painted the wall.",
+            "I have been painting the wall."
+        ],
+        "answer": 0,
+        "explanation": "話し手が壁を塗ったという単純な事実を述べています。いつ塗ったのか、それが現在にどう関連するのかについての情報は提供されていません。",
+        "en": "I painted the wall.",
+        "jp": "私は壁を塗った。"
+    },
+    {
+        "question": "私は壁を塗り続けています。",
+        "selections": [
+            "I have painted the wall.",
+            "I have been painting the wall.",
+            "I painted the wall.",
+            "I had painted the wall."
+        ],
+        "answer": 1,
+        "explanation": "この形は、過去のある時点から現在まで続いている動作や状態を強調します。話し手は壁を塗り始め、まだそのプロセスが続いているか、ちょうど最近終了したばかりで、その結果がまだ重要であることを示しています。",
+        "en": "I have been painting the wall.",
+        "jp": "私は壁を塗り続けています。"
+    },
+    {
+        "question": "私は壁を塗ってしまっていました。",
+        "selections": [
+            "I have painted the wall.",
+            "I had painted the wall.",
+            "I painted the wall.",
+            "I have been painting the wall."
+        ],
+        "answer": 2,
+        "explanation": "この形は、過去のある時点よりも前に完了した動作や状態を表します。例えば、「壁を塗った後でテレビを見た」という文脈で使用すると、一つの過去の動作がもう一つの過去の動作よりも前に発生したことを強調します。",
+        "en": "I had painted the wall.",
+        "jp": "私は壁を塗ってしまっていました。"
+    },
+    {
+        "question": "彼女が試合に勝つと思います。",
+        "selections": [
+            "I thought that she will win the game.",
+            "I think that she would win the game.",
+            "I thought that she would win the game.",
+            "I think that she will win the game."
+        ],
+        "answer": 3,
+        "explanation": "（I think）は現在形を使っています。これは、話し手が今現在、彼女がゲームに勝つと考えていることを示しています。話し手が現在、彼女がゲームに勝つという確信を持っていることを示すために、未来形の will が使用されています。",
+        "en": "I think that she will win the game.",
+        "jp": "彼女が試合に勝つと思います。"
+    },
+    {
+        "question": "彼女が試合に勝つと思いました。",
+        "selections": [
+            "I think that she will win the game.",
+            "I think that she would win the game.",
+            "I thought that she would win the game.",
+            "I thought that she will win the game.",
+        ],
+        "answer": 2,
+        "explanation": "（I thought）は過去形を使っています。これは、話し手が以前、彼女がゲームに勝つと考えていたことを示しています。この文はその時点での考えや予測を表します。、過去形 thought が使用されているため、それに合わせて would が使用されています。 would は過去の未来を示すのに一般的に使用されます。ここでは、話し手が以前、彼女がゲームに勝つと考えていたが、今はその考えが変わったか、まだ未定であることを示している可能性があります。",
+        "en": "I thought that she would win the game.",
+        "jp": "彼女が試合に勝つと思いました。"
+    },
+    {
+        "question": "ケンが試合に勝ったと思います。",
+        "selections": [
+            "I believe that Ken won the game.",
+            "I believed that Ken won the game.",
+            "I believe that Ken had won the game.",
+            "I believed that Ken had won the game."
+        ],
+        "answer": 0,
+        "explanation": "（I believe）は現在形を使用しています。話し手が現在、ケンがゲームに勝ったと信じていることを示しています。",
+        "en": "I believe that Ken won the game.",
+        "jp": "ケンが試合に勝ったと思います。"
+    },
+    {
+        "question": "ケンが試合に勝ったと思っていました。",
+        "selections": [
+            "I believe that Ken won the game.",
+            "I believed that Ken won the game.",
+            "I believe that Ken had won the game.",
+            "I believed that Ken had won the game."
+        ],
+        "answer": 3,
+        "explanation": "（I believed）は過去形を使用しており、その後に過去完了形（had won）が続いています。話し手が以前、ケンがゲームに勝ったと信じていたことを示しています。 had won は過去完了形を使用しています。これは、話し手が以前信じていた時点よりも前にケンがゲームに勝ったという事実に焦点を当てています。話し手が以前、ケンがゲームに勝ったと信じていたこと（そしてその勝利が信じた時点よりも前に起きたこと）を示しています。過去完了形の使用は、信念が形成された時点よりも前の出来事に焦点を当てるために重要です。",
+        "en": "I believed that Ken had won the game.",
+        "jp": "ケンが試合に勝ったと思っていました。"
+    }
+]
