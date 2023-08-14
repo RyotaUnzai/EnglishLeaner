@@ -1,0 +1,249 @@
+[
+    {
+        "question": "She studied hard _____ pass the exam.",
+        "selections": [
+            "on time",
+            "in order to do",
+            "out of order",
+            "with care"
+        ],
+        "answer": 1,
+        "explanation": "'In order to do'は何かをするためにという意味です。他の単語（'on time'、「時間通りに」、'out of order'、「故障して」、'with care'、「注意深く」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She studied hard in order to pass the exam.",
+        "jp": "彼女は試験に合格するために一生懸命勉強しました。"
+    },
+    {
+        "question": "He woke up early _____ catch the first train.",
+        "selections": [
+            "so far",
+            "apart from",
+            "in order to do",
+            "here and there"
+        ],
+        "answer": 2,
+        "explanation": "'In order to do'は何かをするためにという意味です。他の単語（'so far'、「今のところ」、'apart from'、「〜から離れて」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He woke up early in order to catch the first train.",
+        "jp": "彼は最初の電車に乗るために早起きしました。"
+    },
+    {
+        "question": "The meeting started exactly _____, without any delays.",
+        "selections": [
+            "on time",
+            "short of",
+            "out of order",
+            "over and over"
+        ],
+        "answer": 0,
+        "explanation": "'On time'は時間通りにという意味です。他の単語（'short of'、「〜不足して」、'out of order'、「故障して」、'over and over'、「何度も」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The meeting started exactly on time, without any delays.",
+        "jp": "会議は遅延なしで正確に時間通りに始まりました。"
+    },
+    {
+        "question": "He always arrives _____ for appointments; he hates being late.",
+        "selections": [
+            "short of",
+            "on time",
+            "apart from",
+            "no longer"
+        ],
+        "answer": 1,
+        "explanation": "'On time'は時間通りにという意味です。他の単語（'short of'、「〜不足して」、'apart from'、「〜から離れて」、'no longer'、「もはや〜ない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He always arrives on time for appointments; he hates being late.",
+        "jp": "彼は常に約束の時間通りに到着します。遅れるのが嫌いです。"
+    },
+    {
+        "question": "The elevator is _____, so we'll have to take the stairs.",
+        "selections": [
+            "out of order",
+            "with care",
+            "so far",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'Out of order'は故障しているという意味です。他の単語（'with care'、「注意深く」、'so far'、「今のところ」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The elevator is out of order, so we'll have to take the stairs.",
+        "jp": "エレベーターは故障しているので、階段を使わなければなりません。"
+    },
+    {
+        "question": "The coffee machine is _____ again; it needs to be repaired.",
+        "selections": [
+            "out of order",
+            "over and over",
+            "short of",
+            "apart from"
+        ],
+        "answer": 0,
+        "explanation": "'Out of order'は故障しているという意味です。他の単語（'over and over'、「何度も」、'short of'、「〜不足して」、'apart from'、「〜から離れて」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The coffee machine is out of order again; it needs to be repaired.",
+        "jp": "コーヒーマシンが再び故障しています。修理が必要です。"
+    },
+    {
+        "question": "Please handle the fragile items _____ to avoid any damage.",
+        "selections": [
+            "with care",
+            "short of",
+            "so far",
+            "no longer"
+        ],
+        "answer": 0,
+        "explanation": "'With care'は注意深くという意味です。他の単語（'short of'、「〜不足して」、'so far'、「今のところ」、'no longer'、「もはや〜ない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Please handle the fragile items with care to avoid any damage.",
+        "jp": "壊れやすい品物を取り扱う際は、損傷を避けるために注意してください。"
+    },
+    {
+        "question": "She wrapped the gift _____ and added a beautiful ribbon.",
+        "selections": [
+            "with care",
+            "here and there",
+            "over and over",
+            "short of"
+        ],
+        "answer": 0,
+        "explanation": "'With care'は注意深くという意味です。他の単語（'here and there'、「あちこちで」、'over and over'、「何度も」、'short of'、「〜不足して」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She wrapped the gift with care and added a beautiful ribbon.",
+        "jp": "彼女は注意深くギフトを包み、美しいリボンを追加しました。"
+    },
+    {
+        "question": "_____ his busy schedule, he always finds time for his family.",
+        "selections": [
+            "apart from",
+            "here and there",
+            "over and over",
+            "short of"
+        ],
+        "answer": 0,
+        "explanation": "'Apart from'は〜から離れてという意味です。他の単語（'here and there'、「あちこちで」、'over and over'、「何度も」、'short of'、「〜不足して」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Apart from his busy schedule, he always finds time for his family.",
+        "jp": "忙しいスケジュールから離れて、彼は常に家族のための時間を見つけます。"
+    },
+    {
+        "question": "_____ the main topic, there were other interesting discussions in the meeting.",
+        "selections": [
+            "apart from",
+            "so far",
+            "no longer",
+            "over and over"
+        ],
+        "answer": 0,
+        "explanation": "'Apart from'は〜から離れてという意味です。他の単語（'so far'、「今のところ」、'no longer'、「もはや〜ない」、'over and over'、「何度も」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Apart from the main topic, there were other interesting discussions in the meeting.",
+        "jp": "主要なトピックから離れて、会議では他にも興味深い議論がありました。"
+    },
+    {
+        "question": "She looked _____ for her keys but couldn't find them.",
+        "selections": [
+            "here and there",
+            "short of",
+            "so far",
+            "over and over"
+        ],
+        "answer": 0,
+        "explanation": "'Here and there'はあちこちでという意味です。他の単語（'short of'、「〜不足して」、'so far'、「今のところ」、'over and over'、「何度も」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She looked here and there for her keys but couldn't find them.",
+        "jp": "彼女は鍵を探し回りましたが、見つけることができませんでした。"
+    },
+    {
+        "question": "He searched _____ for the missing document but it was nowhere to be found.",
+        "selections": [
+            "here and there",
+            "no longer",
+            "short of",
+            "over and over"
+        ],
+        "answer": 0,
+        "explanation": "'Here and there'はあちこちでという意味です。他の単語（'no longer'、「もはや〜ない」、'short of'、「〜不足して」、'over and over'、「何度も」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He searched here and there for the missing document but it was nowhere to be found.",
+        "jp": "彼は行方不明の文書をあちこち探しましたが、どこにも見つかりませんでした。"
+    },
+    {
+        "question": "He is _____ a student; he graduated last year.",
+        "selections": [
+            "no longer",
+            "here and there",
+            "short of",
+            "over and over"
+        ],
+        "answer": 0,
+        "explanation": "'No longer'はもはや〜ないという意味です。他の単語（'here and there'、「あちこちで」、'short of'、「〜不足して」、'over and over'、「何度も」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He is no longer a student; he graduated last year.",
+        "jp": "彼はもはや学生ではありません。去年卒業しました。"
+    },
+    {
+        "question": "She _____ wears that dress; it's her favorite.",
+        "selections": [
+            "over and over",
+            "so far",
+            "short of",
+            "no longer"
+        ],
+        "answer": 0,
+        "explanation": "'Over and over'は何度もという意味です。他の単語（'so far'、「今のところ」、'short of'、「〜不足して」、'no longer'、「もはや〜ない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She wears that dress over and over; it's her favorite.",
+        "jp": "彼女は何度もそのドレスを着ます。それは彼女のお気に入りです。"
+    },
+    {
+        "question": "He repeated the instructions _____ to make sure everyone understood.",
+        "selections": [
+            "over and over",
+            "short of",
+            "so far",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'Over and over'は何度もという意味です。他の単語（'short of'、「〜不足して」、'so far'、「今のところ」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He repeated the instructions over and over to make sure everyone understood.",
+        "jp": "彼はみんなが理解したことを確認するために、何度も指示を繰り返しました。"
+    },
+    {
+        "question": "We are _____ money, so we need to cut back on expenses.",
+        "selections": [
+            "short of",
+            "so far",
+            "over and over",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'Short of'は〜不足しているという意味です。他の単語（'so far'、「今のところ」、'over and over'、「何度も」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "We are short of money, so we need to cut back on expenses.",
+        "jp": "お金が不足しているので、支出を削減する必要があります。"
+    },
+    {
+        "question": "The team is _____ players, so they can't play the match.",
+        "selections": [
+            "short of",
+            "so far",
+            "over and over",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'Short of'は〜不足しているという意味です。他の単語（'so far'、「今のところ」、'over and over'、「何度も」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The team is short of players, so they can't play the match.",
+        "jp": "チームは選手が不足しているので、試合をすることができません。"
+    },
+    {
+        "question": "_____ we have completed most of the project, but there's still more to do.",
+        "selections": [
+            "so far",
+            "short of",
+            "over and over",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'So far'は今のところという意味です。他の単語（'short of'、「〜不足して」、'over and over'、「何度も」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "So far we have completed most of the project, but there's still more to do.",
+        "jp": "今のところ、プロジェクトのほとんどが完了していますが、まだやるべきことがあります。"
+    },
+    {
+        "question": "_____ he has made good progress in his studies, but he needs to keep working hard.",
+        "selections": [
+            "so far",
+            "short of",
+            "over and over",
+            "here and there"
+        ],
+        "answer": 0,
+        "explanation": "'So far'は今のところという意味です。他の単語（'short of'、「〜不足して」、'over and over'、「何度も」、'here and there'、「あちこちで」）は、この文脈とは逆の意味を持ちます。",
+        "en": "So far he has made good progress in his studies, but he needs to keep working hard.",
+        "jp": "今のところ彼は勉強で良い進展を遂げていますが、引き続き一生懸命働く必要があります。"
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "question": "I'm _____ studying every night; I need a break.",
+        "selections": [
+            "avoiding",
+            "tired of",
+            "competing with",
+            "destroying"
+        ],
+        "answer": 1,
+        "explanation": "'Tired of'は何かにうんざりしていることを意味します。他の単語（'avoiding'、「避ける」、'competing with'、「競う」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'm tired of studying every night; I need a break.",
+        "jp": "毎晩の勉強にうんざりしています。休憩が必要です。"
+    },
+    {
+        "question": "She's _____ the same routine every day and wants to try something new.",
+        "selections": [
+            "tired of",
+            "destroying",
+            "competing with",
+            "avoiding"
+        ],
+        "answer": 0,
+        "explanation": "'Tired of'は何かにうんざりしていることを意味します。他の単語（'destroying'、「破壊する」、'competing with'、「競う」、'avoiding'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She's tired of the same routine every day and wants to try something new.",
+        "jp": "彼女は毎日同じルーチンにうんざりしており、新しいことを試したいと思っています。"
+    },
+    {
+        "question": "He was so _____ his book that he didn't hear the phone ring.",
+        "selections": [
+            "absorbed in",
+            "avoiding",
+            "competing with",
+            "destroying"
+        ],
+        "answer": 0,
+        "explanation": "'Absorbed in'は何かに夢中になっていることを意味します。他の単語（'avoiding'、「避ける」、'competing with'、「競う」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He was so absorbed in his book that he didn't hear the phone ring.",
+        "jp": "彼は本に夢中で、電話の鳴るのを聞かなかった。"
+    },
+    {
+        "question": "She's completely _____ her new project and spends hours working on it.",
+        "selections": [
+            "avoiding",
+            "competing with",
+            "destroying",
+            "absorbed in"
+        ],
+        "answer": 3,
+        "explanation": "'Absorbed in'は何かに夢中になっていることを意味します。他の単語（'avoiding'、「避ける」、'competing with'、「競う」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She's completely absorbed in her new project and spends hours working on it.",
+        "jp": "彼女は新しいプロジェクトに完全に夢中で、何時間もそれに取り組んでいます。"
+    },
+    {
+        "question": "Are you _____ the new policies at work? They were just implemented last week.",
+        "selections": [
+            "familiar with",
+            "destroying",
+            "competing with",
+            "avoiding"
+        ],
+        "answer": 0,
+        "explanation": "'Familiar with'は何かをよく知っていることを意味します。他の単語（'destroying'、「破壊する」、'competing with'、「競う」、'avoiding'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Are you familiar with the new policies at work? They were just implemented last week.",
+        "jp": "仕事の新しい方針に詳しいですか？それらは先週実施されたばかりです。"
+    },
+    {
+        "question": "He's not _____ the latest software, so he'll need some training.",
+        "selections": [
+            "competing with",
+            "avoiding",
+            "familiar with",
+            "destroying"
+        ],
+        "answer": 2,
+        "explanation": "'Familiar with'は何かをよく知っていることを意味します。他の単語（'competing with'、「競う」、'avoiding'、「避ける」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He's not familiar with the latest software, so he'll need some training.",
+        "jp": "彼は最新のソフトウェアに詳しくないので、トレーニングが必要です。"
+    },
+    {
+        "question": "I'll have tea _____ coffee, please.",
+        "selections": [
+            "avoiding",
+            "competing with",
+            "destroying",
+            "instead of"
+        ],
+        "answer": 3,
+        "explanation": "'Instead of'は何かの代わりにという意味です。他の単語（'avoiding'、「避ける」、'competing with'、「競う」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'll have tea instead of coffee, please.",
+        "jp": "コーヒーの代わりにお茶をいただきます。"
+    },
+    {
+        "question": "He took a bus _____ driving to work today.",
+        "selections": [
+            "instead of",
+            "competing with",
+            "avoiding",
+            "destroying"
+        ],
+        "answer": 0,
+        "explanation": "'Instead of'は何かの代わりにという意味です。他の単語（'competing with'、「競う」、'avoiding'、「避ける」、'destroying'、「破壊する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He took a bus instead of driving to work today.",
+        "jp": "彼は今日、運転して仕事に行く代わりにバスに乗りました。"
+    },
+    {
+        "question": "I like to go hiking _____, especially during the summer months.",
+        "selections": [
+            "once in a while",
+            "always",
+            "never",
+            "daily"
+        ],
+        "answer": 0,
+        "explanation": "'Once in a while'は時折、たまにという意味です。他の単語（'always'、「いつも」、'never'、「決してない」、'daily'、「毎日」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I like to go hiking once in a while, especially during the summer months.",
+        "jp": "特に夏の間、時折ハイキングに行くのが好きです。"
+    },
+    {
+        "question": "He plays tennis _____, but not as often as he used to.",
+        "selections": [
+            "daily",
+            "once in a while",
+            "always",
+            "never"
+        ],
+        "answer": 1,
+        "explanation": "'Once in a while'は時折、たまにという意味です。他の単語（'daily'、「毎日」、'always'、「いつも」、'never'、「決してない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He plays tennis once in a while, but not as often as he used to.",
+        "jp": "彼は時折テニスをしますが、以前ほど頻繁ではありません。"
+    },
+    {
+        "question": "I'm _____ the service at this restaurant; the staff is always friendly.",
+        "selections": [
+            "satisfied with",
+            "disappointed with",
+            "angry with",
+            "bored with"
+        ],
+        "answer": 0,
+        "explanation": "'Satisfied with'は何かに満足しているという意味です。他の単語（'disappointed with'、「失望する」、'angry with'、「怒る」、'bored with'、「退屈する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'm satisfied with the service at this restaurant; the staff is always friendly.",
+        "jp": "私はこのレストランのサービスに満足しています。スタッフはいつも親しみやすいです。"
+    },
+    {
+        "question": "Are you _____ the results of the exam?",
+        "selections": [
+            "angry with",
+            "bored with",
+            "satisfied with",
+            "disappointed with"
+        ],
+        "answer": 2,
+        "explanation": "'Satisfied with'は何かに満足しているという意味です。他の単語（'angry with'、「怒る」、'bored with'、「退屈する」、'disappointed with'、「失望する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Are you satisfied with the results of the exam?",
+        "jp": "試験の結果に満足していますか？"
+    },
+    {
+        "question": "This painting is _____ the works of the famous artist Van Gogh.",
+        "selections": [
+            "similar to",
+            "different from",
+            "far from",
+            "opposite to"
+        ],
+        "answer": 0,
+        "explanation": "'Similar to'は何かに似ているという意味です。他の単語（'different from'、「異なる」、'far from'、「遠く離れている」、'opposite to'、「反対の」）は、この文脈とは逆の意味を持ちます。",
+        "en": "This painting is similar to the works of the famous artist Van Gogh.",
+        "jp": "この絵は、有名な画家バン・ゴッホの作品に似ています。"
+    },
+    {
+        "question": "Her writing style is _____ that of her favorite author.",
+        "selections": [
+            "far from",
+            "opposite to",
+            "different from",
+            "similar to"
+        ],
+        "answer": 3,
+        "explanation": "'Similar to'は何かに似ているという意味です。他の単語（'far from'、「遠く離れている」、'opposite to'、「反対の」、'different from'、「異なる」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Her writing style is similar to that of her favorite author.",
+        "jp": "彼女の執筆スタイルは、お気に入りの作家のそれに似ています。"
+    }
+]

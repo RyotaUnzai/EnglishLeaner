@@ -1,0 +1,184 @@
+[
+    {
+        "question": "The room was _____ silence after the shocking news was announced.",
+        "selections": [
+            "filled with",
+            "nothing but",
+            "full of",
+            "echoing with"
+        ],
+        "answer": 1,
+        "explanation": "'Nothing but'は「〜だけ」という意味で、他の選択肢と文脈が合わないことを示しています。",
+        "en": "The room was nothing but silence after the shocking news was announced.",
+        "jp": "衝撃的なニュースが発表された後、部屋は静寂だけでした。"
+    },
+    {
+        "question": "The sponge can _____ a lot of water quickly.",
+        "selections": [
+            "absorb",
+            "distribute",
+            "expect",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Absorb'は「吸収する」という意味で、他の選択肢と文脈が合わないことを示しています。",
+        "en": "The sponge can absorb a lot of water quickly.",
+        "jp": "スポンジは迅速に多量の水を吸収することができます。"
+    },
+    {
+        "question": "The company will _____ the products to various stores across the country.",
+        "selections": [
+            "expect",
+            "absorb",
+            "distribute",
+            "reject"
+        ],
+        "answer": 2,
+        "explanation": "'Distribute'は「配布する」という意味で、他の選択肢と文脈が合わないことを示しています。",
+        "en": "The company will distribute the products to various stores across the country.",
+        "jp": "会社は製品を国内のさまざまな店舗に配布します。"
+    },
+    {
+        "question": "I _____ him to arrive on time since he's always punctual.",
+        "selections": [
+            "distribute",
+            "expect",
+            "absorb",
+            "reject"
+        ],
+        "answer": 1,
+        "explanation": "'Expect'は「期待する」という意味で、他の選択肢と文脈が合わないことを示しています。",
+        "en": "I expect him to arrive on time since he's always punctual.",
+        "jp": "彼はいつも時間通りなので、時間通りに到着することを期待しています。"
+    },
+    {
+        "question": "Loud noises at night really _____ me.",
+        "selections": [
+            "avoid",
+            "annoy",
+            "welcome",
+            "invite"
+        ],
+        "answer": 1,
+        "explanation": "'Annoy'は何かが不快であることを意味します。他の単語（'avoid'、「避ける」、'welcome'、「歓迎する」、'invite'、「招待する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Loud noises at night really annoy me.",
+        "jp": "夜の大きな騒音は本当に私を悩ませます。"
+    },
+    {
+        "question": "It's easy to _____ someone with constant complaining.",
+        "selections": [
+            "welcome",
+            "invite",
+            "avoid",
+            "annoy"
+        ],
+        "answer": 3,
+        "explanation": "'Annoy'は何かが不快であることを意味します。他の単語（'welcome'、「歓迎する」、'invite'、「招待する」、'avoid'、「避ける」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's easy to annoy someone with constant complaining.",
+        "jp": "絶えず不平を言っていると、誰かを簡単に悩ませることができます。"
+    },
+    {
+        "question": "She _____ visits her grandmother in the countryside.",
+        "selections": [
+            "frequently",
+            "rarely",
+            "never",
+            "sometimes"
+        ],
+        "answer": 0,
+        "explanation": "'Frequently'は何かが頻繁に起こることを意味します。他の単語（'rarely'、「めったにない」、'never'、「決してない」、'sometimes'、「時々」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She frequently visits her grandmother in the countryside.",
+        "jp": "彼女は頻繁に田舎の祖母を訪れます。"
+    },
+    {
+        "question": "I _____ go to the gym, but I always make time for a morning run.",
+        "selections": [
+            "sometimes",
+            "never",
+            "frequently",
+            "rarely"
+        ],
+        "answer": 2,
+        "explanation": "'Frequently'は何かが頻繁に起こることを意味します。他の単語（'sometimes'、「時々」、'never'、「決してない」、'rarely'、「めったにない」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I frequently go to the gym, but I always make time for a morning run.",
+        "jp": "私は頻繁にジムに行きますが、朝のランニングの時間は必ず作ります。"
+    },
+    {
+        "question": "She decided to _____ all her old clothes to charity.",
+        "selections": [
+            "sell",
+            "buy",
+            "give away",
+            "keep"
+        ],
+        "answer": 2,
+        "explanation": "'Give away'は何かを無料で提供することを意味します。他の単語（'sell'、「売る」、'buy'、「買う」、'keep'、「保持する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She decided to give away all her old clothes to charity.",
+        "jp": "彼女は古い服をすべて慈善団体に寄付することにしました。"
+    },
+    {
+        "question": "The company plans to _____ free samples of their new product to attract customers.",
+        "selections": [
+            "keep",
+            "sell",
+            "buy",
+            "give away"
+        ],
+        "answer": 3,
+        "explanation": "'Give away'は何かを無料で提供することを意味します。他の単語（'keep'、「保持する」、'sell'、「売る」、'buy'、「買う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The company plans to give away free samples of their new product to attract customers.",
+        "jp": "会社は、顧客を引き付けるために新製品の無料サンプルを提供する予定です。"
+    },
+    {
+        "question": "I _____ visit my grandparents next weekend.",
+        "selections": [
+            "avoid",
+            "intend to do",
+            "reject",
+            "compete with"
+        ],
+        "answer": 1,
+        "explanation": "'Intend to do'は何かをするつもりであることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I intend to visit my grandparents next weekend.",
+        "jp": "私は来週末に祖父母を訪ねるつもりです。"
+    },
+    {
+        "question": "She _____ start her own business soon.",
+        "selections": [
+            "be eager to do",
+            "avoid",
+            "destroy",
+            "reject"
+        ],
+        "answer": 0,
+        "explanation": "'Be eager to do'は何かを熱心にしたいと思っていることを意味します。他の単語（'avoid'、「避ける」、'destroy'、「破壊する」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She is eager to start her own business soon.",
+        "jp": "彼女は近いうちに自分のビジネスを始めたいと熱心に思っています。"
+    },
+    {
+        "question": "The meeting was postponed, and _____, we rescheduled our team discussion.",
+        "selections": [
+            "accordingly",
+            "ignore",
+            "avoid",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Accordingly'はそれに応じて、その結果としての意味を持ちます。他の単語（'ignore'、「無視する」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The meeting was postponed, and accordingly, we rescheduled our team discussion.",
+        "jp": "会議は延期され、それに応じて、私たちはチームの議論を再スケジュールしました。"
+    },
+    {
+        "question": "If you don't study for the exam, _____ passing it.",
+        "selections": [
+            "there is no point in doing",
+            "avoid",
+            "reject",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'There is no point in doing'は何かをする意味がないことを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "If you don't study for the exam, there is no point in trying to pass it.",
+        "jp": "試験の勉強をしないなら、それを合格しようとする意味はありません。"
+    }
+]

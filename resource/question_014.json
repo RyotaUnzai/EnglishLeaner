@@ -1,0 +1,262 @@
+[
+    {
+        "question": "I'm _____ about what to do next; I've never encountered this problem before.",
+        "selections": [
+            "for a while",
+            "by chance",
+            "at a loss",
+            "at risk"
+        ],
+        "answer": 2,
+        "explanation": "'At a loss'は困惑していることを意味します。他の単語（'for a while'、「しばらく」、'by chance'、「偶然に」、'at risk'、「危険に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I'm at a loss about what to do next; I've never encountered this problem before.",
+        "jp": "次に何をすべきかわからず困っています。これまでこんな問題に遭遇したことがありません。"
+    },
+    {
+        "question": "He was _____ to explain his actions, as they were completely unexpected.",
+        "selections": [
+            "at risk",
+            "at a loss",
+            "for a while",
+            "by chance"
+        ],
+        "answer": 1,
+        "explanation": "'At a loss'は困惑していることを意味します。他の単語（'at risk'、「危険に」、'for a while'、「しばらく」、'by chance'、「偶然に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He was at a loss to explain his actions, as they were completely unexpected.",
+        "jp": "彼の行動は完全に予期せぬものだったので、彼は説明するのに困っていました。"
+    },
+    {
+        "question": "The old building is _____ of collapsing if not repaired soon.",
+        "selections": [
+            "by chance",
+            "for a while",
+            "at a loss",
+            "at risk"
+        ],
+        "answer": 3,
+        "explanation": "'At risk'は危険にさらされていることを意味します。他の単語（'by chance'、「偶然に」、'for a while'、「しばらく」、'at a loss'、「困惑している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The old building is at risk of collapsing if not repaired soon.",
+        "jp": "古い建物はすぐに修理されないと崩れる危険があります。"
+    },
+    {
+        "question": "Patients who ignore their symptoms are _____ of developing serious health problems.",
+        "selections": [
+            "for a while",
+            "by chance",
+            "at risk",
+            "at a loss"
+        ],
+        "answer": 2,
+        "explanation": "'At risk'は危険にさらされていることを意味します。他の単語（'for a while'、「しばらく」、'by chance'、「偶然に」、'at a loss'、「困惑している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Patients who ignore their symptoms are at risk of developing serious health problems.",
+        "jp": "症状を無視する患者は、深刻な健康問題を発症する危険があります。"
+    },
+    {
+        "question": "I found my lost keys _____ while cleaning the house.",
+        "selections": [
+            "at a loss",
+            "at risk",
+            "by chance",
+            "for a while"
+        ],
+        "answer": 2,
+        "explanation": "'By chance'は偶然にという意味です。他の単語（'at a loss'、「困惑している」、'at risk'、「危険に」、'for a while'、「しばらく」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I found my lost keys by chance while cleaning the house.",
+        "jp": "家を掃除している最中に、偶然失くした鍵を見つけました。"
+    },
+    {
+        "question": "We met _____ at the mall and decided to have lunch together.",
+        "selections": [
+            "for a while",
+            "at risk",
+            "by chance",
+            "at a loss"
+        ],
+        "answer": 2,
+        "explanation": "'By chance'は偶然にという意味です。他の単語（'for a while'、「しばらく」、'at risk'、「危険に」、'at a loss'、「困惑している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "We met by chance at the mall and decided to have lunch together.",
+        "jp": "私たちは偶然にもモールで会い、一緒にランチをすることにしました。"
+    },
+    {
+        "question": "He's been studying _____, so he should be ready for the exam.",
+        "selections": [
+            "at risk",
+            "by chance",
+            "at a loss",
+            "for a while"
+        ],
+        "answer": 3,
+        "explanation": "'For a while'はしばらくの間という意味です。他の単語（'at risk'、「危険に」、'by chance'、「偶然に」、'at a loss'、「困惑している」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He's been studying for a while, so he should be ready for the exam.",
+        "jp": "彼はしばらく勉強しているので、試験の準備ができているはずです。"
+    },
+    {
+        "question": "I haven't seen her _____, but I hope she's doing well.",
+        "selections": [
+            "by chance",
+            "at a loss",
+            "for a while",
+            "at risk"
+        ],
+        "answer": 2,
+        "explanation": "'For a while'はしばらくの間という意味です。他の単語（'by chance'、「偶然に」、'at a loss'、「困惑している」、'at risk'、「危険に」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I haven't seen her for a while, but I hope she's doing well.",
+        "jp": "彼女にはしばらく会っていませんが、元気でいることを願っています。"
+    },
+    {
+        "question": "_____ the rain, we decided to go for a hike.",
+        "selections": [
+            "on the way to",
+            "in spite of",
+            "by far",
+            "up to you"
+        ],
+        "answer": 1,
+        "explanation": "'In spite of'は何かにもかかわらずという意味です。他の単語はこの文脈とは合いません。",
+        "en": "In spite of the rain, we decided to go for a hike.",
+        "jp": "雨にもかかわらず、ハイキングに行くことにしました。"
+    },
+    {
+        "question": "He succeeded _____ all the challenges he faced.",
+        "selections": [
+            "by all means",
+            "in spite of",
+            "by far",
+            "at least"
+        ],
+        "answer": 1,
+        "explanation": "'In spite of'は何かにもかかわらずという意味です。他の単語はこの文脈とは合いません。",
+        "en": "He succeeded in spite of all the challenges he faced.",
+        "jp": "彼は直面したすべての課題にもかかわらず成功しました。"
+    },
+    {
+        "question": "I'll call you _____ the office.",
+        "selections": [
+            "on the way to",
+            "by far",
+            "up to you",
+            "in spite of"
+        ],
+        "answer": 0,
+        "explanation": "'On the way to'は何かに向かう途中でという意味です。他の単語はこの文脈とは合いません。",
+        "en": "I'll call you on the way to the office.",
+        "jp": "オフィスに向かう途中であなたに電話します。"
+    },
+    {
+        "question": "We stopped for coffee _____ our road trip.",
+        "selections": [
+            "by far",
+            "up to you",
+            "on the way to",
+            "by all means"
+        ],
+        "answer": 2,
+        "explanation": "'On the way to'は何かに向かう途中でという意味です。他の単語はこの文脈とは合いません。",
+        "en": "We stopped for coffee on the way to our road trip.",
+        "jp": "ロードトリップに向かう途中でコーヒーを飲みました。"
+    },
+    {
+        "question": "The decision is _____; you can choose whatever you like.",
+        "selections": [
+            "by far",
+            "up to you",
+            "at least",
+            "by all means"
+        ],
+        "answer": 1,
+        "explanation": "'Up to you'はあなた次第という意味です。他の単語はこの文脈とは合いません。",
+        "en": "The decision is up to you; you can choose whatever you like.",
+        "jp": "決定はあなた次第です。好きなものを選ぶことができます。"
+    },
+    {
+        "question": "It's _____ if you want to join the team or not.",
+        "selections": [
+            "by all means",
+            "up to you",
+            "by far",
+            "at least"
+        ],
+        "answer": 1,
+        "explanation": "'Up to you'はあなた次第という意味です。他の単語はこの文脈とは合いません。",
+        "en": "It's up to you if you want to join the team or not.",
+        "jp": "チームに参加するかどうかはあなた次第です。"
+    },
+    {
+        "question": "You should _____ eat three meals a day.",
+        "selections": [
+            "by all means",
+            "by far",
+            "up to you",
+            "at least"
+        ],
+        "answer": 3,
+        "explanation": "'At least'は少なくともという意味です。他の単語はこの文脈とは合いません。",
+        "en": "You should at least eat three meals a day.",
+        "jp": "少なくとも1日3食は食べるべきです。"
+    },
+    {
+        "question": "I have _____ five books to read this month.",
+        "selections": [
+            "by far",
+            "at least",
+            "by all means",
+            "up to you"
+        ],
+        "answer": 1,
+        "explanation": "'At least'は少なくともという意味です。他の単語はこの文脈とは合いません。",
+        "en": "I have at least five books to read this month.",
+        "jp": "今月は少なくとも5冊の本を読まなければなりません。"
+    },
+    {
+        "question": "Please come to the meeting _____; it's very important.",
+        "selections": [
+            "by all means",
+            "by far",
+            "up to you",
+            "at least"
+        ],
+        "answer": 0,
+        "explanation": "'By all means'はぜひという意味です。他の単語はこの文脈とは合いません。",
+        "en": "Please come to the meeting by all means; it's very important.",
+        "jp": "ぜひ会議に来てください。とても重要です。"
+    },
+    {
+        "question": "You should _____ try this new restaurant; the food is amazing!",
+        "selections": [
+            "by all means",
+            "by far",
+            "up to you",
+            "at least"
+        ],
+        "answer": 0,
+        "explanation": "'By all means'はぜひという意味です。他の単語はこの文脈とは合いません。",
+        "en": "You should by all means try this new restaurant; the food is amazing!",
+        "jp": "ぜひこの新しいレストランを試してみてください。食べ物は素晴らしいです！"
+    },
+    {
+        "question": "He is _____ the best player on the team.",
+        "selections": [
+            "by far",
+            "up to you",
+            "at least",
+            "by all means"
+        ],
+        "answer": 0,
+        "explanation": "'By far'は断然という意味です。他の単語はこの文脈とは合いません。",
+        "en": "He is by far the best player on the team.",
+        "jp": "彼はチームで断然最高の選手です。"
+    },
+    {
+        "question": "This movie is _____ better than the previous one.",
+        "selections": [
+            "by all means",
+            "by far",
+            "up to you",
+            "at least"
+        ],
+        "answer": 1,
+        "explanation": "'By far'は断然という意味です。他の単語はこの文脈とは合いません。",
+        "en": "This movie is by far better than the previous one.",
+        "jp": "この映画は前のものよりも断然良いです。"
+    }
+]

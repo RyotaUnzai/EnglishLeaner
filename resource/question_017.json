@@ -1,0 +1,158 @@
+[
+    {
+        "question": "You'll have to face the truth _____, so you might as well do it now.",
+        "selections": [
+            "avoid",
+            "sooner or later",
+            "reject",
+            "ignore"
+        ],
+        "answer": 1,
+        "explanation": "'Sooner or later'は遅かれ早かれという意味です。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "You'll have to face the truth sooner or later, so you might as well do it now.",
+        "jp": "遅かれ早かれ真実に直面しなければならないので、今やってしまう方が良いでしょう。"
+    },
+    {
+        "question": "He'll realize his mistake _____ and apologize.",
+        "selections": [
+            "sooner or later",
+            "avoid",
+            "reject",
+            "ignore"
+        ],
+        "answer": 0,
+        "explanation": "'Sooner or later'は遅かれ早かれという意味です。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "He'll realize his mistake sooner or later and apologize.",
+        "jp": "彼は遅かれ早かれ自分の間違いに気づいて謝るでしょう。"
+    },
+    {
+        "question": "I _____ play soccer every weekend, but now I prefer reading books.",
+        "selections": [
+            "reject",
+            "used to",
+            "avoid",
+            "ignore"
+        ],
+        "answer": 1,
+        "explanation": "'Used to'は以前は～したものだが、今はしないという意味です。他の単語（'reject'、「拒否する」、'avoid'、「避ける」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "I used to play soccer every weekend, but now I prefer reading books.",
+        "jp": "私は以前は毎週末サッカーをしていましたが、今は本を読む方が好きです。"
+    },
+    {
+        "question": "She _____ be very shy as a child, but now she's very outgoing.",
+        "selections": [
+            "avoid",
+            "ignore",
+            "used to",
+            "reject"
+        ],
+        "answer": 2,
+        "explanation": "'Used to'は以前は～したものだが、今はしないという意味です。他の単語（'avoid'、「避ける」、'ignore'、「無視する」、'reject'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She used to be very shy as a child, but now she's very outgoing.",
+        "jp": "彼女は子供の頃はとても内気だったのですが、今はとても外向的です。"
+    },
+    {
+        "question": "After their argument, they decided to _____ and become friends again.",
+        "selections": [
+            "make up with",
+            "avoid",
+            "reject",
+            "ignore"
+        ],
+        "answer": 0,
+        "explanation": "'Make up with'は誰かと仲直りすることを意味します。他の単語（'avoid'、「避ける」、'reject'、「拒否する」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "After their argument, they decided to make up with and become friends again.",
+        "jp": "彼らの口論の後、彼らは仲直りして再び友達になることにしました。"
+    },
+    {
+        "question": "It's important to _____ those you've hurt and try to rebuild the relationship.",
+        "selections": [
+            "reject",
+            "avoid",
+            "ignore",
+            "make up with"
+        ],
+        "answer": 3,
+        "explanation": "'Make up with'は誰かと仲直りすることを意味します。他の単語（'reject'、「拒否する」、'avoid'、「避ける」、'ignore'、「無視する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's important to make up with those you've hurt and try to rebuild the relationship.",
+        "jp": "傷つけた人々と仲直りし、関係を再構築しようとすることが重要です。"
+    },
+    {
+        "question": "The fire _____ in the kitchen and quickly spread to the rest of the house.",
+        "selections": [
+            "avoided",
+            "competed with",
+            "break out",
+            "rejected"
+        ],
+        "answer": 2,
+        "explanation": "'Break out'は突然始まることを意味します。他の単語（'avoided'、「避ける」、'competed with'、「競う」、'rejected'、「拒否する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The fire broke out in the kitchen and quickly spread to the rest of the house.",
+        "jp": "火事はキッチンで突然始まり、家の残りの部分にすぐに広がりました。"
+    },
+    {
+        "question": "A fight _____ during the football match, causing a delay.",
+        "selections": [
+            "break out",
+            "ignored",
+            "avoided",
+            "competed with"
+        ],
+        "answer": 0,
+        "explanation": "'Break out'は突然始まることを意味します。他の単語（'ignored'、「無視する」、'avoided'、「避ける」、'competed with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "A fight broke out during the football match, causing a delay.",
+        "jp": "サッカーの試合中に戦いが勃発し、遅延が発生しました。"
+    },
+    {
+        "question": "Can you _____ what the note says? The handwriting is so messy.",
+        "selections": [
+            "avoid",
+            "make out",
+            "compete with",
+            "break out"
+        ],
+        "answer": 1,
+        "explanation": "'Make out'は何かを理解することを意味します。他の単語（'avoid'、「避ける」、'compete with'、「競う」、'break out'、「突然始まる」）は、この文脈とは逆の意味を持ちます。",
+        "en": "Can you make out what the note says? The handwriting is so messy.",
+        "jp": "メモが何と言っているのかわかりますか？筆跡がとても乱雑です。"
+    },
+    {
+        "question": "It's hard to _____ the details in the painting from this distance.",
+        "selections": [
+            "make out",
+            "break out",
+            "avoid",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'Make out'は何かを理解することを意味します。他の単語（'break out'、「突然始まる」、'avoid'、「避ける」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "It's hard to make out the details in the painting from this distance.",
+        "jp": "この距離から絵の詳細を理解するのは難しいです。"
+    },
+    {
+        "question": "She went to the mountains _____ inner peace.",
+        "selections": [
+            "in search of",
+            "break out",
+            "make out",
+            "compete with"
+        ],
+        "answer": 0,
+        "explanation": "'In search of'は何かを探していることを意味します。他の単語（'break out'、「突然始まる」、'make out'、「理解する」、'compete with'、「競う」）は、この文脈とは逆の意味を持ちます。",
+        "en": "She went to the mountains in search of inner peace.",
+        "jp": "彼女は内なる平和を求めて山に行きました。"
+    },
+    {
+        "question": "The explorer traveled to remote regions _____ ancient artifacts.",
+        "selections": [
+            "compete with",
+            "break out",
+            "make out",
+            "in search of"
+        ],
+        "answer": 3,
+        "explanation": "'In search of'は何かを探していることを意味します。他の単語（'compete with'、「競う」、'break out'、「突然始まる」、'make out'、「理解する」）は、この文脈とは逆の意味を持ちます。",
+        "en": "The explorer traveled to remote regions in search of ancient artifacts.",
+        "jp": "探検家は古代の遺物を探して遠くの地域に旅をしました。"
+    }
+]

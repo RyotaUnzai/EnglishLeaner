@@ -46,7 +46,7 @@
             "I painted the wall.",
             "I have been painting the wall."
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "この形は、過去のある時点よりも前に完了した動作や状態を表します。例えば、「壁を塗った後でテレビを見た」という文脈で使用すると、一つの過去の動作がもう一つの過去の動作よりも前に発生したことを強調します。",
         "en": "I had painted the wall.",
         "jp": "私は壁を塗ってしまっていました。"
@@ -70,7 +70,7 @@
             "I think that she will win the game.",
             "I think that she would win the game.",
             "I thought that she would win the game.",
-            "I thought that she will win the game.",
+            "I thought that she will win the game."
         ],
         "answer": 2,
         "explanation": "（I thought）は過去形を使っています。これは、話し手が以前、彼女がゲームに勝つと考えていたことを示しています。この文はその時点での考えや予測を表します。、過去形 thought が使用されているため、それに合わせて would が使用されています。 would は過去の未来を示すのに一般的に使用されます。ここでは、話し手が以前、彼女がゲームに勝つと考えていたが、今はその考えが変わったか、まだ未定であることを示している可能性があります。",
